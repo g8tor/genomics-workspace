@@ -42,7 +42,7 @@ DATABASES = {
         'NAME': 'django',
         'USER': 'django',
         'PASSWORD': 'django1234',
-        'HOST': 'localhost',
+        'HOST': 'postgres',
         'PORT': '5432',
     }
 }
@@ -249,7 +249,8 @@ CELERY_TASK_DEFAULT_ROUTING_KEY = 'i5k'
 CELERY_TASK_QUEUES = (
     Queue('i5k', Exchange('i5k'), routing_key='i5k'),
 )
-CELERY_BROKER_URL = 'amqp://'
+CELERY_BROKER_URL = "amqp://django:django1234@rabbitmq:5672/django"
+#'amqp://'
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
