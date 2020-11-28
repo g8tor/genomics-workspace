@@ -3,12 +3,38 @@
   gather_facts: false
   name: "\e[34m\e[1m Genomics Workspace Playbook \e[0m "
   vars:
+    ##########################################################
+    # System related vars
+    ##########################################################
+    workspace_home: /usr/local/i5k
+    service_accounts:
+      - "i5k"
+    
+    ##########################################################
+    # Django related vars
+    ##########################################################
     postgres_user: postgres
     django_user: django
     django_user_passwd: django1234
 
-  tasks:     
+    ##########################################################
+    # Blast related vars
+    ##########################################################
+    blast_download_name: GCF_003254395.2_Amel_HAv3.1_genomic.fna.gz
+    blast_download_dest: "/media/blast/db/{{ blast_download_name }}"
+    blast_file_url: "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/254/395/GCF_003254395.2_Amel_HAv3.1/{{ blast_download_name }}"
+    blast_file_dest: "/media/blast/db/GCF_003254395.2_Amel_HAv3.1_genomic.fna"
 
+    ##########################################################
+    # Hmmer related vars
+    ##########################################################
+    hmmer_file_url: https://i5k.nal.usda.gov/sites/default/files/data/Arthropoda/apimel-%28Apis_mellifera%29/Amel_4.5/2.Official%20or%20Primary%20Gene%20Set/apimel_OGSv3.3/amel_OGSv3.3_pep.fa
+    hmmer_file_dest: "/media/hmmer/db/amel_OGSv3.3_pep.fa"
+
+  tasks:
+    ###############################################
+    # Postgres Tasks
+    ###############################################     
     - name: Create Database Roles
       postgresql_user:
         name: "{{ django_user }}"
@@ -25,26 +51,104 @@
         login_user: "{{ postgres_user }}"
         state: present
 
+    ###############################################
+    # Files System Database Tasks
+    ###############################################  
+    - name: Install Binaries
+      shell: python3 setup.py
+      args:
+        chdir: "{{ workspace_home }}"
+        warn: false
+    
+    - name: Check Temporary Data Files
+      stat: 
+        path: "{{ path }}"
+      register: tmp_files
+      vars:
+        path: "/tmp/{{ file | basename }}"
+        files:
+          - "{{ hmmer_file_dest }}"
+          - "{{ blast_file_dest }}"
+      loop: "{{ files }}"
+      loop_control:
+        loop_var: file
+        label: "{{ file | basename }}"
+
+    - name: Download Remote files
+      get_url: 
+        url: "{{ url }}"
+        dest: "/tmp"
+        mode: u=rw,g=r,o=r
+      register: downloaded
+      vars:
+        url: "{{ lookup('vars',file.file.split('/')[2]+'_file_url') }}"
+        exists: "{{ file.stat.exists }}"
+      when: 
+        - not exists
+      loop: "{{ tmp_files.results }}"
+      loop_control:
+        loop_var: file
+        label: "{{ url | basename }}"
+
+    - name: Extract Blast Files
+      shell: "gunzip -f {{ blast_download_name }}"
+      args:
+        chdir: "/tmp"
+      register: extracted
+      failed_when: >
+        (extracted.rc != 0) and 
+        (not "already exists" in extracted.stderr_lines)    
+  
+    - name: Copy File System Database Files
+      copy:
+        src: "{{ src }}"
+        dest: "{{ dest}}"
+        owner: "{{ account }}"
+        group: "{{ account }}"
+        mode: u=rw,g=r,o=r
+        remote_src: yes
+      when: >
+        ( download is defined ) and 
+        (( download.skipped is defined) and 
+        ( download.skipped )) or 
+        ( download is defined ) and 
+        ( download.changed ) 
+      vars:
+        account: "{{ file.0 }}"
+        download: "{{ file.1 }}"
+        src: "{{ download.file.invocation.module_args.path }}"
+        dest: "{{ workspace_home}}/{{ download.file.file }}"
+      with_nested: 
+        - "{{ service_accounts }}"
+        - "{{ downloaded.results }}"
+      loop_control:
+        loop_var: file
+        label: "{{ account }} => {{ src | basename }}"
+      failed_when: not downloaded is defined
+
+    - name: Install NPM requirements
+      shell: "npm run-script build "
+      args:
+        chdir: "{{ workspace_home }}"
+        warn: false
+
+    ###############################################
+    # Django database related Tasks
+    ###############################################  
     - name: Make Django Migrations
       shell: python3 manage.py makemigrations
       args:
-        chdir: /usr/local/i5k
+        chdir: "{{ workspace_home }}"
         warn: false
 
     - name: Migrate The Database
       shell: python3 manage.py migrate
       args:
-        chdir: /usr/local/i5k
+        chdir: "{{ workspace_home }}"
         warn: false
 
-    - name: Install Binaries
-      shell: python3 setup.py
-      args:
-        chdir: /usr/local/i5k
-        warn: false
-    
     - name: Seed The Database
       shell: python3 manage.py seed
       args:
-        chdir: /usr/local/i5k
+        chdir: "{{ workspace_home }}"
         warn: false
