@@ -10,8 +10,8 @@ services:
         ports:
             - "8000:8000"
             - "9001:9001"
-        #volumes:
-        #    - .:/usr/local/i5k
+        volumes:
+            - .:/usr/local/i5k
         depends_on:
             - rabbitmq
             - postgres

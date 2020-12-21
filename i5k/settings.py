@@ -296,6 +296,7 @@ PIPELINE = {
             'source_filenames': (
                 'app/css/site.css',
                 'app/css/bootstrap.css',
+                'app/css/usdamodern.css',
             ),
             'output_filename': 'app/css/app-layout.min.css',
         },
