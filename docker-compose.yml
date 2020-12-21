@@ -7,9 +7,9 @@ services:
         hostname: workspace
         tty: true
         stdin_open: true
-        command: ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
         ports:
             - "8000:8000"
+            - "9001:9001"
         #volumes:
         #    - .:/usr/local/i5k
         depends_on:
@@ -40,11 +40,7 @@ services:
         command: [ "postgres", "-c", "wal_level=logical" ]
         ports:
             - "5432:5432"
-        
-
-
-#volumes:
-  #rabbitmq_data:
-  #postgres_data:
-
-        
+        volumes: 
+            - pgdata:/var/lib/postgresql/data
+volumes:
+    pgdata:
