@@ -206,3 +206,46 @@
 .footer__primary-section .container .footer__primary-section__menu {
   flex-grow: 1;
 }
+
+.site-branding__usda-logo {
+  align-self: start;
+    margin: 0 10px 0 0;
+    width: 4.5rem;
+}
+
+.site-branding__site-name {
+  font-size: 1.375rem;
+    line-height: 1.7rem;
+}
+
+.site-branding__text a {
+  color: #000;
+  text-decoration: none;
+}
+
+.site-branding__usda {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.site-branding__text {
+  display: inline-block 
+}
+    
+.usa-banner__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 73rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-right: 0;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
