@@ -389,3 +389,10 @@ a.btn.btn-primary.btn-xs:visited {
     background-color: #6E42CA;
     border-color: #541D86;
 } 
+
+.ui-widget-header {
+    border: 1px solid #e78f08;
+    background: #f6a828 url(images/ui-bg_gloss-wave_35_f6a828_500x100.8edcb89987f9.png) 50% 50% repeat-x;
+    color: #fff;
+    font-weight: bold;
+}
