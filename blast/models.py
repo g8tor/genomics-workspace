@@ -7,7 +7,7 @@ from django.urls import reverse
 from django.conf import settings
 import app.models
 from util.get_bin_name import get_bin_name
-
+from django.db.models.functions import Coalesce
 
 class BlastQueryRecord(models.Model):
     task_id = models.CharField(max_length=32, primary_key=True) # ex. 128c8661c25d45b8-9ca7809a09619db9
@@ -54,6 +54,13 @@ class BlastDbManager(models.Manager):
     def get_by_natural_key(self, fasta_file):
         return self.get(title=fasta_file)
 
+
+    def with_counts(self):
+        return self.annotate(
+            num_sequences=Coalesce(models.Count("sequence"), 0)
+        ).annotate(
+            num_jbrowsesettings=Coalesce(models.Count("jbrowsesetting"), 0)
+        )
 
 class BlastDb(models.Model):
     objects = BlastDbManager()
