@@ -8,8 +8,11 @@ import socket
 BASE_DIR = path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = path.dirname(os.path.abspath(__file__))
 
-DEBUG = True
-
+DEBUG = False
+ALLOWED_HOSTS = [
+    "localhost",
+    "*"
+]
 TEST_RUNNER = 'i5k.testing.MyDiscoverRunner'
 
 # template settings
@@ -133,17 +136,11 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.postgres',
     'axes',
-    #'rest_framework',
-    #'rest_framework_swagger',
     'pipeline',
     'app',
     'blast',
     'suit',  # suit must before admin
     'filebrowser',
-    # Enable the admin:
-    'django.contrib.admin',
-    # Enable admin documentation:
-    #'django.contrib.admindocs',
     'hmmer',
     'clustal',
 )
