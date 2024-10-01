@@ -1,14 +1,12 @@
 FROM  python:3.7.17-slim-bullseye as installer
 ENV MULTIDICT_NO_EXTENSIONS=1
-
 WORKDIR /opt/i5k
-COPY  src/package* src/*.js ./
+COPY . .
 RUN apt-get -qq update --fix-missing && \
     apt-get --no-install-recommends -y install npm gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev && \
-    npm install && \
-    rm package*
+    cd src && npm run build && rm -rdf dist
 
-FROM  python:3.7.17-slim-bullseye as builder
+FROM python:3.7.17-slim-bullseye as builder
 ARG APP_HOME=/opt/i5k
 ARG APP_USER=i5k
 ARG UID
@@ -16,20 +14,18 @@ ARG GID
 WORKDIR ${APP_HOME}
 ENV MULTIDICT_NO_EXTENSIONS=1
 COPY . .
-COPY --from=installer ${APP_HOME} ./src/
+COPY --from=installer ${APP_HOME} ./
 
 RUN groupdel -f  dialout  && \
     apt-get -qq update --fix-missing && \
-    apt-get --no-install-recommends -y install direnv supervisor nginx gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev && \
+    apt-get --no-install-recommends -y install direnv supervisor nginx gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev cssmin && \
     pip3 install --upgrade pip poetry && \
     groupadd -o -f -g ${GID} ${APP_USER} && \
     useradd -g ${GID} -u ${UID} -M -d ${APP_HOME} -c "${APP_USER} Application User" -s /bin/bash ${APP_USER} && \
     mv docker-files/nginx.conf /etc/nginx/nginx.conf && \
     mv docker-files/default.conf /etc/nginx/sites-available/default && \
     sed -i "s|APP_HOME|${APP_HOME}|g" /etc/nginx/nginx.conf  /etc/nginx/sites-available/default && \
-    chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx && \
-    rm src/package*
-
+    chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx
 
 FROM  builder as app
 ARG APP_HOME=/opt/i5k
@@ -62,4 +58,4 @@ RUN mkdir -p production media .venv run logs src/static  && \
     cd ${APP_HOME}/training && direnv allow . && \
     rmdir ${APP_HOME}/docker-files
 
-    ENTRYPOINT ["/opt/i5k/.venv/bin/entry-point.sh"]
+ENTRYPOINT ["/opt/i5k/.venv/bin/entry-point.sh"]
