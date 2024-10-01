@@ -82,7 +82,7 @@ def create(request, iframe=False):
         else:
             return render(request, 'blast/invalid_query.html', {'title': 'Invalid Query'})
 
-        
+
 
         if (path.getsize(query_filename) > int(settings.BLAST_QUERY_SIZE_MAX) * 1024):
             return render(request, 'blast/invalid_query.html', {'title': 'Your query size is ' + str(path.getsize(query_filename)) + ' bytes, but exceeds our query size limit of ' + str(settings.BLAST_QUERY_SIZE_MAX) + ' kbytes,  Please try again with a smaller query size.',})
@@ -149,7 +149,7 @@ def create(request, iframe=False):
                 with open(path.join(path.dirname(file_prefix), 'status.json'), 'wt') as f:
                     json.dump({'status': 'pending', 'seq_count': seq_count}, f)
 
-            
+
             run_blast_task.delay(task_id, args_list, file_prefix, blast_info)
 
             # debug
@@ -162,7 +162,7 @@ def create(request, iframe=False):
 def retrieve(request, task_id='1'):
     try:
         r = BlastQueryRecord.objects.get(task_id=task_id)
-        
+
         # if result is generated and not expired
         if r.result_date and (r.result_date.replace(tzinfo=None) >= (datetime.utcnow()+ timedelta(days=-7))):
             if r.result_status in ['SUCCESS', 'NO_GFF']:
@@ -259,26 +259,3 @@ def status(request, task_id):
         return HttpResponse(json.dumps(status))
     else:
         return HttpResponse('Invalid Post')
-
-
-# to-do: integrate with existing router of restframework
-from rest_framework.renderers import JSONRenderer
-from .serializers import UserBlastQueryRecordSerializer
-class JSONResponse(HttpResponse):
-    """
-    An HttpResponse that renders its content into JSON.
-    """
-    def __init__(self, data, **kwargs):
-        content = JSONRenderer().render(data)
-        kwargs['content_type'] = 'application/json'
-        super(JSONResponse, self).__init__(content, **kwargs)
-
-def user_tasks(request, user_id):
-    """
-    Return tasks performed by the user.
-    """
-    if request.method == 'GET':
-        records = BlastQueryRecord.objects.filter(user__id=user_id, is_shown=True, result_date__gt=(localtime(now())+ timedelta(days=-7)))
-        serializer = UserBlastQueryRecordSerializer(records, many=True)
-        return JSONResponse(serializer.data)
-
