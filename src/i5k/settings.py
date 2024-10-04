@@ -48,6 +48,9 @@ DATABASES = {
         'PASSWORD': env.get('DB_PASS','django'),
         'HOST': env.get('DB_HOST','localhost'),
         'PORT': env.get('DB_PORT','5432'),
+        'OPTIONS': {
+            'sslmode': env.get('SSL_MODE','require'),
+        },
     }
 }
 
@@ -140,6 +143,7 @@ INSTALLED_APPS = (
     'app',
     'blast',
     'suit',  # suit must before admin
+    'django.contrib.admin',
     'filebrowser',
     'hmmer',
     'clustal',
