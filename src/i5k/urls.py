@@ -1,12 +1,12 @@
 from django.conf import settings
 from django.conf.urls import include, url, handler404
 from django.conf.urls.static import static
-#from django.contrib import admin
+from django.contrib import admin
 from django.contrib.auth.decorators import user_passes_test
 from app.views import handle_404
 from django.urls import path, re_path
 
-#admin.autodiscover()
+admin.autodiscover()
 
 login_forbidden = user_passes_test(lambda u: u.is_anonymous, '/home')
 
