@@ -1,3 +1,3 @@
 #!/bin/bash 
-cd /opt/app
+cd APP_HOME
 supervisord -c supervisord.conf
