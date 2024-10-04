@@ -6,7 +6,7 @@ RUN apt-get -qq update --fix-missing && \
     apt-get --no-install-recommends -y install npm gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev && \
     cd src && npm run build && rm -rdf dist
 
-FROM python:3.7.17-slim-bullseye as builder
+FROM installer as builder
 ARG APP_HOME=/opt/i5k
 ARG APP_USER=i5k
 ARG UID
@@ -18,16 +18,17 @@ COPY --from=installer ${APP_HOME} ./
 
 RUN groupdel -f  dialout  && \
     apt-get -qq update --fix-missing && \
-    apt-get --no-install-recommends -y install direnv supervisor nginx gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev cssmin && \
+    apt-get --no-install-recommends -y install direnv supervisor nginx gcc cssmin nano&& \
     pip3 install --upgrade pip poetry && \
     groupadd -o -f -g ${GID} ${APP_USER} && \
     useradd -g ${GID} -u ${UID} -M -d ${APP_HOME} -c "${APP_USER} Application User" -s /bin/bash ${APP_USER} && \
     mv docker-files/nginx.conf /etc/nginx/nginx.conf && \
     mv docker-files/default.conf /etc/nginx/sites-available/default && \
     sed -i "s|APP_HOME|${APP_HOME}|g" /etc/nginx/nginx.conf  /etc/nginx/sites-available/default && \
-    chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx
+    chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx && \
+    apt-get remove -y npm nodejs
 
-FROM  builder as app
+FROM builder as app
 ARG APP_HOME=/opt/i5k
 ARG APP_USER=i5k
 ARG UID
@@ -49,7 +50,7 @@ RUN mkdir -p production media .venv run logs src/static  && \
     sed -i "s|APP_USER|${APP_USER}|g;s|APP_DIR|${APP_HOME}|g " production/i5k.ini training/i5k.ini  && \
     sed -i "s|APP_ID|production|g;s|APP_HOME|${APP_HOME}/production/|g  " production/i5k.ini && \
     sed -i "s|APP_ID|training|g;s|APP_HOME|${APP_HOME}/training/|g " training/i5k.ini && \
-    sed -i "s|APP_HOME|${APP_HOME}|g" supervisord.conf ${APP_HOME}/.venv/bin/startapp.sh && \
+    sed -i "s|APP_HOME|${APP_HOME}|g" supervisord.conf ${APP_HOME}/.venv/bin/*.sh && \
     sed -i 's|_training||g' production/.envrc && \
     chmod +x ${APP_HOME}/.venv/bin/*.sh && \
     chmod -R o-rwx ${APP_HOME} && \
