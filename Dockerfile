@@ -1,4 +1,4 @@
-FROM  python:3.7.17-slim-bullseye as installer
+FROM  python:3.9.20-slim-bullseye as installer
 ENV MULTIDICT_NO_EXTENSIONS=1
 WORKDIR /opt/i5k
 COPY . .
