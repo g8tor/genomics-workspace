@@ -1,4 +1,4 @@
-FROM  python:3.9.20-slim-bullseye as installer
+FROM  python:3.9.20-slim-bullseye AS installer
 ENV MULTIDICT_NO_EXTENSIONS=1
 WORKDIR /opt/i5k
 COPY . .
@@ -6,7 +6,7 @@ RUN apt-get -qq update --fix-missing && \
     apt-get --no-install-recommends -y install npm gcc libz-dev libjpeg-dev libpcre3 libpcre3-dev && \
     cd src && npm run build && rm -rdf dist
 
-FROM installer as builder
+FROM installer AS builder
 ARG APP_HOME=/opt/i5k
 ARG APP_USER=i5k
 ARG UID
@@ -28,7 +28,7 @@ RUN groupdel -f  dialout  && \
     chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx && \
     apt-get remove -y npm nodejs
 
-FROM builder as app
+FROM builder AS app
 ARG APP_HOME=/opt/i5k
 ARG APP_USER=i5k
 ARG UID
