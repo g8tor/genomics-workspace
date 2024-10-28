@@ -26,6 +26,7 @@ RUN groupdel -f  dialout  && \
     mv docker-files/default.conf /etc/nginx/sites-available/default && \
     sed -i "s|APP_HOME|${APP_HOME}|g" /etc/nginx/nginx.conf  /etc/nginx/sites-available/default && \
     chown -R ${APP_USER}:${APP_USER} ${APP_HOME} /etc/nginx /var/lib/nginx /var/log/nginx && \
+    mkdir -p /opt/app/bin && \
     apt-get remove -y npm nodejs
 
 FROM builder AS app
@@ -41,7 +42,7 @@ RUN mkdir -p production media .venv run logs src/static  && \
     poetry install && mv docker-files/*.sh ${APP_HOME}/.venv/bin/ && \
     mv src/manage.py production/ && \
     mv docker-files/supervisord.conf ./ && mv docker-files/appenvrc production/.envrc && \
-    ln -s ${APP_HOME}/src/* production/ && \
+    ln -s /opt/app/bin ${APP_HOME}/src/* production/ && \
     echo 'eval "$(direnv hook bash)"' >> ${APP_HOME}/.bashrc && \
     bash -c "cd ${APP_HOME} && direnv allow . " && \ 
     bash -c "cd ${APP_HOME}/production && direnv allow  ." && \
