@@ -17,14 +17,14 @@ services:
     profiles:
       - db
       - local
-    #volumes:
+    volumes:
     ################################################################
     # Uncomment the line below replacing {PATH_TO_DUMP} with the 
     # fulll or relative path to a postgresql dump file.
     ################################################################
     #  - {PATH_TO_DUMP}:/docker-entrypoint-initdb.d/django.pgc
-    #  - ./django.pgc:/docker-entrypoint-initdb.d/django.pgc
-    #  - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./django.pgc:/docker-entrypoint-initdb.d/django.pgc
+      - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
     ports:
       - 5434:5432
 
@@ -59,7 +59,7 @@ services:
       DB_USER:  ${DB_USER}
       DB_HOST:  ${DB_HOST}
       REDIS_HOST: ${REDIS_HOST}
-      REDIS_POST: ${REDIS_PORT}
+      REDIS_PORT: ${REDIS_PORT}
     profiles:
       - local
       - managed
@@ -68,6 +68,7 @@ services:
     volumes: 
       - bin:/opt/app/bin
       - dbs:/opt/app/dbs
+      - ./src:/opt/i5k/src
       ##############################################################
       # Bind Mounts
       ##############################################################
