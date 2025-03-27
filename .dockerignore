@@ -13,7 +13,6 @@
 !src/package*.json
 !src/webpack.config.js
 !src/README.md
-!supervisord.conf
 !docker-files
 !poetry.lock
 !pyproject.toml
