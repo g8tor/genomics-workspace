@@ -54,20 +54,19 @@ services:
         UID: "${UID}"
         GID: "${GID}"
     environment:
-      SSL_MODE: ${SSL_MODE}
-      DB_PASS:  ${DB_PASS}
-      DB_USER:  ${DB_USER}
+      #SSL_MODE: ${SSL_MODE}
+      #DB_PASS:  ${DB_PASS}
+      ##DB_USER:  ${DB_USER}
       DB_HOST:  ${DB_HOST}
       REDIS_HOST: ${REDIS_HOST}
       REDIS_PORT: ${REDIS_PORT}
     profiles:
       - local
       - managed
+      - solo
     ports:
       - 8000:8000
     volumes: 
-      - bin:/opt/app/bin
-      - dbs:/opt/app/dbs
       - ./src:/opt/i5k/src
       ##############################################################
       # Bind Mounts
