@@ -1,0 +1,24 @@
+server {
+	listen 80 default_server;
+	#listen 443 ssl default_server;
+
+	root {{ DRUPAL }};
+
+	# Add index.php to the list if you are using PHP
+	index index.php index.html index.htm index.nginx-debian.html;
+
+	server_name _;
+	# pass PHP scripts to FastCGI server
+	#
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:{{ I5K_PHP_FPM_SOCKET }};
+	}
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+
+}

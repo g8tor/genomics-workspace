@@ -1,0 +1,300 @@
+---
+- name: Directory Setup Block
+  become: true
+  
+  block:
+    - name: Create Application Directory
+      become_user: root
+      ansible.builtin.file:
+        path: "{{ item.path }}"
+        state: directory
+        mode: "{{ item.mode}}"
+        group: "{{ WEB_GROUP }}"
+      loop:
+        - {'path':"{{ BASEDIR }}","mode":"0770"}
+        - {'path':"{{ BASEDIR }}","mode":"g+ws,o-rwxs"}
+      notify:
+        - weblogs
+        - create_drupal_directories
+        - configure_composer
+      changed_when: true
+
+    - name: Flush handlers
+      meta: flush_handlers
+
+    - name: Synchronize Files
+      tags: [sync_files]
+      become: false
+      ansible.posix.synchronize:
+        src: "{{ item}}"
+        dest: "{{ BASEDIR }}/"
+        owner: false
+        checksum: false
+        perms: true
+        times: false
+        recursive: true
+        mode: push
+        archive: false
+        rsync_opts:
+          - "--exclude=patches"
+          - "--exclude=scripts"
+          - "--exclude=configs"
+          - "--exclude=.git"
+          - "--exclude='**/.github'"
+          - "--exclude=configs"
+          - "-O"
+      loop:
+        - "{{ lookup('env', 'PWD') | dirname }}/web"
+        - "{{ lookup('env', 'PWD') | dirname}}/data/workspace.pgc"
+      delegate_to: 127.0.0.1
+
+
+       # - start_services
+        
+      
+
+
+
+  tags: [setup,move ]
+
+- name: Drupal Setup Block
+  become: true
+  become_user: "{{ WEB_USER }}"
+  block:
+
+      - name: Link Custom Drupal Modules & Themes
+        ansible.builtin.file:
+          src: "{{ item.src }}"
+          path: "{{ item.path }}"
+          group: "{{ WEB_GROUP }}"
+          state: link
+          force: true
+        #become_user: root
+        loop:
+          - {'src': "{{ BASEDIR }}/web/themes",  'path': "{{ DRUPAL }}/themes/custom"}
+          - {'src': "{{ BASEDIR }}/web/modules", 'path': "{{ DRUPAL }}/modules/custom"}
+          - {'src': "{{ BASEDIR }}/data", 'path': "{{ DRUPAL }}/sites/default/files/data"}
+          - {'src': "{{ BASEDIR | dirname }}/weblogs", 'path': "{{ BASEDIR }}/weblogs"}
+        tags: ["move"]
+
+      - name: Download and Unpack Drupal
+        ansible.builtin.unarchive:
+          src: "{{ DRUPAL_DOWNLOAD }}"
+          dest: "{{ DRUPAL }}"
+          remote_src: yes
+          extra_opts:
+            - --skip-old-files
+            - --strip-components=1
+
+      - name: Temporarily Configure Composer
+        ansible.builtin.shell:
+          chdir: "{{ DRUPAL }}"
+          cmd: " composer -v config {{ item}}"
+        vars:
+          label: "{{ item |split}}"     
+        loop: 
+          - minimum-stability dev
+          - prefer-stable true
+        loop_control:
+          label: "{{ label | list}}"
+
+      - name: Install Drupal Modules with Composer
+        ansible.builtin.shell:
+          chdir: "{{ DRUPAL }}"
+          cmd: " composer -v require '{{ item.value }}'"
+        loop: "{{ DRUPAL_MODULES | dict2items }}"
+        loop_control:
+          label: "{{ item.key }}"
+        vars:
+          package: "{{ item.value.split(':') | first }}"
+        notify: fix_permissions
+        changed_when: true
+
+      - name: Reset Composer Configuration
+        ansible.builtin.shell:
+          chdir: "{{ DRUPAL }}"
+          cmd: " composer -v config minimum-stability stable"
+        become: true
+        become_user: "{{ WEB_USER }}"
+        notify: drush_clear_cache
+        changed_when: true
+
+  tags: [setup ]
+  
+- name: Ping Postgres Server
+  community.postgresql.postgresql_ping:
+    db: "postgres"
+  register: pgdb
+  tags: [always]
+
+- name: Database Block
+  tags: [setup,move]
+  block:
+
+    - name: Create The Application Account User
+      community.postgresql.postgresql_user:
+        name: "{{ DB_USER }}"
+        password: "{{ DB_PASSWORD }}"
+
+    - name: Create The Application Database
+      community.postgresql.postgresql_db:
+        name: "{{ DB_NAME }}"
+        owner: "{{ DB_USER }}"
+      register: dbcreated
+
+    - name: Create Postgres pg_trgm extension
+      community.postgresql.postgresql_ext:
+        name: pg_trgm
+        db: "{{ DB_NAME }}"
+        state: present
+
+    - name: Grant Permissions
+      community.postgresql.postgresql_privs:
+        db: "{{ DB_NAME }}"
+        roles: "{{ DB_USER}}"
+        privs: "ALL"
+        type: database
+
+
+  when:
+    - pgdb is defined
+    - pgdb.is_available
+
+- name: Ping Application DB
+  community.postgresql.postgresql_ping:
+    db: "{{ DB_NAME }}"
+  register: wkspdb
+  tags: always
+
+- name: Drupal Install Block
+  tags: [ drupal_install]
+  become: true
+  become_user: "{{ WEB_USER }}"
+  block:
+
+    - name: Install Drupal
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: "{{ DRUPAL_INSTALL_COMMAND }}"
+
+    - name: Enable Drupal Modules
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: ./vendor/bin/drush -q -y en {{item}}
+      loop: "{{ ENABLED_MODULES }}"
+      loop_control:
+        label: "{{ item | regex_replace('_',' ')| title }}"
+      
+    - name: Enable Drupal Themes
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: ./vendor/bin/drush -y theme:in {{item}}
+      loop: "{{ ENABLED_THEMES }}"
+      loop_control:
+        label: "{{ item | regex_replace('_',' ')| title }}"
+
+    - name: Apply Basic Configurations
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: "./vendor/bin/drush -y cset {{ item.value }}"
+      loop: "{{ SITECONFIGS | dict2items }}"
+      loop_control:
+        label: "{{ item.key }}"
+
+    - name: Enable Drupal Modules
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: ./vendor/bin/drush -q -y install {{item}}
+      loop:
+        - action
+        - migrate_upgrade
+        - migrate_plus
+        - webform
+        - nal_i5k_web_apollo
+      notify: drush_clear_cache
+
+    - name: Delete Drupal Shortcut Set
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: "./vendor/bin/drush edel shortcut_set"
+      register: shortcut
+      changed_when: shortcut['changed']
+      ignore_errors: true
+
+    - name: Delete Shortcut
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: "./vendor/bin/drush pm:uninstall shortcut"
+      register: shortcut
+      changed_when: shortcut['changed']
+      notify: drush_clear_cache
+      ignore_errors: true
+
+    - name: Check Drupal settings.php exists
+      ansible.builtin.stat:
+        path: "{{ DRUPAL_SETTINGS_FILE }}"
+      register: drupal_settings
+
+    - name: Update Drupal Settings
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: " {{ item.value }}"
+      loop: "{{ UPDATE_SETTINGS | dict2items }}"
+      loop_control:
+        label: "{{ item.key }}"
+      when: drupal_settings.stat.exists
+
+    - name: Check For User
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: "./vendor/bin/drush user:info root &> /dev/null"
+      ignore_errors: true
+      no_log: true
+      register: user_info
+      tags: [drupal_user]
+
+    - name: Create Root Account
+      ansible.builtin.shell:
+        chdir: "{{DRUPAL}}"
+        cmd: "./vendor/bin/drush user:create {{ WORKSPACE_ACCOUNT_NAME }}"
+      when:
+        - user_info.failed
+      tags: [drupal_user]
+
+    - name: Set User Password
+      ansible.builtin.shell:
+        chdir: "{{DRUPAL}}"
+        cmd: "./vendor/bin/drush user:password {{ WORKSPACE_ACCOUNT_NAME }} {{ WORKSPACE_ACCOUNT_PASSWORD }}"
+      tags: [drupal_user]
+
+    - name: Update root user roles
+      ansible.builtin.shell:
+        chdir: "{{DRUPAL}}"
+        cmd: "./vendor/bin/drush user:role:add {{ item }} {{ WORKSPACE_ACCOUNT_NAME }}"
+      loop:
+        - administrator
+        - i5k_user
+      ignore_errors: true
+      tags: [drupal_user]
+
+    - name: Update Drupal Permissions for Anonymous Role
+      ansible.builtin.shell:
+        chdir: "{{ DRUPAL }}"
+        cmd: ./vendor/bin/drush role:perm:add anonymous '{{ item }}'
+      notify: 
+        - drush_clear_cache
+      loop:
+        - view tripal content entities
+        - access content
+        - view published sitewide alert entities
+      loop_control:
+        label: "{{ item | title }}"
+      tags: [drupal_user]
+
+    - name: Flush handlers
+      meta: flush_handlers
+
+  when:
+    - wkspdb is defined
+    - wkspdb.is_available
+

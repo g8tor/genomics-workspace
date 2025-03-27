@@ -1,0 +1,27 @@
+---
+ 
+I5K_PHP_FPM_SOCKET: "{{ BASEDIR }}/run/www.sock"
+I5K_SERVICES:
+  - php8.3-fpm
+  - postgresql
+  - nginx
+  
+# defaults file for i5k-ubuntu
+I5K_SYSTEM_PACKAGES:
+  - rsync
+  - direnv
+  - python3
+  - python3-pip
+  - python3-poetry
+  - php8.3-fpm
+  - php8.3-xml
+  - php-gd
+  - php-pgsql
+  - nginx
+  - postgresql-16
+  - composer
+
+I5K_CONFIGS:
+  - {'src':'nginx.conf','dest':'/etc/nginx'}
+  - {'src':'www.conf','dest':'/etc/php/8.3/fpm/pool.d/'}
+  - {'src':'default', 'dest':'/etc/nginx/sites-available/'}
