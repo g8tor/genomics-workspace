@@ -16,3 +16,5 @@
 !docker-files
 !poetry.lock
 !pyproject.toml
+!django.sql.gz
+!django_training.sql.gz
