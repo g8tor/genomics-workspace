@@ -1,0 +1,8 @@
+id,organism,fasta_file,title,description,is_shown
+7,42,/usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_protein.faa,GCF_001937115.1_Atum_1.0_protein.faa,"NCBI annotation release 100, proteins",True
+1,2,/usr/local/i5k/media/blast/db/AROS_new_ids.faa,AROS_new_ids.faa,Athalia rosae Maker proteins v0.5.3 (BCM),True
+6,39,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_translated_cds-idupdate.fna,GCF_003013835.1_Dvir_v2.0_translated_cds-idupdate.fna,"Diabrotica virgifera virgifera NCBI Annotation release 100, translated CDS",True
+2,35,/usr/local/i5k/media/blast/db/HAZT.faa,HAZT.faa,Hyalella azteca Maker proteins v0.5.3 (BCM),True
+3,18,/usr/local/i5k/media/blast/db/LDEC_new_ids.faa,LDEC_new_ids.faa,Leptinotarsa decemlineata Maker proteins v0.5.3 (BCM),True
+4,34,/usr/local/i5k/media/blast/db/Nlec_v1_proteins_renamed_alphabetized.fasta,Nlec_v1_proteins_renamed_alphabetized.fasta,"Neodiprion lecontei - Nlec Maker predictions v1, proteins",True
+5,19,/usr/local/i5k/media/blast/db/OFAS_new_ids.faa,OFAS_new_ids.faa,Oncopeltus fasciatus Maker proteins v0.5.3 (BCM),True

@@ -1,0 +1,3 @@
+fasta_file
+/usr/local/i5k/media/blast/db/BDOR_OGSv1.1_pep.fa
+/usr/local/i5k/media/blast/db/Bactrocera dorsalis Bdor_v1 MAKER annotations-BDOR1.1_pep.fa
