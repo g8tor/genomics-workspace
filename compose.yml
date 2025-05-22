@@ -6,7 +6,7 @@ services:
     # both the api and workspace services defined below.
     # Ideally this is a managed service in Azure  VDC: 09/21/2024
     ##############################################################
-    image: "postgres:16.2-alpine"
+    image: "docker.io/library/postgres:16-alpine"
     container_name: "django_db"
     hostname: "django_db"
     environment:
@@ -23,8 +23,11 @@ services:
     # fulll or relative path to a postgresql dump file.
     ################################################################
     #  - {PATH_TO_DUMP}:/docker-entrypoint-initdb.d/django.pgc
-      - ./django.pgc:/docker-entrypoint-initdb.d/django.pgc
+    #  - ./django.pgc:/docker-entrypoint-initdb.d/django.pgc
       - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./django.sql.gz:/django.sql.gz
+      - ./django_training.sql.gz:/django_training.sql.gz
+
     ports:
       - 5434:5432
 
@@ -37,7 +40,7 @@ services:
     container_name: redis
     hostname: redis
     profiles:
-      - local
+      #- local
       - managed
 
   django:
@@ -45,7 +48,7 @@ services:
     # i5K api backend tasks service
     # VDC: 08/21/2024
     ##############################################################
-    image: "i5k-django"
+    image: "localhost/i5k-django"
     hostname: "django"
     container_name: "django"
     tty: true
@@ -65,9 +68,12 @@ services:
       - managed
       - solo
     ports:
-      - 8000:8000
+
+      - 8001:8000
     volumes: 
-      - ./src:/opt/i5k/src
+      - ./src:/app/i5k/src
+      - ./data:/app/i5k/data
+
       ##############################################################
       # Bind Mounts
       ##############################################################
