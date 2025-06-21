@@ -1,7 +1,0 @@
----
-- name: Delete D7 Configs
-  ansible.builtin.shell:
-    chdir: "{{ DRUPAL }}"
-    cmd: ./vendor/bin/drush {{ item}}
-  loop: "{{ BAD_CONFIGS }}"
-  listen: delete_d7_configs

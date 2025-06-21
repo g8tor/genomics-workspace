@@ -1,3 +1,0 @@
----
-TRIPAL_DATA: "{{ DRUPAL_DATA | mandatory}}/tripal.pgc"
-

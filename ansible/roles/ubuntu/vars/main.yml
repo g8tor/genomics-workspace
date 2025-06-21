@@ -1,9 +1,0 @@
----
-# vars file for i5k-ubuntu
-BASEDIR: /app/workspace
-DB_HOST: 127.0.0.1
-
-POSTGRES_PERMISSIONS:
-   - {'users':'postgres', 'method':'trust', 'databases':'all', 'contype':'local'}
-   - {'users':"{{ DB_USER }}", 'method':'md5', 'databases':"{{ DB_NAME }}",'contype':'local'}
-   - {'users':"{{ DB_USER }}", 'method':'md5', 'databases':"{{ DB_NAME }}",'contype':'host'}
