@@ -1,4 +1,22 @@
 services:
+  django-spark:
+    #############################################################
+    # i5K api backend tasks service
+    # VDC: 08/21/2024
+    ##############################################################
+    image: "spark:4.0.0-scala2.13-java21-r-ubuntu"
+    hostname: "django-spark"
+    container_name: "django-spark"
+    tty: true
+    environment:
+      PYTHONPATH: /opt/spark/python:/opt/spark/python/lib/py4j-0.10.9.9-src.zip
+      DB_USER: "${APP_USER}"
+      DB_PASSWORD: "${APP_USER}"
+    volumes:
+      - ./scripts:/opt/spark/work-dir/scripts
+      - ./data:/opt/spark/work-dir/data
+
+    
 
   django_db:
     #############################################################
@@ -6,7 +24,7 @@ services:
     # both the api and workspace services defined below.
     # Ideally this is a managed service in Azure  VDC: 09/21/2024
     ##############################################################
-    image: "docker.io/library/postgres:16-alpine"
+    image: "docker.io/library/postgres:16.2-alpine"
     container_name: "django_db"
     hostname: "django_db"
     environment:
@@ -17,17 +35,16 @@ services:
     profiles:
       - db
       - local
+      - spark
     volumes:
     ################################################################
     # Uncomment the line below replacing {PATH_TO_DUMP} with the 
     # fulll or relative path to a postgresql dump file.
     ################################################################
     #  - {PATH_TO_DUMP}:/docker-entrypoint-initdb.d/django.pgc
-    #  - ./django.pgc:/docker-entrypoint-initdb.d/django.pgc
+      - ./dbdata/production.pgc:/production.pgc
+      - ./dbdata/training.pgc:/training.pgc
       - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-      - ./data/django.pgc:/django.pgc
-      - ./data/django_training.pgc:/django_training.pgc
-
     ports:
       - 5434:5432
 
@@ -87,6 +104,8 @@ services:
       #- ./src/i5k/settings.py:/opt/i5k/src/i5k/settings.py
       #- ./docker-files/nginx.conf:/etc/nginx/nginx.conf
       #- ./docker-files/default:/etc/nginx/sites-enabled/default
+
+
 
 volumes:
   bin:
