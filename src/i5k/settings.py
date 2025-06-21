@@ -460,10 +460,4 @@ try:
 except:
     HOSTNAME = 'localhost'
 
-
-# Use settings for production
-USE_PROD_SETTINGS = False
-if USE_PROD_SETTINGS:
-    from settings_prod import *
-
 sys.path.append('%s/misc' % path.dirname(path.abspath(path.dirname(__file__))))
