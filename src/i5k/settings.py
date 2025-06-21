@@ -51,6 +51,17 @@ DATABASES = {
         'OPTIONS': {
             'sslmode': env.get('SSL_MODE','require'),
         },
+    },
+    'training': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': env.get('DB_NAME','django')+'_training',
+        'USER': env.get('DB_USER','django'),
+        'PASSWORD': env.get('DB_PASS','django'),
+        'HOST': env.get('DB_HOST','localhost'),
+        'PORT': env.get('DB_PORT','5432'),
+        'OPTIONS': {
+            'sslmode': env.get('SSL_MODE','require'),
+        },
     }
 }
 
