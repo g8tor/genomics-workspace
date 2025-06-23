@@ -1,32 +1,26 @@
 services:
-  django-spark:
-    #############################################################
-    # i5K api backend tasks service
-    # VDC: 08/21/2024
-    ##############################################################
-    image: "spark:4.0.0-scala2.13-java21-r-ubuntu"
-    hostname: "django-spark"
-    container_name: "django-spark"
-    tty: true
-    environment:
-      PYTHONPATH: /opt/spark/python:/opt/spark/python/lib/py4j-0.10.9.9-src.zip
-      DB_USER: "${APP_USER}"
-      DB_PASSWORD: "${APP_USER}"
-    volumes:
-      - ./scripts:/opt/spark/work-dir/scripts
-      - ./data:/opt/spark/work-dir/data
 
-    
+  # django-spark:
+  #   image: "localhost/i5k-spark:latest"
+  #   hostname: "django-spark"
+  #   container_name: "django-spark"
+  #   tty: true
+  #   environment:
+  #     PYTHONPATH: /opt/spark/work-dir/code/api/src:/opt/spark/python:/opt/spark/python/lib/py4j-0.10.9.9-src.zip
+  #     DB_PASS:  ${DB_PASS}
+  #     DB_USER:  ${DB_USER}
+  #     DB_HOST:  ${DB_HOST}
+  #   volumes:
+  #     - ./scripts:/opt/spark/work-dir/scripts
+  #     - ./data:/opt/spark/work-dir/data
+  #     - ./api:/opt/spark/work-dir/code/api
+  #     - ./src:/opt/spark/work-dir/code/src
 
-  django_db:
-    #############################################################
-    # This database container serves as the datastore for
-    # both the api and workspace services defined below.
-    # Ideally this is a managed service in Azure  VDC: 09/21/2024
-    ##############################################################
+
+  django-db:
     image: "docker.io/library/postgres:16.2-alpine"
-    container_name: "django_db"
-    hostname: "django_db"
+    container_name: "django-db"
+    hostname: "django-db"
     environment:
       POSTGRES_USER: "${APP_USER}"
       POSTGRES_PASSWORD: "${APP_USER}"
@@ -34,88 +28,50 @@ services:
       DB_NAME: "${DB_NAME}"
     profiles:
       - db
-      - local
-      - spark
+      - django
     volumes:
-    ################################################################
-    # Uncomment the line below replacing {PATH_TO_DUMP} with the 
-    # fulll or relative path to a postgresql dump file.
-    ################################################################
-    #  - {PATH_TO_DUMP}:/docker-entrypoint-initdb.d/django.pgc
-      - ./dbdata/production.pgc:/production.pgc
-      - ./dbdata/training.pgc:/training.pgc
+      - ./data/django.pgc:/django.pgc
+      - ./data/django_training.pgc:/django_training.pgc
       - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-    ports:
-      - 5434:5432
-
-  redis:
-    #############################################################
-    # i5K (tasks) key/value store for session data 
-    # Ideally this is a managed service in Azure VDC: 08/21/2024
-    ##############################################################
-    image: redis/redis-stack:latest
-    container_name: redis
-    hostname: redis
-    profiles:
-      #- local
-      - managed
 
   django:
-    #############################################################
-    # i5K api backend tasks service
-    # VDC: 08/21/2024
-    ##############################################################
-    image: "localhost/i5k-django"
+    image: "localhost/i5k-django:latest"
     hostname: "django"
     container_name: "django"
+    working_dir: /app/i5k
     tty: true
     build:
       args:
         UID: "${UID}"
         GID: "${GID}"
     environment:
-      PYTHONPATH: "/app/i5k/src:/app/i5k/exporter"
+      PYTHONWARNINGS: "ignore"
+      PYTHONPATH: "/app/i5k/src"
+      DATADIR: "/app/i5k/data"
       SSL_MODE: ${SSL_MODE}
       DB_PASS:  ${DB_PASS}
       DB_USER:  ${DB_USER}
       DB_HOST:  ${DB_HOST}
-      REDIS_HOST: ${REDIS_HOST}
-      REDIS_PORT: ${REDIS_PORT}
     profiles:
-      - local
-      - managed
-      - solo
-    ports:
-      - 8001:8000
+      - django
     volumes: 
+      - ./scripts:/app/i5k/scripts
       - ./src:/app/i5k/src
-      - ./exporter:/app/i5k/exporter
+      - ./pyproject.toml:/app/i5k/pyproject.toml
+      - ./api:/app/i5k/lib/api
       - ./data:/app/i5k/data
-
-      ##############################################################
-      # Bind Mounts
-      ##############################################################
-      #- ./docker-files/supervisord.conf:/opt/i5k/supervisord.conf
-      #- ./docker-files/entry-point.sh:/opt/i5k/.venv/bin/entry-point.sh
-      #- ./pyproject.toml:/opt/i5k/pyproject.toml
-      #- ./poetry.lock:/opt/i5k/poetry.lock
-      #- ./docker-files/entry-point.sh:/opt/i5k/.venv/bin/entry-point.sh
-      #- ./docker-files/supervisord.conf:/opt/i5k/supervisord.conf
-      #- ./src/i5k/settings.py:/opt/i5k/src/i5k/settings.py
-      #- ./docker-files/nginx.conf:/etc/nginx/nginx.conf
-      #- ./docker-files/default:/etc/nginx/sites-enabled/default
-
-
-
-volumes:
-  bin:
-    external: true
-    name: i5k-dev_bin
-  dbs:
-    external: true
-    name: i5k-dev_dbs
-  tasks:
 
 networks:
   default:
-    name: api
+    name: django
+
+# volumes:
+#   bin:
+#     external: true
+#     name: i5k-dev_bin
+#   dbs:
+#     external: true
+#     name: i5k-dev_dbs
+#   tasks:
+
+

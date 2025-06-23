@@ -7,14 +7,13 @@
 !src/hmmer/
 !src/i5k
 !src/misc
-!src/sphinx_doc
+# !src/sphinx_doc
 !src/util
 !src/manage.py
-!src/package*.json
-!src/webpack.config.js
+# !src/package*.json
+# !src/webpack.config.js
 !src/README.md
-!docker-files
-!poetry.lock
+# !poetry.lock
 !pyproject.toml
-!django.sql.gz
-!django_training.sql.gz
+# !django.sql.gz
+# !django_training.sql.gz
