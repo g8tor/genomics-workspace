@@ -30,9 +30,11 @@ services:
       - db
       - django
     volumes:
+      - ./data/fastafiles.md5:/fastafiles.md5
       - ./data/django.pgc:/django.pgc
       - ./data/django_training.pgc:/django_training.pgc
       - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./scripts/sql:/sql
 
   django:
     image: "localhost/i5k-django:latest"
