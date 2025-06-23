@@ -1,552 +1,552 @@
-3d9011e53c1a14fa8a4387e14763c4a7  /usr/local/i5k/media/blast/db/121845_ref_Diaci_psyllid_genome_assembly_version_1.1_chrUn.fa
-0175142d1bf0866187f91ed4e4af1b97  /usr/local/i5k/media/blast/db/178035_ref_ASM127255v1_chrUn_RefSeqIDs.fa
-23f5a4ee75469ec26d52cf9cd61baf1f  /usr/local/i5k/media/blast/db/64838_ref_asm80636v1_chrun_refseq_ids.fa
-74a6db518834f843c88aa4e27be2e0de  /usr/local/i5k/media/blast/db/AROS_new_ids.faa
-43470b1f4ab53cdba6e97fd5dd227ceb  /usr/local/i5k/media/blast/db/Agla_Btl03082013.genome_new_ids.fa
-d25988ebb5584d164c3d8cb836c38f99  /usr/local/i5k/media/blast/db/BGER.faa
-87bf4ca9e5cc05e548c12d0ad05a7619  /usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_cds.fa
-93df2180ae799325f9047f6a2f8b0b61  /usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_pep.fa
-7c5ccac2ab1a956cf832033ed7aa58ab  /usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_trans.fa
-751eca58e11acd01eb4193569f7b3f4f  /usr/local/i5k/media/blast/db/Bgermanica.scaffolds.fa
-6b624f62c44658f30f611d89f06d0733  /usr/local/i5k/media/blast/db/Bradysia_coprophila.Bcop_v1.0_proteins_with_putative_function.fasta
-a5dd967156bbada8a06d7eba4d98632c  /usr/local/i5k/media/blast/db/Bradysia_coprophila.Bcop_v1.0_transcripts_with_putative_function.fasta
-fc2fe853aa73fdca475c084e42b75eb9  /usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_cds.fa
-e0b4121a1f1a856bbd61483b655d65f7  /usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_pep.fa
-2565f4ed6248457335472aa20f7e4f9c  /usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_trans.fa
-c8172063406e4055f178543d11b6e36c  /usr/local/i5k/media/blast/db/Clec_Bbug02212013.genome_new_ids.fa
-59313d2e730cedaea240efbb0e4b3118  /usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_cds.fa
-0f94c24c4a7611ec98ca2f9060618ab3  /usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_pep.fa
-d2a0a92e0742fb3127fa051f8a79be7b  /usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_trans.fa
-cffd685f84dd2e80126a2362bd2bbf47  /usr/local/i5k/media/blast/db/DTAK.faa
-fd8c311b0262b96ac62d7c7992b093f1  /usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_cds.fa
-42d11e652fa890f0a40f3066ea93bb67  /usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_pep.fa
-436e79c3ce234079a568a373d3c6aa21  /usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_rna.fa
-0f8eb95a9ea2b1569d62d791415317f1  /usr/local/i5k/media/blast/db/Diacit_refseq_protein.fa
-a34a4c416ec70da65f4fbf20b6a4cf88  /usr/local/i5k/media/blast/db/Diacit_refseq_rna.fa
-295784e4e2f58ed3cc14d07368d9dc1b  /usr/local/i5k/media/blast/db/Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_CDS.fna
-df16d2f72510f5cfec3624bb9436220a  /usr/local/i5k/media/blast/db/Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_peptide.faa
-bac5494540a64edb8c8b3712ae11d2b5  /usr/local/i5k/media/blast/db/EAFF_new_ids.faa
-cb401df30a03007c1bd2ada255f9b327  /usr/local/i5k/media/blast/db/EAFF_new_ids.fna
-7a08ba5f8ff7c5451e1dc8cb635a3f04  /usr/local/i5k/media/blast/db/Eaff_11172013.genome_new_ids.fa
-af06d0f71caf8aee8d780a2f6c715c75  /usr/local/i5k/media/blast/db/Edil_v1.0_peptide.fa
-a5f919da0632a1282ad4899ce577e17c  /usr/local/i5k/media/blast/db/Edil_v1.0_transcripts.fa
-6601503467f5b45814b3158142a4d064  /usr/local/i5k/media/blast/db/GBUE_new_ids.faa
-80c1d801bbbac89008ab1d7227bcfee5  /usr/local/i5k/media/blast/db/GBUE_new_ids.fna
-7e817340e2bfa5717131fb0501d78fb2  /usr/local/i5k/media/blast/db/GCA_000346575.1_ASM34657v1_genomic_GenBankIDs.fna
-060a7a7ffeaf24e0f44d6ee7d35ee05f  /usr/local/i5k/media/blast/db/GCA_000376725.2_Lful_2.0_genomic.fna
-aa3bb6f91d1341fd05743cc7f08c45f1  /usr/local/i5k/media/blast/db/GCA_000507165.2_Edan_2.0_genomic.fna
-0f8842e4846bc05a04e51da9a833c0df  /usr/local/i5k/media/blast/db/GCA_000696795.3_Hhal_1.1_genomic.fna
-44c2152baf2c39092fe1f0c35d16dd72  /usr/local/i5k/media/blast/db/GCA_000696855.1_Hvit_1.0_genomic.fna
-b8a5132525f327e33d4ae8427ec9c04e  /usr/local/i5k/media/blast/db/GCA_000697925.1_Lhes_1.0_genomic.fna
-396ac5985510843e5ddf1b858c6b4c9c  /usr/local/i5k/media/blast/db/GCA_000934665.2_Caqu_2.0_genomic.fna
-afd020cdb470df63a6f3bdd580ff5cb8  /usr/local/i5k/media/blast/db/GCA_001188405.1_Lrec_1.0_genomic.fna
-85e39c3fd2d1a720295aa24d1a822b50  /usr/local/i5k/media/blast/db/GCA_001263275.1_ASM126327v1_genomic_GenBankIds.fna
-5b69af98cba5a3e47c1ad999e9f3ee5c  /usr/local/i5k/media/blast/db/GCA_001263275.1_ASM126327v1_protein.faa
-9040b876b9c4c88bec8e8ebeba3f63a3  /usr/local/i5k/media/blast/db/GCA_001276565.1_ASM127656v1_genomic_GenBankIDs.fna
-f32954af31b00d130f3a8a18f91781f0  /usr/local/i5k/media/blast/db/GCA_001276565.1_ASM127656v1_protein.faa
-d9548c0a9bac0b0f6a36c576be240d8b  /usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_cds_from_genomic.fna
-a550e93aad35064a78e6e0c5b6e98c8e  /usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_genomic.fna
-75a808cb969329225920476abc8fb0de  /usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_rna_from_genomic.fna
-c07187c05d987c98d67646ba4a7fd5c3  /usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_translated_cds.faa
-74572a87e4fae869780b782a52f63b41  /usr/local/i5k/media/blast/db/GCA_002382865.2_ASM238286v2_genomic.fna
-16f3b22b3ee7b61cddfe3d9465cfd087  /usr/local/i5k/media/blast/db/GCA_002738285.1_ASM273828v1_genomic.fna
-0c9966f44aed2ed5184ada675a540300  /usr/local/i5k/media/blast/db/GCA_002778355.1_ASM277835v1_genomic_over_1000.fna
-70ee53e9bb06a0bd4be87a0b7e9cf507  /usr/local/i5k/media/blast/db/GCA_003012365.1_ASM301236v1_genomic.fna
-08ed893a6a48c141975df981773f30bb  /usr/local/i5k/media/blast/db/GCA_003335185.2_ASM333518v2_genomic.fna
-97b03f353a793a5ea7ddb5aa223d445c  /usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_cds_from_genomic.fna
-37ddf9905a6405ea694f4203748cc100  /usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_genomic.fna
-270a8cd89be1f96d1b40d48eb7f85f3b  /usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_rna_from_genomic.fna
-018613e916acbdb47d8cee9884861aa9  /usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_translated_cds.faa
-275bcfe4c8ae6137548655be94d6793d  /usr/local/i5k/media/blast/db/GCF_000220905.1_MROT_1.0_genomic_RefSeqIDs.fna
-6f5f7d265b06dfa83e79b422022b6956  /usr/local/i5k/media/blast/db/GCF_000224235.1_Dtak_2.0_protein.faa
-61bd96b7be33b6396579ecacf79f4a2e  /usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_cds_from_genomic.fna
-0393469b9ad8d2303dfd2d92c2747656  /usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_genomic.fna
-6b203f0884dfa52ecc87da13c4b441c2  /usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_rna_from_genomic.fna
-8e821cbc60cfaed8dfaf0990ab0952e3  /usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_translated_cds.faa
-a5f39fb9af4acb40890b6c53bfbf248f  /usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_cds_from_genomic.fna
-be994d34dac7eb0d37cfa928d2abdc9c  /usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_genomic.fna
-84188a3bc55a3a6d53550822860e3731  /usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_rna_from_genomic.fna
-fa414c6b1eec9a22fbb665946d52037d  /usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_translated_cds.faa
-3ed34ea18ffb57d77bfd55b1fed3f01f  /usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_cds_from_genomic.fna
-307835365c86a774565f3a85723d6edd  /usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_rna_from_genomic.fna
-0afc3da426a61b606acfb251f2aed6e7  /usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_translated_cds.faa
-f432768644841fd93c25135163c87727  /usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_genomic.fna
-c9c4e52ed3d4a864aa7ea728d90da1dd  /usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_protein.faa
-d673fa196298d6fb0757b429722bedac  /usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_rna.fna
-dea5444e1e97313823e2d2497612213d  /usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_rna_from_genomic.fna
-2220cea4e78f2269852781a9218298cf  /usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_translated_cds.faa
-6946a985b50158db1dfd6177d5ab894e  /usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_cds_from_genomic.fna
-6101be8a47eec9622d07c1cf6bf0d53d  /usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_genomic.fna
-94a48ace4106e0e9264a81c42cee3b4f  /usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_rna_from_genomic.fna
-e89141f2d124664456468c0a5f5dfa2a  /usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_translated_cds.faa
-ad688b201e693a333c33c5335201244f  /usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_cds_from_genomic.fna
-b7af675a05071d1e2deadbe91863a06d  /usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_genomic.fna
-2c64edacee9806b3615bed90152d6e4c  /usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_rna_from_genomic.fna
-d0878e76076ab4994d2e461e4cfe6b6f  /usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_translated_cds.faa
-bc3332e04094f1399a1dd72963a766c6  /usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_cds_from_genomic.fna
-5736f4a6109071e3a57be3c62a5d18e9  /usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_genomic.fna
-6ea971bd4665bed2a476a53356dfa536  /usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_rna_from_genomic.fna
-b86922a4cdeeccec9879281196d18060  /usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_translated_cds.faa
-6bcc600e0ad68022c5a58f3dab576d90  /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_cds_from_genomic.fna
-4b0a35863e1de5e4f1611483e3d597ec  /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_rna_from_genomic.fna
-850592908390792e214ae5785f4b8651  /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_translated_cds.faa
-98226a66eef0df50587da564a1598c0f  /usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_cds_from_genomic.fna
-a26763f2976c751c2a9de3c9ef6660fd  /usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_genomic.fna
-e4a2d40dc347b2ced9c930a90a0240bf  /usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_rna_from_genomic.fna
-06ebe654ce985fddc950ba3003028ecb  /usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_translated_cds.faa
-b47e81acfb52dc4d6322c1a55899277b  /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_cds_from_genomic.fna
-fd7d095a2eb18d45b81c6ab76c20d1a9  /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_genomic.fna
-9976c66b97f21d925a5c3f6cff2ffc31  /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_rna_from_genomic.fna
-95e7f273991e1ce967e881e3da7f8934  /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_translated_cds.faa
-646600a8d76ee7283b4e29533f1e0c8e  /usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_cds_from_genomic.fna
-4d1af321f7762c8dce93872f75f24b3d  /usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_genomic.fna
-49cafa2816d654fec183e1ce0f5a53e8  /usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_rna_from_genomic.fna
-5278f3c4ef38415b952507b7c3c6fffd  /usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_translated_cds.faa
-28707dd0d7691d4952a5e473dd83e2bb  /usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_cds_from_genomic.fna
-c1710ef038e6a2d2094bfd14ec3c290c  /usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_genomic.fna
-67582be51c1a00b7724c638f7c4116ee  /usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_rna_from_genomic.fna
-135435dfaf7c322fd4e9cbeec1f33af7  /usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_translated_cds.faa
-56c743a15eb51a4979e97a18c669df42  /usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_cds_from_genomic.fna
-4fb0a4146852ee596094822f3706333e  /usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_genomic.fna
-63dc7f6e9c580f1e8f634a0e44f75d29  /usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_rna_from_genomic.fna
-988da910a7ec5d6f1863e30aa1c1ab59  /usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_translated_cds.faa
-56fba7ca81b10fcf6b54816ffd825a1d  /usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_cds_from_genomic.fna
-cd3d954dc3b64b9412bf85f4fa150885  /usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_genomic.fna
-9d2d064b1520b8630f432e4e846ceb9f  /usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_rna_from_genomic.fna
-fe59f04063a9f9179818c6d5765375e6  /usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_translated_cds.faa
-eb9fa095221351389b6faa69693ffe3e  /usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_cds_from_genomic.fna
-9c4a6efe967757e5049dc47e051b33d8  /usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_protein.faa
-77618761991aa4f9fa6be0c912872265  /usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_rna_from_genomic.fna
-ce29673a615f3d7ec7215b9c45fbef07  /usr/local/i5k/media/blast/db/GCF_001412225.1_Nicves_v1.0_genomic_RefSeqIDs.fna
-b6a1e3a6bdb4233433b8ce578e4b7ede  /usr/local/i5k/media/blast/db/GCF_001412515.1_Dall1.0_protein.faa
-882540b1a719444859ca8b7b5563a025  /usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_cds_from_genomic-idupdate.fna
-062acade379426c8425df6a24b886043  /usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_genomic.fna
-87beebc5334032c1b1e07bfd77f0d083  /usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_rna_from_genomic-idupdate.fna
-298fffecced4893da3ee776244b9b072  /usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_translated_cds-idupdate.faa
-dfba2964510be3ff667a7540b9a3e15f  /usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_cds_from_genomic.fna
-5767077a29ac5fa3f82327bef691a637  /usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_genomic.fna
-b7eedb070372b0dfc28d17300a088d7f  /usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_rna_from_genomic.fna
-56400f80ec04b2a37e23067f230a912e  /usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_translated_cds.faa
-f2b42a1ed8511108626ec40e9bdbc25f  /usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_cds_from_genomic.fna
-8dc8dae825fe764ca8a3f0c1facfb0aa  /usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_genomic_RefSeqIDs.fna
-ac72cd69dc5b4c68456fb12c37de8fc3  /usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_protein.faa
-fca19d9405c7788f616b6d62c2a6c40d  /usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_rna_from_genomic.fna
-8cd1ca3010e7159ea370abba292cbbbb  /usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_genomic.fna
-636698f7c9d5f652a89ff44358e89a72  /usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_protein.faa
-6cab433193e1cc65babbd251f1513fd0  /usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_rna.fna
-e022a6b2c7292d7d3c9785e7eead495b  /usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_genomic_RefSeqIDs.fna
-d61c720365d87cac81122e60e1a888df  /usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_protein.faa
-67e7f02b028e021cf8e9871a1d049df7  /usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_rna_from_genomic.fna
-9b97b129c688749bd520b15e469e5706  /usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_cds_from_genomic.fna
-61dec228af58cba51ede09325ed1f820  /usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_genomic.fna
-b85139d26344b4b407264256d9cc0f2b  /usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_translated_cds.faa
-6314195de61e7c656038a385e95caabb  /usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_cds_from_genomic.fna
-fdbda792735b59b02e821e477aa99e45  /usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_genomic.fna
-3479399a0a8c9de7dd364986b563e0d0  /usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_rna_from_genomic.fna
-4a95e4efb6434b8c79558bd68b792b53  /usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_translated_cds.faa
-bdfa8d1cbb7e85767158552e2613cc53  /usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_cds_from_genomic.fna
-31b068e955b1fe27a725bd2d675ccf92  /usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_genomic.fna
-bcf2fd8643d3c47c89852fc5b26bc5d4  /usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_rna_from_genomic.fna
-23fd9e3e9c402c73f5b1789cb9f51730  /usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_translated_cds.faa
-2cc969bbca00e7fca20ee43b69f69a2c  /usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_cds_from_genomic-idupdate.fna
-3f6453b267e5654319f450b37444caa4  /usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_genomic.fna
-30aca5a312f2190d45f3da8f3ce547b2  /usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_rna_from_genomic-idupdate.fna
-80c7833cf9c900d279478a568abdae5f  /usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_translated_cds-idupdate.fna
-1b4166a63d36b4884fbb0577f65d209d  /usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_translated_cds.faa
-1e2f9dcf87a762627eb17e4c58b7d108  /usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_cds_from_genomic.fna
-48e1bb3cde60a06d140621afc92b45d9  /usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_genomic.fna
-23f3657729ccd0e295e00511c6deaf3d  /usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_rna_from_genomic.fna
-84803cf048010c94827a94707751c33c  /usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_translated_cds.faa
-e533492c3f0b566bcf7ec85fec6fbb86  /usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_cds_from_genomic.fna
-b9192f0681b4dee25150322b784da080  /usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_genomic.fna
-2847b651d9b1c36a0f01ee483b561676  /usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_rna_from_genomic.fna
-e914a1e1a0bc874f002b5e3d806e0ca6  /usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_translated_cds.faa
-3341dbdc53bcb964e59b3e81ff1a68b4  /usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_cds_from_genomic.fna
-4d12d29e3513da7c5e86b393cf298ce5  /usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_genomic.fna
-77836fb7264f2e7eebf937152cb7af87  /usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_rna_from_genomic.fna
-d11fb9d19a4f79334901e373c79d6b72  /usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_translated_cds.faa
-36bb50a7419b3168536ec94d59140ca9  /usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_cds_from_genomic-idupdate.fna
-8cc70954d624f5e6842119022ce33170  /usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_genomic.fna
-74cbc48b69fc44ae638482b716f2a39b  /usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_rna_from_genomic-idupdate.fna
-be7f453c9f78c6a5c544c6ed6d681204  /usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_translated_cds-idupdate.faa
-11e87b814a4abb756eaf223b692d1fe9  /usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_cds_from_genomic-idupdate.fna
-ad71947b5f28c7180e0a19e6ba85419b  /usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_genomic.fna
-5a013bb3af3527f88a418d8c0d35b3f6  /usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_rna_from_genomic-idupdate.fna
-01e4756525a60dbc3651e836c562a3ae  /usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_translated_cds-idupdate.faa
-2b75ef7d0215627d2506dd6e7c106021  /usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_cds_from_genomic-idupdate.fna
-ec273c843c7b0f4aec9abaf7548a29c4  /usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_genomic.fna
-f438b85d7bccd8dca0a391e933e96e95  /usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_rna_from_genomic-idupdate.fna
-b00ebf74ade63eb48a2654886fd58353  /usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_translated_cds-idupdate.faa
-ee1c27f27cb0118e568d01eeda45098e  /usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_cds_from_genomic-idupdate.fna
-afb996df496a1b7153da000ebf2c7a7f  /usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_genomic.fna
-a5296bca98613f78d381f63662338257  /usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_rna_from_genomic-idupdate.fna
-382d58716a9cc287ca3c15cc932831b9  /usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_translated_cds-idupdate.faa
-42895772f654078d6907eaba84612bc3  /usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_cds_from_genomic.fna
-9167daef2792fe1e6d6a20d4032335ea  /usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_genomic.fna
-ea99f237a570b2a9755ebd3b14e7e380  /usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_rna_from_genomic.fna
-65c9e11a24238f1380bb498477a11773  /usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_translated_cds.faa
-920676bd63b39de1acb189a883cbef82  /usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_cds_from_genomic-idupdate.fna
-a603eb9c7598f32e9217e5fc250b8c98  /usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_genomic.fna
-0a49c6bffc23bd88c6e135e3514eea0f  /usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_rna_from_genomic-idupdate.fna
-0d676db02a13640752fd33e0bccea03d  /usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_translated_cds-idupdate.faa
-e50c551782a06d2d949e627bd48e44d0  /usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_cds_from_genomic.fna
-fba5d8ac9c4a323ab7f1b9636f437b37  /usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_genomic.fna
-240740243fb13b15a6e7ad941ac440ba  /usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_rna_from_genomic.fna
-01c06bfe9961a6beabaeca920aca3ad9  /usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_translated_cds.faa
-c52eb8b0c2db0d79c31765b90a9fc555  /usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_cds_from_genomic.fna
-2553537805c703f062db28e9ae30935f  /usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_genomic.fna
-afec1670ce9a1d860c16a3d6644d59fa  /usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_rna_from_genomic.fna
-80c7d3f99876d620bfc30ddd0e21a533  /usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_translated_cds.faa
-731b2dca30ee6ef7f6ace210289b2e8f  /usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_cds_from_genomic-idupdate.fna
-86af2cd691f8c106389aba1bf96c406f  /usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_genomic.fna
-863adbca42e654a708fc8d1ce39e41f4  /usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_rna_from_genomic-idupdate.fna
-20de33f771a7efec0095586510258f87  /usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_translated_cds-idupdate.faa
-e6d6fa5a42b2f6bad5025b3dc75eae83  /usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_cds_from_genomic.fna
-7e9a9611c3ce7315859621e7013ebf1a  /usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_genomic.fna
-16e20cafdd0a42d907ab56d405622045  /usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_rna_from_genomic.fna
-5213c14b9e818517c6a58c12ef8ae43a  /usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_translated_cds.faa
-06aebb75a1753f2a17d548af0053d366  /usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_cds_from_genomic-idupdate.fna
-9015643e5ffd377f5a538b99fd4e7398  /usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_genomic.fna
-08f283a727d3f508fe4e2ec24ecaf3fb  /usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_rna_from_genomic-idupdate.fna
-247bba2445cdf76eef4356606f517271  /usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_translated_cds-idupdate.faa
-c50bc3d2963f54b4144ac49f18709814  /usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_cds_from_genomic-idupdate.fna
-9fb613949a80efc37c95a4ec485a87bf  /usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_genomic.fna
-eea5345e81831afa5bc9184aa02939ce  /usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_rna_from_genomic-idupdate.fna
-e20cc442d22613c2d4bba42fc1a40b66  /usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_translated_cds-idupdate.faa
-da8b750772e7509c5ebd81c89c73e24a  /usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_cds_from_genomic.fna
-31f4f89e2d19c9306113a3e44035d9ad  /usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_genomic.fna
-f0ba2ddb18592f56ff0fba46b52b3ebb  /usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_rna_from_genomic.fna
-92229797c7b4902f5ae9a67598b225e4  /usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_translated_cds.faa
-66ea39a2cfe8234924711ae5e85431ea  /usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_cds_from_genomic.fna
-f46b4a18f93e71aec5f1f0b32a8a8927  /usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_genomic.fna
-a7b1d2487e02d71929d009dfe34617a7  /usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_rna_from_genomic.fna
-b7e184f606f6c4cb4a27c92f6ba078f5  /usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_translated_cds.faa
-5828cf39eafe1b203ac5ffdae25a0510  /usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_cds_from_genomic.fna
-1097b68995d01794191349d5da901de1  /usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_genomic.fna
-4132bd1434fb7f61b6063f8304dd5d8b  /usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_rna_from_genomic.fna
-f3433ca5db3ac2e51cec6d49d6920a31  /usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_translated_cds.faa
-f6081043701572c867ed3294a7946883  /usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_cds_from_genomic-idupdate.fna
-e92bbbba9ae89b4c0dfc22368e1097e2  /usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_genomic.fna
-5e0b01f302fb0edd3807422c3af7699f  /usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_rna_from_genomic-idupdate.fna
-1ecead770b39d07fca098f73e585740c  /usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_translated_cds-idupdate.faa
-43b597f4494a4768e25c0be9676e403f  /usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_cds_from_genomic.fna
-0e05be6b478fed8f448338d3a5f37748  /usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_genomic.fna
-31ee269094429a83eb6621297fe552a2  /usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_rna_from_genomic.fna
-191da5dc10ea1a1411721a3b0e47dc68  /usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_translated_cds.faa
-2b0a4731cc9bbf6a3e7d8aa8d750d3a5  /usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_cds_from_genomic.fna
-fb8b88c9fa2e4d51c7cfb8aeac7d50ac  /usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_genomic.fna
-bf0ec73964acd718cc03f5c9cbe227f2  /usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_rna_from_genomic.fna
-2e6f8e49dc86eb0a6ec9f4052faf4da4  /usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_translated_cds.faa
-7e4ba58c06c2eb8235f493d00c0f8bd7  /usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_cds_from_genomic.fna
-04d76d9b3f435737c2b4b1df2334427e  /usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_genomic.fna
-b0d8b36f29e0b93661a0b20a10b448d2  /usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_rna_from_genomic.fna
-cc9370bd66ea1b3ddd4cb09838ad90ba  /usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_translated_cds.faa
-3f16f2d6d66e9563c92d2750a2ca0755  /usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_cds_from_genomic.fna
-83b45f8c32d33aba82da056fd7f4037a  /usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_genomic.fna
-0eacaf93025143655633be386316f794  /usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_rna_from_genomic.fna
-ba29d9bb7508c2310e4ecad1fc82bbe4  /usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_translated_cds.faa
-2a9057d92356eb0ad6dd26bd5e0a6868  /usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_cds_from_genomic.fna
-116a1be7c845fd93d8104d79e2821f77  /usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_genomic.fna
-0df6f3a45def6d6da5ab7a0958f3d68c  /usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_rna_from_genomic.fna
-a40e3c0caeb0e0a017408a448c99fd47  /usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_translated_cds.faa
-98207083a424d6bde1be3b3695f0662a  /usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_cds_from_genomic.fna
-e92b4ec6e7bb14150d37d56d74291955  /usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_genomic.fna
-cd04aad00b01103e29c8f908dd9f06b8  /usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_rna_from_genomic.fna
-7854df3f053532c1e33a050ee07cd674  /usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_translated_cds.faa
-4bbc21a30625f94d44721cced65094a6  /usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_cds_from_genomic.fna
-78642ea2bc69bb7e899849b8c0a4a5ec  /usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_protein.faa
-c11d029922be1a8f3299ef4d5c1846f4  /usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_rna.fna
-ec28b4710d525ecd65d283034bfdff71  /usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_cds_from_genomic.fna
-aa0ab666f2a564ac4eef2d1b5f7b231d  /usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_protein.faa
-d6d80dfffb0f8a3dee60a097eef00019  /usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_rna.fna
-3a7cb1c31ecdf0d4a35a96db6d19c8f4  /usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_cds_from_genomic.fna
-cbdaa522ac5adf88e6dd145a54272424  /usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_genomic.fna
-408cf30bd556c928d0ae52e50ad598b5  /usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_rna_from_genomic.fna
-40d9877c3729879dc728e8d125c88532  /usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_translated_cds.faa
-cdf0cfe9f13b359c8f54973edeab8d41  /usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_cds_from_genomic.fna
-eead9caf5c7d0fc5a67d1d40a860cacb  /usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_genomic.fna
-908c5fc93ced4e44422c8406e097de70  /usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_rna_from_genomic.fna
-20527d8e9e1bb51b00191841ba04cab3  /usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_translated_cds.faa
-efa4f39f3ec47e95a3d5d5492552904f  /usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_cds_from_genomic.fna
-02911e5a059cf639f44b5fba93f0fec9  /usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_genomic.fna
-0f391538594c72b04c569b8e7f77da21  /usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_rna_from_genomic.fna
-449822b148ef8d5c406686541809f5ee  /usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_translated_cds.faa
-936d08896732fa92970988a76a777149  /usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_cds_from_genomic.fna
-417918029eb89b4ac47c48d6a6cbbc1a  /usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_genomic.fna
-553bafff3976bcf7672217eb4560bbef  /usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_rna_from_genomic.fna
-8ea8996718815532bc354dee75c6cbc6  /usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_translated_cds.faa
-9edc748e53fdab26a67e81f2aa9b5d98  /usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_cds_from_genomic.fna
-8e2eda7e0ced105928a52c46943bf139  /usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_genomic.fna
-cb79dc3cd289c07fc60114882b7b241d  /usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_rna_from_genomic.fna
-ddce3e2ae97071f1830d6184f69d21a5  /usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_translated_cds.faa
-74d2445074f68f47f7c2d80dc56c010c  /usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_cds_from_genomic.fna
-8e0c3c618b95a355b12e97e42b79b67f  /usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_genomic.fna
-755c9b2499e9f8980bffa10a2270ed64  /usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_rna_from_genomic.fna
-90c49bc8341a3672638949e3d1616512  /usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_translated_cds.faa
-a79aaa43a9ef1544f3dc4a10dd7f7028  /usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_cds_from_genomic.fna
-8856703de6901c13b060e69c23cc8964  /usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_genomic.fna
-a0f89ed6d245228de148631e53adbddf  /usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_rna_from_genomic.fna
-26d698c1852cca4d325a4e12a3d93af7  /usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_translated_cds.faa
-92aa09dfde5bf98896304ac2d8204e4b  /usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_protein.faa
-518f26ddd153433e10f35d0a46712ca5  /usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_rna.fna
-17b27eed93a597a0e85c4a4ce6b1c851  /usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_rna_from_genomic.fna
-c35e59633605f7560dfb08214865c087  /usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_cds_from_genomic.fna
-51fd2dad49031bae136a0f2b6206ff0a  /usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_protein.faa
-ad6ebe2450d540b110c52fca4c0f9bae  /usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_rna.fna
-e538b65070cfefa8aa75b5573809c6e6  /usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_cds_from_genomic.fna
-74485070c3828335ab4993d17992839a  /usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_protein.faa
-67ee71593fc5025eb47755c4507866c2  /usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_rna.fna
-caaaa9575db2e6e2d9a46471ccc93d65  /usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_cds_from_genomic.fna
-90ced053c13d64d16725477803534952  /usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_protein.faa
-ca8d00fb8bd724d69e5480cb8d953b3d  /usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_rna.fna
-d13e1a9392964430f88fde3431a7b3a3  /usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_cds_from_genomic.fna
-d15ee562ea87dcea98021002b1ea9363  /usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_genomic.fna
-e22b95ea5afeeb9026af7a5410c340f4  /usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_rna_from_genomic.fna
-55d2fc0ecffbbf1af9d2f72c46d1d7fa  /usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_translated_cds.faa
-fadf2075f540ef40e8215d459d0e3b81  /usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_cds_from_genomic.fna
-341c9d5af6da9b661526bb442e0f04e3  /usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_genomic.fna
-5d3c7726f59e36d61f1af65b5174d11e  /usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_rna_from_genomic.fna
-a3bae64d5584cbf232c5a0745613801f  /usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_translated_cds.faa
-de1825dbc005fff177baf8b7e94f4b48  /usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_cds_from_genomic.fna
-a021fd6a0f3b28709ac29666d7c65441  /usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_genomic.fna
-61246e0c3df9f7e0b9e99d43dbeaa60c  /usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_rna_from_genomic.fna
-9b244286d7351bcb4add859dff18f978  /usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_translated_cds.faa
-8b1cc13788e866f82deeafc6851f523e  /usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_cds_from_genomic.fna
-e30ae54ab2d1035b9d1469776f895c95  /usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_genomic.fna
-ab52c3c59314ba295f5fea03043d0c3b  /usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_rna_from_genomic.fna
-d7e24cd1b68889abc51ee50fecfa4abb  /usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_translated_cds.faa
-411f4678cc111d96d056e9c31977265e  /usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_cds_from_genomic.fna
-8ad8a9760dab8a6d50a0c0079647e003  /usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_genomic.fna
-5af299481eb10b8c38539d137a290f42  /usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_rna_from_genomic.fna
-c55509747e9c1d3f066f3e50be1c8aa9  /usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_translated_cds.faa
-eea2930ab9ed385ce7c61e74a4baf2e4  /usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_cds_from_genomic.fna
-72ee9c63f8f738693086bb13bff4de84  /usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_genomic.fna
-ea68c56c6344afa2a8ccb369896ef48f  /usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_rna_from_genomic.fna
-2b628a872a1658f4cd231f9134bb4d5e  /usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_translated_cds.faa
-1edc563cdfae6f49b3a367f1c890e498  /usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_cds_from_genomic.fna
-5c7a6351db73e3e3a5b7a1a5184cba9b  /usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_genomic.fna
-77c3ccebfe397839f03fd337fe144c7e  /usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_rna_from_genomic.fna
-96c979f74a34b808834983e14ddbd288  /usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_translated_cds.faa
-0f0094ffa21d8022af6c892fe10cd784  /usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_cds_from_genomic.fna
-e5dfefcea74f449749da5d626b3453da  /usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_genomic.fna
-4d1c2b7f602905ad423c52ba5e7d302e  /usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_rna_from_genomic.fna
-db04825be367472de99801024c377705  /usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_translated_cds.faa
-8ae7012ad4ef0725183b4c71d0ab2758  /usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_cds_from_genomic.fna
-c2262d144728a195e0774fa705ca990b  /usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_genomic.fna
-3b5c3152507b687f4989b48884b2e667  /usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_rna_from_genomic.fna
-281964cfb5f3ef73cbb082d3bcef8694  /usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_translated_cds.faa
-c88a2214f2e67db8328ac12acaa3b15f  /usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_cds_from_genomic.fna
-843d54029695cfbadac55fe4a9e3978c  /usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_genomic.fna
-6c081a0c7a227737fda65c461f4b01ed  /usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_rna_from_genomic.fna
-c33ff5ff10481b07345e55bebf2a4fe1  /usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_translated_cds.faa
-ff2fae70a4804792f05bf0a5b05a857e  /usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_cds_from_genomic.fna
-b6c256edf48f3fc318f962218a50d463  /usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_genomic.fna
-599a3271a1bb2c824a602cbb0054c58f  /usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_rna_from_genomic.fna
-8144595d71e36450aa2bafdc8c87ac52  /usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_translated_cds.faa
-bda4df666105f6ba9d2a098b7cef6259  /usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_cds_from_genomic.fna
-018acca98dee252660b9b33648db22c4  /usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_genomic.fna
-f37d070e0e1878e20e095c48c9ee15c9  /usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_rna_from_genomic.fna
-2c564ba7019d2c6dc029c405663f2c62  /usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_translated_cds.faa
-168339f8b3f19c418f5a4e4276e5a887  /usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_cds_from_genomic.fna
-b2c189cc369dc34c1fc4e51483d28325  /usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_genomic.fna
-365849bef12e3f3a00131f6777da215e  /usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_rna_from_genomic.fna
-9e4d71283a1a4515885ada3088555a04  /usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_translated_cds.faa
-5a02756d7ad9ad06d4b1fe84e9383f3a  /usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_cds_from_genomic.fna
-93772fab30a90767c86d595f65fcb369  /usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_genomic.fna
-5a467f2db92bddcf170d8376b5e9583c  /usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_rna_from_genomic.fna
-7050c23cc189d332583867f9dd23e631  /usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_translated_cds.faa
-ca60536c322a7d6d5909aa730555a0d2  /usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_cds_from_genomic.fna
-70179032bf7624a34cdc1a6b2492f6a5  /usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_genomic.fna
-dc4f3478aff12b250e1809cfc877e2c9  /usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_rna_from_genomic.fna
-62aff0dfedcce1a545d221033a941e9e  /usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_translated_cds.faa
-09ba90f33d442f5835de6741f51140f8  /usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_cds_from_genomic.fna
-14ae30cdef20632fdc786fc0c9bea115  /usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_genomic.fna
-31bcf3282941d5c2e7db2bf5ef470918  /usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_rna_from_genomic.fna
-cb5b4fa0b488b1a6aedd47aa9150005a  /usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_translated_cds.faa
-23a548608f028ce1090d46be8996c37c  /usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_cds_from_genomic.fna
-4642b8b002069a4d1678f33f2d95a79f  /usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_genomic.fna
-0aef6e532a3d1006a8567f84e9a5f3a8  /usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_rna_from_genomic.fna
-4f87d4860462f7f92eac8df5ef273f7e  /usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_translated_cds.faa
-9d84f0c932769f7db3fd73eac1a56fdb  /usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_cds_from_genomic.fna
-2a5b57bf2bb3a1f79ae9c36b9529b8b4  /usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_genomic.fna
-29b85024072f340ac58af10658ff40fd  /usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_rna_from_genomic.fna
-c4dad953ba2cc163237847420efcdedc  /usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_translated_cds.faa
-2f372bf9c6aff282193166c6ac20fdae  /usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_cds_from_genomic.fna
-5b11a67aafea5bd9eab17500c3b23223  /usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_genomic.fna
-7d66fea2dc32ef48fe9c25ac48f77837  /usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_rna_from_genomic.fna
-f0ad70ce326b5003512f3afd4ae32d4b  /usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_translated_cds.faa
-83fb81ecfa9b1a137d0af64174360dcc  /usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_cds_from_genomic.fna
-2349e7ddd11d3a0905484fdad35a43d9  /usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_genomic.fna
-a1088f1a455ad554de5d159d6b9a9221  /usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_rna_from_genomic.fna
-e57ac475141b5b79025fbff3474554f8  /usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_translated_cds.faa
-351159d9032ac44a5d943e2038186cce  /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_cds_from_genomic.fna
-4f8010eebbdeba18f7f576946854e714  /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_genomic.fna
-8b56af4caef5a41ca986513004285030  /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_rna_from_genomic.fna
-54a23d6a5912099813e78d289c8fc94c  /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_translated_cds.faa
-b427894c90cc387c82cbb5aea31a7d9d  /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_cds_from_genomic.fna
-2ef5b85a25bd63453b88e85ecd159747  /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_genomic.fna
-e79e8ae7253f154b68ff98aa7b6471ca  /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_rna_from_genomic.fna
-b667f91398388b7213b47007ce1c313c  /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_translated_cds.faa
-c185d3a57acac4a10f59d933d714caef  /usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_cds_from_genomic.fna
-a4ff5eb0143aa9b117bcf5fcb8f5f783  /usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_genomic.fna
-b7f407c1c2a7cd3767402cc1a7b58e75  /usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_rna_from_genomic.fna
-580abf10226def3798ad74de67a1903f  /usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_translated_cds.faa
-98d88f440de052c941e7214822d70bb8  /usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_cds_from_genomic.fna
-81a45c3b4e22c81b3c37a2dcc6d829b9  /usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_rna_from_genomic.fna
-ca81ca663a67f211e339d709e7caee9b  /usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_translated_cds.faa
-ca8d27f3808e66c987c57b3ff9d8a0fc  /usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_cds_from_genomic.fna
-f59fd219ea2f03f63a9a285e798b8e7c  /usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_genomic.fna
-96b96bb35ef9a21d76647d0aa251ef0d  /usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_rna_from_genomic.fna
-ed090375921d97581dd5d05a6c67bf8c  /usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_translated_cds.faa
-54eb7c388b1163c689a050818358054c  /usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_cds_from_genomic.fna
-4dd796fda015784a518dfd80d077ccaa  /usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_genomic.fna
-138afcbd0ed961a3568a794590238c56  /usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_rna_from_genomic.fna
-09e65ed09ecf686cab56ac8f61152a0d  /usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_translated_cds.faa
-3723419c5fb6be789b8638c2beb7f3d6  /usr/local/i5k/media/blast/db/Gbue.scaffolds.50_new_ids.fa
-b986a7ceeced0eaedaf195817f0fd353  /usr/local/i5k/media/blast/db/HAZT.CDS.fna
-defcd1f664e3a7b1c9ee8ea22b933bcd  /usr/local/i5k/media/blast/db/HAZT.faa
-3298a54df89cc0f86dd7d99032c60730  /usr/local/i5k/media/blast/db/HVIT_new_ids.faa
-4b873a08eac83a1c088b62ff5fda565a  /usr/local/i5k/media/blast/db/HVIT_new_ids.fna
-ef92c421aabd80bb932e306c275df989  /usr/local/i5k/media/blast/db/Hazt_redundans_assembly_test_3_4_2016.fa
-89071b1d9de8cadce5c9bd2abb5020ff  /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_cds.fa
-2ef289369fe92fde69b06a65717b332b  /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_pep.fa
-796d609c26dfe092776f920d1c627eb2  /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_trans.fa
-01d7f766576859be1feff5475db85305  /usr/local/i5k/media/blast/db/JAMg_OGSv1.1_cds.fa
-d0a0a62d9990499f460d423ef63b3183  /usr/local/i5k/media/blast/db/JAMg_OGSv1.1_pep.fa
-5c68c4330c239c4d1ddddffdf2744d92  /usr/local/i5k/media/blast/db/JAMg_OGSv1.1_trans.fa
-f48f05f0b3a2f00473798b6119520a93  /usr/local/i5k/media/blast/db/LDEC_new_ids.faa
-90195de7435edeb282ad7d07680cb730  /usr/local/i5k/media/blast/db/LDEC_new_ids.fna
-447eea0c9623e5a37e3185cae03cf003  /usr/local/i5k/media/blast/db/LHES_new_ids.faa
-9c1cf329e8d4c3e0d0ac4e5a43c855e8  /usr/local/i5k/media/blast/db/LHES_new_ids.fna
-7ada79612998331710d4632e192b2d48  /usr/local/i5k/media/blast/db/LLUN_new_ids.faa
-bbca27d2cc8272b41bd231f861645304  /usr/local/i5k/media/blast/db/LLUN_new_ids.fna
-584c1f76db8e332b7a076684c401f051  /usr/local/i5k/media/blast/db/LREC_new_ids.faa
-1341a49351401b6106566d81967a06ac  /usr/local/i5k/media/blast/db/LREC_new_ids.fna
-0c9f43c9f98c6ae88bd8005501e63065  /usr/local/i5k/media/blast/db/Lalb_OGS_v5.42.cds.fa
-768d4004bb759f312e722252b17b84b6  /usr/local/i5k/media/blast/db/Lalb_OGS_v5.42.pep.fa
-9983b0ccdc585415c117c4d93aa337cf  /usr/local/i5k/media/blast/db/Ldec.genome.10062013_new_ids.fa
-cdb3711e07fbfb0930a43623f5a9aab9  /usr/local/i5k/media/blast/db/Llun.scaffolds_new_ids.fa
-656716152f1bbf9cec127c6b409b0576  /usr/local/i5k/media/blast/db/Lm_assembly2-2.fasta
-675ddd9297a2bb961ea3cd1df10561af  /usr/local/i5k/media/blast/db/Lm_assembly2-2_over499.fasta
-4ef14deb703a2cb801e60012a6cdd3e8  /usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_cds.fa
-198682d7786d95fa3c37f4eda415fe61  /usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_pep.fa
-6b53793d5d497ceda15c0c32f5437180  /usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_trans.fa
-722f87755540e2bf3dce36810929ee31  /usr/local/i5k/media/blast/db/Megachile_rotundata_v1.1.cds.fa
-8087e80683312dc1b734af62f7de7a75  /usr/local/i5k/media/blast/db/Megachile_rotundata_v1.1.pep.fa
-a59715e955c7f1d1728feea4809ac1ef  /usr/local/i5k/media/blast/db/Melipona_quadrifasciata_v1.1.cds.fa
-9590ac9c8a6373293c0ce43869fbafe3  /usr/local/i5k/media/blast/db/Melipona_quadrifasciata_v1.1.pep.fa
-9dbf65e9c06ba5ea85570226236a75db  /usr/local/i5k/media/blast/db/Mext_OGS_v1.0_pep.fa
-cf249728c2829966b5f24ff630621a93  /usr/local/i5k/media/blast/db/Mext_OGS_v1.0_transcripts.fa
-a86375999237a38ebfd0ae8178ffeebe  /usr/local/i5k/media/blast/db/NCBI_Dufourea_novaeangliae_Annotation_Release_100_protein.fa
-6a076960a9036010e5b2f21b99bb53f8  /usr/local/i5k/media/blast/db/NCBI_Dufourea_novaeangliae_Annotation_Release_100_rna.fa
-789a8e79f64b77f09375560dc3cb6064  /usr/local/i5k/media/blast/db/NCBI_Megachile_rotundata_Annotation_Release_101_protein.fa
-be0b65b689d32c074140d35863bb2f45  /usr/local/i5k/media/blast/db/NCBI_Megachile_rotundata_Annotation_Release_101_rna.fa
-ff32d0fe9b73ca824d91dff454e82b90  /usr/local/i5k/media/blast/db/NIJG01_GenBankIDs.fa
-bbcecb6f1c0e3796f983941759748afe  /usr/local/i5k/media/blast/db/Nlec_v1_NCBI_scaffolds_GenBankIDs.fasta
-8262f62e543f8ae89bc7bca0a31abcfb  /usr/local/i5k/media/blast/db/Nlec_v1_proteins_renamed_alphabetized.fasta
-d3b2f41fdd0e083a2c989a0b206567e2  /usr/local/i5k/media/blast/db/Nlec_v1_transcripts_renamed_alphabetized.fasta
-5d9121bc7cca97fad18313a24742320b  /usr/local/i5k/media/blast/db/OFAS_new_ids.faa
-c917adb621beb9004101144cfdfb8b12  /usr/local/i5k/media/blast/db/OFAS_new_ids.fna
-32f1e5e341bdc8a6605dd5863e2b321c  /usr/local/i5k/media/blast/db/Ofas.scaffolds_new_ids.fa
-8cd500db399bf67bb694aac066db51ef  /usr/local/i5k/media/blast/db/PTEP_new_ids.faa
-96ed8e85012835691cf5665d98854f42  /usr/local/i5k/media/blast/db/PTEP_new_ids.fna
-291359da7da92fdbf9f5badf8f384725  /usr/local/i5k/media/blast/db/PVEN_new_ids.faa
-d021565d92fe2386e6815a788ba56743  /usr/local/i5k/media/blast/db/PVEN_new_ids.fna
-50a39069d8d0b5b90efc06bec4bc02d8  /usr/local/i5k/media/blast/db/Planthopper-HiC-final_nocontam.fasta
-5a6b71ddcf35aa1bddb71a0486ac3878  /usr/local/i5k/media/blast/db/Ptep01282013.genome_new_ids.fa
-59206d7bbfb7eaa1834ed31fe9d4d03c  /usr/local/i5k/media/blast/db/Pven10162013.scaffolds_new_ids.fa
-691e85b58d95024a889e6821270b228e  /usr/local/i5k/media/blast/db/_____RdoDt3_Drdd8_decomES.fasta
-9399c5cc222d5e48480b98ecd8a61109  /usr/local/i5k/media/blast/db/agla_OGS_v1_2_peptide.fa
-b622727be43be7546b543c557f4d444d  /usr/local/i5k/media/blast/db/anogla_OGSv1.3_cds.fa
-da926ac5104d9b9e6b0f63cae9a12c63  /usr/local/i5k/media/blast/db/anogla_OGSv1.3_pep.fa
-e90c7b5d36ca3df1a0abe1d32fc44da4  /usr/local/i5k/media/blast/db/anogla_OGSv1.3_trans.fa
-acdc8f5aca0970a21046de27156a487e  /usr/local/i5k/media/blast/db/apimel_OGSv3.4_cds.fa
-fcaf54dd4d8a37cf20b74ed7ed3b1e17  /usr/local/i5k/media/blast/db/apimel_OGSv3.4_pep.fa
-bee04d5921945b8add620063ab48fe6d  /usr/local/i5k/media/blast/db/apimel_OGSv3.4_trans.fa
-7c41c0730aa5a301194b68cd9bd8e043  /usr/local/i5k/media/blast/db/athros_OGSv1.3_cds.fa
-c78458c36fb7a23379179751fbdaeb31  /usr/local/i5k/media/blast/db/athros_OGSv1.3_pep.fa
-5ef82879050cd1800c8248689fd7f31e  /usr/local/i5k/media/blast/db/athros_OGSv1.3_trans.fa
-50aa84757e8494f710c67662abb0b66a  /usr/local/i5k/media/blast/db/aug3.1.aa_new_ids.fa
-b0946ff020b98b98d6db6b714920ff49  /usr/local/i5k/media/blast/db/aug3.1.mrna_new_ids.fa
-106633bf6fddf4ef9bfbcd7f1ffa73d8  /usr/local/i5k/media/blast/db/blager_OGSv1.2_cds.fa
-df04389f4502fd3e3fe8b86c5c09339f  /usr/local/i5k/media/blast/db/blager_OGSv1.2_pep.fa
-8c69b9962a4974ea6dfdb41631fdd59d  /usr/local/i5k/media/blast/db/blager_OGSv1.2_trans.fa
-e242b734f45b08d953a2273ff7238f23  /usr/local/i5k/media/blast/db/bomimp_OGSv1.1_cds_new.fa
-d12c43bd06c304c170ef2e5e837c5f64  /usr/local/i5k/media/blast/db/bomimp_OGSv1.1_pep_new.fa
-b72541a663cbe577ad58655d24ad7c64  /usr/local/i5k/media/blast/db/cepcin_OGSv1.2_cds.fa
-f7cfa4c5d5ba710d74b6f4e61ccdf72d  /usr/local/i5k/media/blast/db/cepcin_OGSv1.2_pep.fa
-a9e791d82232465ec00f4471ed4ca340  /usr/local/i5k/media/blast/db/cepcin_OGSv1.2_trans.fa
-9d7df382cc16822c85e52b7c9bd151d5  /usr/local/i5k/media/blast/db/cercap_OGSv1.1_cds.fa
-1a7bec265b5e37551b840b3a3ef340c6  /usr/local/i5k/media/blast/db/cercap_OGSv1.1_pep.fa
-e22cea2ca240497bb530b5e2fd2d436f  /usr/local/i5k/media/blast/db/cercap_OGSv1.1_trans.fa
-6f4c624f6eca78f54e86a6815d5394a9  /usr/local/i5k/media/blast/db/cimlec_OGSv1.3_cds.fa
-03aacce52cbdc3f2af085f6067907978  /usr/local/i5k/media/blast/db/cimlec_OGSv1.3_pep.fa
-e2a2e86df38be8bfbe877215e6623d6d  /usr/local/i5k/media/blast/db/cimlec_OGSv1.3_trans.fa
-00eda233926d702eeadc14425086c77b  /usr/local/i5k/media/blast/db/clec_OGS_v1_2_peptide.fa
-609fbbffd648ca7e95316a52d361c853  /usr/local/i5k/media/blast/db/diaci1.1_new_ids.fa
-0621b551982c44f3cbe233e58e3236b6  /usr/local/i5k/media/blast/db/ephdan_OGSv1.0_cds.fa
-f2f3e5f076de02e2da2b250142e49151  /usr/local/i5k/media/blast/db/ephdan_OGSv1.0_pep.fa
-3587935d407e1ea1372f54ea4c49b243  /usr/local/i5k/media/blast/db/ephdan_OGSv1.0_trans.fa
-f017850b53f158c142837aaa9bc87ad8  /usr/local/i5k/media/blast/db/eufmex_OGSv1.3_cds.fa
-58f889961385de1e6c2d884b7e3089af  /usr/local/i5k/media/blast/db/eufmex_OGSv1.3_pep.fa
-c01c5348fa44d0a93a49d9736615c1dd  /usr/local/i5k/media/blast/db/eufmex_OGSv1.3_trans.fa
-bc4a6debdddc05bc90c1b9f1011d40d0  /usr/local/i5k/media/blast/db/fopari_v100_protein.fa
-b9f7be3b30e435fcd21d1fb1d0f55886  /usr/local/i5k/media/blast/db/fopari_v100_rna.fa
-3bc6cf45f946ce5d9f11cde2a2f573a7  /usr/local/i5k/media/blast/db/fraocc_OGSv1.2_cds.fa
-2e8346c3f7992682a44a1215126a68d8  /usr/local/i5k/media/blast/db/fraocc_OGSv1.2_pep.fa
-b6295dfef2fa3888f5cdb19a1452745f  /usr/local/i5k/media/blast/db/fraocc_OGSv1.2_trans.fa
-d13c394b4e257fb5e12de88862fad138  /usr/local/i5k/media/blast/db/gerbue_OGSv1.1_cds.fa
-998e00cc1a906847021a1f37670c08d9  /usr/local/i5k/media/blast/db/gerbue_OGSv1.1_pep.fa
-256ae2e59878398002cfebf628974743  /usr/local/i5k/media/blast/db/gerbue_OGSv1.1_trans.fa
-f2e4c4b7635438e6d24ccc1ed14d2474  /usr/local/i5k/media/blast/db/halhal_OGSv1.2_cds.fa
-3ca3901e49c0009e1d777e1bc8809153  /usr/local/i5k/media/blast/db/halhal_OGSv1.2_pep.fa
-26ff72506de9c4693ac2eefcfd88ad10  /usr/local/i5k/media/blast/db/halhal_OGSv1.2_trans.fa
-279c52d01721bac1ddcddce68ce5383e  /usr/local/i5k/media/blast/db/helvir_OGSv1.1_cds.fa
-42c73cb122702eccdda1022d5c6657e2  /usr/local/i5k/media/blast/db/helvir_OGSv1.1_pep.fa
-77c5c523b8c1fe6e616331071c2f119c  /usr/local/i5k/media/blast/db/helvir_OGSv1.1_trans.fa
-8b2d10c5f15df50e64a57ac812e4f383  /usr/local/i5k/media/blast/db/hf_OGS1.0.cdna.fasta
-57bc64feb55fab713ab9142273da7aa7  /usr/local/i5k/media/blast/db/hf_OGS1.0.cds.fasta
-0bc606768249c0db9b412332378eea2e  /usr/local/i5k/media/blast/db/hf_OGS1.0.pep.fasta
-4ee5f8d2bb6517ac49005d1fc213a556  /usr/local/i5k/media/blast/db/hf_scaffolds_blast_ids.fa
-d407dcf7cf3af26c6d1a28b096b1c85b  /usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_cds.fa
-a24132a0b391a628bd5d92d7d04b6982  /usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_pep.fa
-ae82bbdcae5d786cda22461618311d9f  /usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_trans.fa
-330099c9513a4be4ca8a3ad73a439521  /usr/local/i5k/media/blast/db/ihOncFasc_HiC_hap1_scaffold.fasta
-6b78b40c19bd5020d55c8da32966ec2e  /usr/local/i5k/media/blast/db/ihOncFasc_HiC_hap2_scaffold.fasta
-560b4e87ef13ed1e1795bf58613f82a0  /usr/local/i5k/media/blast/db/ladful_OGSv1.0_cds.fa
-a3d5b57e845b6cc82d9395f44eca2064  /usr/local/i5k/media/blast/db/ladful_OGSv1.0_pep.fa
-6088fb7215b6c828f9a1b5222c981e5e  /usr/local/i5k/media/blast/db/ladful_OGSv1.0_trans.fa
-297c259788aba8e48b2824593583c63b  /usr/local/i5k/media/blast/db/laostr_OGSv1.2_cds.fna
-7de705f6e2ea13b7db7f0a1eefebde6b  /usr/local/i5k/media/blast/db/laostr_OGSv1.2_pep.faa
-b5a39d096c3086bea987a73c49d21127  /usr/local/i5k/media/blast/db/laostr_OGSv1.2_trans.fna
-21cbdd9c52221d4fe318a1d5c6f559c1  /usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_cds.fa
-476331ab5c9e53a7df2a8a8c28f7288b  /usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_pep.fa
-99f03039e5f08040a39dc06c9d63801f  /usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_trans.fa
-d815c68a16fdd1a2c3fdaa07fa1d8bce  /usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.cds
-dc18a0a24e390b43e3003e3079144398  /usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.mRNA.fa
-52ae6d9bd665cf1f4ae613cb00180d09  /usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.pep
-b7f3c9df4e0c1310ddbed267ca889546  /usr/local/i5k/media/blast/db/maker_genes_diaci1.1_proteins_NALmod_new_ids.fasta
-a7d74ac2c8850ecddf2325953f3db898  /usr/local/i5k/media/blast/db/maker_genes_diaci1.1_transcripts_NALmod_new_ids.fasta
-f779a8bb23a7f4688ef1da460f1a6dbd  /usr/local/i5k/media/blast/db/ms_ogs_proteins.fa
-f5ba93f35e54ca6129aeb1a3c0dd69d0  /usr/local/i5k/media/blast/db/ms_ogs_transcripts.fa
-0ac554aa064363cb56c2d0d4186299fa  /usr/local/i5k/media/blast/db/nicves_OGSv1.0_cds.fa
-fc3a3c76b9640c1acd066ca206b66300  /usr/local/i5k/media/blast/db/nicves_OGSv1.0_pep.fa
-4907cdfdd3f865660af32a010b49b6a4  /usr/local/i5k/media/blast/db/nicves_OGSv1.0_trans.fa
-23eee2e8c5cdbb68247bb6b21fd59a51  /usr/local/i5k/media/blast/db/nylful_OGSv1.1_cds.fa
-304fcb7d7bdf67dcc3feb38a5fca518a  /usr/local/i5k/media/blast/db/nylful_OGSv1.1_pep.fa
-8a8ae1093b212dbd44fe58d57509a7b0  /usr/local/i5k/media/blast/db/nylful_OGSv1.1_trans.fa
-8e1d9e7fa3a6ec57731c5b421b395784  /usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_cds.fa
-05917c84d51b9188b5bd43a1eb9f4e00  /usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_peptide.fa
-d01d7d53be74ab62af9746adee1e4c59  /usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_transcript.fa
-17117f55c4efb52f3ee67cc720c0c53d  /usr/local/i5k/media/blast/db/oruabi_OGSv1.2_cds.fa
-aae834688eee855d234de864f682840d  /usr/local/i5k/media/blast/db/oruabi_OGSv1.2_pep.fa
-2908d7309ce0f31b3815ba99a06f1a81  /usr/local/i5k/media/blast/db/oruabi_OGSv1.2_trans.fa
-b636aedd5aead2cdd13171ada49b83b5  /usr/local/i5k/media/blast/db/permai_annotations_v2023_cds.fa
-4a7db2a4c5feca83312892c0e18fcef1  /usr/local/i5k/media/blast/db/permai_annotations_v2023_pep.fa
-cae5002d0922bbb5b12d6b9f40b7fcb1  /usr/local/i5k/media/blast/db/permai_annotations_v2023_trans.fa
-81857da4614537ff4272e1c2880091a9  /usr/local/i5k/media/blast/db/tigcal_OGSv1.1_cds.fa
-365ac6fc0e8b0239f83113e3218e0797  /usr/local/i5k/media/blast/db/tigcal_OGSv1.1_pep.fa
-0debb1fc4a01d665e10adbc84b79325a  /usr/local/i5k/media/blast/db/tigcal_OGSv1.1_trans.fa
-18cb309d7d7acd6aa4346635293270a7  /usr/local/i5k/media/blast/db/tricas_OGSv3.1_cds.fa
-be7f37ecebf1fc0b3e00f410897266b5  /usr/local/i5k/media/blast/db/tricas_OGSv3.1_pep.fa
-70df7adb8168baa1c6ea1ece13caacd4  /usr/local/i5k/media/blast/db/tricas_OGSv3.1_trans.fa
+3d9011e53c1a14fa8a4387e14763c4a7,/usr/local/i5k/media/blast/db/121845_ref_Diaci_psyllid_genome_assembly_version_1.1_chrUn.fa
+0175142d1bf0866187f91ed4e4af1b97,/usr/local/i5k/media/blast/db/178035_ref_ASM127255v1_chrUn_RefSeqIDs.fa
+23f5a4ee75469ec26d52cf9cd61baf1f,/usr/local/i5k/media/blast/db/64838_ref_asm80636v1_chrun_refseq_ids.fa
+74a6db518834f843c88aa4e27be2e0de,/usr/local/i5k/media/blast/db/AROS_new_ids.faa
+43470b1f4ab53cdba6e97fd5dd227ceb,/usr/local/i5k/media/blast/db/Agla_Btl03082013.genome_new_ids.fa
+d25988ebb5584d164c3d8cb836c38f99,/usr/local/i5k/media/blast/db/BGER.faa
+87bf4ca9e5cc05e548c12d0ad05a7619,/usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_cds.fa
+93df2180ae799325f9047f6a2f8b0b61,/usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_pep.fa
+7c5ccac2ab1a956cf832033ed7aa58ab,/usr/local/i5k/media/blast/db/Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_trans.fa
+751eca58e11acd01eb4193569f7b3f4f,/usr/local/i5k/media/blast/db/Bgermanica.scaffolds.fa
+6b624f62c44658f30f611d89f06d0733,/usr/local/i5k/media/blast/db/Bradysia_coprophila.Bcop_v1.0_proteins_with_putative_function.fasta
+a5dd967156bbada8a06d7eba4d98632c,/usr/local/i5k/media/blast/db/Bradysia_coprophila.Bcop_v1.0_transcripts_with_putative_function.fasta
+fc2fe853aa73fdca475c084e42b75eb9,/usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_cds.fa
+e0b4121a1f1a856bbd61483b655d65f7,/usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_pep.fa
+2565f4ed6248457335472aa20f7e4f9c,/usr/local/i5k/media/blast/db/CAQU.Models-Caqu_2.0_trans.fa
+c8172063406e4055f178543d11b6e36c,/usr/local/i5k/media/blast/db/Clec_Bbug02212013.genome_new_ids.fa
+59313d2e730cedaea240efbb0e4b3118,/usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_cds.fa
+0f94c24c4a7611ec98ca2f9060618ab3,/usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_pep.fa
+d2a0a92e0742fb3127fa051f8a79be7b,/usr/local/i5k/media/blast/db/Clitarchus_hookeri_Maker_annotations_trans.fa
+cffd685f84dd2e80126a2362bd2bbf47,/usr/local/i5k/media/blast/db/DTAK.faa
+fd8c311b0262b96ac62d7c7992b093f1,/usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_cds.fa
+42d11e652fa890f0a40f3066ea93bb67,/usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_pep.fa
+436e79c3ce234079a568a373d3c6aa21,/usr/local/i5k/media/blast/db/Dcitr_OGSv1.0_rna.fa
+0f8eb95a9ea2b1569d62d791415317f1,/usr/local/i5k/media/blast/db/Diacit_refseq_protein.fa
+a34a4c416ec70da65f4fbf20b6a4cf88,/usr/local/i5k/media/blast/db/Diacit_refseq_rna.fa
+295784e4e2f58ed3cc14d07368d9dc1b,/usr/local/i5k/media/blast/db/Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_CDS.fna
+df16d2f72510f5cfec3624bb9436220a,/usr/local/i5k/media/blast/db/Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_peptide.faa
+bac5494540a64edb8c8b3712ae11d2b5,/usr/local/i5k/media/blast/db/EAFF_new_ids.faa
+cb401df30a03007c1bd2ada255f9b327,/usr/local/i5k/media/blast/db/EAFF_new_ids.fna
+7a08ba5f8ff7c5451e1dc8cb635a3f04,/usr/local/i5k/media/blast/db/Eaff_11172013.genome_new_ids.fa
+af06d0f71caf8aee8d780a2f6c715c75,/usr/local/i5k/media/blast/db/Edil_v1.0_peptide.fa
+a5f919da0632a1282ad4899ce577e17c,/usr/local/i5k/media/blast/db/Edil_v1.0_transcripts.fa
+6601503467f5b45814b3158142a4d064,/usr/local/i5k/media/blast/db/GBUE_new_ids.faa
+80c1d801bbbac89008ab1d7227bcfee5,/usr/local/i5k/media/blast/db/GBUE_new_ids.fna
+7e817340e2bfa5717131fb0501d78fb2,/usr/local/i5k/media/blast/db/GCA_000346575.1_ASM34657v1_genomic_GenBankIDs.fna
+060a7a7ffeaf24e0f44d6ee7d35ee05f,/usr/local/i5k/media/blast/db/GCA_000376725.2_Lful_2.0_genomic.fna
+aa3bb6f91d1341fd05743cc7f08c45f1,/usr/local/i5k/media/blast/db/GCA_000507165.2_Edan_2.0_genomic.fna
+0f8842e4846bc05a04e51da9a833c0df,/usr/local/i5k/media/blast/db/GCA_000696795.3_Hhal_1.1_genomic.fna
+44c2152baf2c39092fe1f0c35d16dd72,/usr/local/i5k/media/blast/db/GCA_000696855.1_Hvit_1.0_genomic.fna
+b8a5132525f327e33d4ae8427ec9c04e,/usr/local/i5k/media/blast/db/GCA_000697925.1_Lhes_1.0_genomic.fna
+396ac5985510843e5ddf1b858c6b4c9c,/usr/local/i5k/media/blast/db/GCA_000934665.2_Caqu_2.0_genomic.fna
+afd020cdb470df63a6f3bdd580ff5cb8,/usr/local/i5k/media/blast/db/GCA_001188405.1_Lrec_1.0_genomic.fna
+85e39c3fd2d1a720295aa24d1a822b50,/usr/local/i5k/media/blast/db/GCA_001263275.1_ASM126327v1_genomic_GenBankIds.fna
+5b69af98cba5a3e47c1ad999e9f3ee5c,/usr/local/i5k/media/blast/db/GCA_001263275.1_ASM126327v1_protein.faa
+9040b876b9c4c88bec8e8ebeba3f63a3,/usr/local/i5k/media/blast/db/GCA_001276565.1_ASM127656v1_genomic_GenBankIDs.fna
+f32954af31b00d130f3a8a18f91781f0,/usr/local/i5k/media/blast/db/GCA_001276565.1_ASM127656v1_protein.faa
+d9548c0a9bac0b0f6a36c576be240d8b,/usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_cds_from_genomic.fna
+a550e93aad35064a78e6e0c5b6e98c8e,/usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_genomic.fna
+75a808cb969329225920476abc8fb0de,/usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_rna_from_genomic.fna
+c07187c05d987c98d67646ba4a7fd5c3,/usr/local/i5k/media/blast/db/GCA_002192655.3_ASM219265v3_translated_cds.faa
+74572a87e4fae869780b782a52f63b41,/usr/local/i5k/media/blast/db/GCA_002382865.2_ASM238286v2_genomic.fna
+16f3b22b3ee7b61cddfe3d9465cfd087,/usr/local/i5k/media/blast/db/GCA_002738285.1_ASM273828v1_genomic.fna
+0c9966f44aed2ed5184ada675a540300,/usr/local/i5k/media/blast/db/GCA_002778355.1_ASM277835v1_genomic_over_1000.fna
+70ee53e9bb06a0bd4be87a0b7e9cf507,/usr/local/i5k/media/blast/db/GCA_003012365.1_ASM301236v1_genomic.fna
+08ed893a6a48c141975df981773f30bb,/usr/local/i5k/media/blast/db/GCA_003335185.2_ASM333518v2_genomic.fna
+97b03f353a793a5ea7ddb5aa223d445c,/usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_cds_from_genomic.fna
+37ddf9905a6405ea694f4203748cc100,/usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_genomic.fna
+270a8cd89be1f96d1b40d48eb7f85f3b,/usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_rna_from_genomic.fna
+018613e916acbdb47d8cee9884861aa9,/usr/local/i5k/media/blast/db/GCF_000188095.3_BIMP_2.2_translated_cds.faa
+275bcfe4c8ae6137548655be94d6793d,/usr/local/i5k/media/blast/db/GCF_000220905.1_MROT_1.0_genomic_RefSeqIDs.fna
+6f5f7d265b06dfa83e79b422022b6956,/usr/local/i5k/media/blast/db/GCF_000224235.1_Dtak_2.0_protein.faa
+61bd96b7be33b6396579ecacf79f4a2e,/usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_cds_from_genomic.fna
+0393469b9ad8d2303dfd2d92c2747656,/usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_genomic.fna
+6b203f0884dfa52ecc87da13c4b441c2,/usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_rna_from_genomic.fna
+8e821cbc60cfaed8dfaf0990ab0952e3,/usr/local/i5k/media/blast/db/GCF_000341935.2_Ccin1v2_translated_cds.faa
+a5f39fb9af4acb40890b6c53bfbf248f,/usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_cds_from_genomic.fna
+be994d34dac7eb0d37cfa928d2abdc9c,/usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_genomic.fna
+84188a3bc55a3a6d53550822860e3731,/usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_rna_from_genomic.fna
+fa414c6b1eec9a22fbb665946d52037d,/usr/local/i5k/media/blast/db/GCF_000347755.3_Ccap_2.1_translated_cds.faa
+3ed34ea18ffb57d77bfd55b1fed3f01f,/usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_cds_from_genomic.fna
+307835365c86a774565f3a85723d6edd,/usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_rna_from_genomic.fna
+0afc3da426a61b606acfb251f2aed6e7,/usr/local/i5k/media/blast/db/GCF_000390285.2_Agla_2.0_translated_cds.faa
+f432768644841fd93c25135163c87727,/usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_genomic.fna
+c9c4e52ed3d4a864aa7ea728d90da1dd,/usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_protein.faa
+d673fa196298d6fb0757b429722bedac,/usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_rna.fna
+dea5444e1e97313823e2d2497612213d,/usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_rna_from_genomic.fna
+2220cea4e78f2269852781a9218298cf,/usr/local/i5k/media/blast/db/GCF_000500325.1_Ldec_2.0_translated_cds.faa
+6946a985b50158db1dfd6177d5ab894e,/usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_cds_from_genomic.fna
+6101be8a47eec9622d07c1cf6bf0d53d,/usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_genomic.fna
+94a48ace4106e0e9264a81c42cee3b4f,/usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_rna_from_genomic.fna
+e89141f2d124664456468c0a5f5dfa2a,/usr/local/i5k/media/blast/db/GCF_000599845.2_Tpre_2.0_translated_cds.faa
+ad688b201e693a333c33c5335201244f,/usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_cds_from_genomic.fna
+b7af675a05071d1e2deadbe91863a06d,/usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_genomic.fna
+2c64edacee9806b3615bed90152d6e4c,/usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_rna_from_genomic.fna
+d0878e76076ab4994d2e461e4cfe6b6f,/usr/local/i5k/media/blast/db/GCF_000612105.2_Oabi_2.0_translated_cds.faa
+bc3332e04094f1399a1dd72963a766c6,/usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_cds_from_genomic.fna
+5736f4a6109071e3a57be3c62a5d18e9,/usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_genomic.fna
+6ea971bd4665bed2a476a53356dfa536,/usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_rna_from_genomic.fna
+b86922a4cdeeccec9879281196d18060,/usr/local/i5k/media/blast/db/GCF_000648655.2_Cflo_2.0_translated_cds.faa
+6bcc600e0ad68022c5a58f3dab576d90,/usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_cds_from_genomic.fna
+4b0a35863e1de5e4f1611483e3d597ec,/usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_rna_from_genomic.fna
+850592908390792e214ae5785f4b8651,/usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_translated_cds.faa
+98226a66eef0df50587da564a1598c0f,/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_cds_from_genomic.fna
+a26763f2976c751c2a9de3c9ef6660fd,/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_genomic.fna
+e4a2d40dc347b2ced9c930a90a0240bf,/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_rna_from_genomic.fna
+06ebe654ce985fddc950ba3003028ecb,/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_translated_cds.faa
+b47e81acfb52dc4d6322c1a55899277b,/usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_cds_from_genomic.fna
+fd7d095a2eb18d45b81c6ab76c20d1a9,/usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_genomic.fna
+9976c66b97f21d925a5c3f6cff2ffc31,/usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_rna_from_genomic.fna
+95e7f273991e1ce967e881e3da7f8934,/usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_translated_cds.faa
+646600a8d76ee7283b4e29533f1e0c8e,/usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_cds_from_genomic.fna
+4d1af321f7762c8dce93872f75f24b3d,/usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_genomic.fna
+49cafa2816d654fec183e1ce0f5a53e8,/usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_rna_from_genomic.fna
+5278f3c4ef38415b952507b7c3c6fffd,/usr/local/i5k/media/blast/db/GCF_000697945.3_Focc_3.1_translated_cds.faa
+28707dd0d7691d4952a5e473dd83e2bb,/usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_cds_from_genomic.fna
+c1710ef038e6a2d2094bfd14ec3c290c,/usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_genomic.fna
+67582be51c1a00b7724c638f7c4116ee,/usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_rna_from_genomic.fna
+135435dfaf7c322fd4e9cbeec1f33af7,/usr/local/i5k/media/blast/db/GCF_000699045.2_Apla_2.0_translated_cds.faa
+56c743a15eb51a4979e97a18c669df42,/usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_cds_from_genomic.fna
+4fb0a4146852ee596094822f3706333e,/usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_genomic.fna
+63dc7f6e9c580f1e8f634a0e44f75d29,/usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_rna_from_genomic.fna
+988da910a7ec5d6f1863e30aa1c1ab59,/usr/local/i5k/media/blast/db/GCF_000764305.2_Hazt_2.0.2_translated_cds.faa
+56fba7ca81b10fcf6b54816ffd825a1d,/usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_cds_from_genomic.fna
+cd3d954dc3b64b9412bf85f4fa150885,/usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_genomic.fna
+9d2d064b1520b8630f432e4e846ceb9f,/usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_rna_from_genomic.fna
+fe59f04063a9f9179818c6d5765375e6,/usr/local/i5k/media/blast/db/GCF_001188975.3_MU_Boleae_v2_translated_cds.faa
+eb9fa095221351389b6faa69693ffe3e,/usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_cds_from_genomic.fna
+9c4a6efe967757e5049dc47e051b33d8,/usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_protein.faa
+77618761991aa4f9fa6be0c912872265,/usr/local/i5k/media/blast/db/GCF_001412225.1_Nicve_v1.0_rna_from_genomic.fna
+ce29673a615f3d7ec7215b9c45fbef07,/usr/local/i5k/media/blast/db/GCF_001412225.1_Nicves_v1.0_genomic_RefSeqIDs.fna
+b6a1e3a6bdb4233433b8ce578e4b7ede,/usr/local/i5k/media/blast/db/GCF_001412515.1_Dall1.0_protein.faa
+882540b1a719444859ca8b7b5563a025,/usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_cds_from_genomic-idupdate.fna
+062acade379426c8425df6a24b886043,/usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_genomic.fna
+87beebc5334032c1b1e07bfd77f0d083,/usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_rna_from_genomic-idupdate.fna
+298fffecced4893da3ee776244b9b072,/usr/local/i5k/media/blast/db/GCF_001412515.2_Dall2.0_translated_cds-idupdate.faa
+dfba2964510be3ff667a7540b9a3e15f,/usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_cds_from_genomic.fna
+5767077a29ac5fa3f82327bef691a637,/usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_genomic.fna
+b7eedb070372b0dfc28d17300a088d7f,/usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_rna_from_genomic.fna
+56400f80ec04b2a37e23067f230a912e,/usr/local/i5k/media/blast/db/GCF_001483705.2_ASM148370v2_translated_cds.faa
+f2b42a1ed8511108626ec40e9bdbc25f,/usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_cds_from_genomic.fna
+8dc8dae825fe764ca8a3f0c1facfb0aa,/usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_genomic_RefSeqIDs.fna
+ac72cd69dc5b4c68456fb12c37de8fc3,/usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_protein.faa
+fca19d9405c7788f616b6d62c2a6c40d,/usr/local/i5k/media/blast/db/GCF_001687245.1_Rhagoletis_zephyria_1.0_rna_from_genomic.fna
+8cd1ca3010e7159ea370abba292cbbbb,/usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_genomic.fna
+636698f7c9d5f652a89ff44358e89a72,/usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_protein.faa
+6cab433193e1cc65babbd251f1513fd0,/usr/local/i5k/media/blast/db/GCF_001854935.1_ASM185493v1_rna.fna
+e022a6b2c7292d7d3c9785e7eead495b,/usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_genomic_RefSeqIDs.fna
+d61c720365d87cac81122e60e1a888df,/usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_protein.faa
+67e7f02b028e021cf8e9871a1d049df7,/usr/local/i5k/media/blast/db/GCF_001937115.1_Atum_1.0_rna_from_genomic.fna
+9b97b129c688749bd520b15e469e5706,/usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_cds_from_genomic.fna
+61dec228af58cba51ede09325ed1f820,/usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_genomic.fna
+b85139d26344b4b407264256d9cc0f2b,/usr/local/i5k/media/blast/db/GCF_002443255.1_Vdes_3.0_translated_cds.faa
+6314195de61e7c656038a385e95caabb,/usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_cds_from_genomic.fna
+fdbda792735b59b02e821e477aa99e45,/usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_genomic.fna
+3479399a0a8c9de7dd364986b563e0d0,/usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_rna_from_genomic.fna
+4a95e4efb6434b8c79558bd68b792b53,/usr/local/i5k/media/blast/db/GCF_002443255.2_Vdes_3.0_translated_cds.faa
+bdfa8d1cbb7e85767158552e2613cc53,/usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_cds_from_genomic.fna
+31b068e955b1fe27a725bd2d675ccf92,/usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_genomic.fna
+bcf2fd8643d3c47c89852fc5b26bc5d4,/usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_rna_from_genomic.fna
+23fd9e3e9c402c73f5b1789cb9f51730,/usr/local/i5k/media/blast/db/GCF_002532875.2_vjacob_1.0_translated_cds.faa
+2cc969bbca00e7fca20ee43b69f69a2c,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_cds_from_genomic-idupdate.fna
+3f6453b267e5654319f450b37444caa4,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_genomic.fna
+30aca5a312f2190d45f3da8f3ce547b2,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_rna_from_genomic-idupdate.fna
+80c7833cf9c900d279478a568abdae5f,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_translated_cds-idupdate.fna
+1b4166a63d36b4884fbb0577f65d209d,/usr/local/i5k/media/blast/db/GCF_003013835.1_Dvir_v2.0_translated_cds.faa
+1e2f9dcf87a762627eb17e4c58b7d108,/usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_cds_from_genomic.fna
+48e1bb3cde60a06d140621afc92b45d9,/usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_genomic.fna
+23f3657729ccd0e295e00511c6deaf3d,/usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_rna_from_genomic.fna
+84803cf048010c94827a94707751c33c,/usr/local/i5k/media/blast/db/GCF_003254395.2_Amel_HAv3.1_translated_cds.faa
+e533492c3f0b566bcf7ec85fec6fbb86,/usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_cds_from_genomic.fna
+b9192f0681b4dee25150322b784da080,/usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_genomic.fna
+2847b651d9b1c36a0f01ee483b561676,/usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_rna_from_genomic.fna
+e914a1e1a0bc874f002b5e3d806e0ca6,/usr/local/i5k/media/blast/db/GCF_005281655.2_TAMU_Nfulva_1.1_translated_cds.faa
+3341dbdc53bcb964e59b3e81ff1a68b4,/usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_cds_from_genomic.fna
+4d12d29e3513da7c5e86b393cf298ce5,/usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_genomic.fna
+77836fb7264f2e7eebf937152cb7af87,/usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_rna_from_genomic.fna
+d11fb9d19a4f79334901e373c79d6b72,/usr/local/i5k/media/blast/db/GCF_007210705.1_Tcal_SD_v2.1_translated_cds.faa
+36bb50a7419b3168536ec94d59140ca9,/usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_cds_from_genomic-idupdate.fna
+8cc70954d624f5e6842119022ce33170,/usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_genomic.fna
+74cbc48b69fc44ae638482b716f2a39b,/usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_rna_from_genomic-idupdate.fna
+be7f453c9f78c6a5c544c6ed6d681204,/usr/local/i5k/media/blast/db/GCF_008802855.1_Ppyr1.3_translated_cds-idupdate.faa
+11e87b814a4abb756eaf223b692d1fe9,/usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_cds_from_genomic-idupdate.fna
+ad71947b5f28c7180e0a19e6ba85419b,/usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_genomic.fna
+5a013bb3af3527f88a418d8c0d35b3f6,/usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_rna_from_genomic-idupdate.fna
+01e4756525a60dbc3651e836c562a3ae,/usr/local/i5k/media/blast/db/GCF_009176525.2_AAFC_CNas_1.1_translated_cds-idupdate.faa
+2b75ef7d0215627d2506dd6e7c106021,/usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_cds_from_genomic-idupdate.fna
+ec273c843c7b0f4aec9abaf7548a29c4,/usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_genomic.fna
+f438b85d7bccd8dca0a391e933e96e95,/usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_rna_from_genomic-idupdate.fna
+b00ebf74ade63eb48a2654886fd58353,/usr/local/i5k/media/blast/db/GCF_010583005.1_Obru_v1_translated_cds-idupdate.faa
+ee1c27f27cb0118e568d01eeda45098e,/usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_cds_from_genomic-idupdate.fna
+afb996df496a1b7153da000ebf2c7a7f,/usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_genomic.fna
+a5296bca98613f78d381f63662338257,/usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_rna_from_genomic-idupdate.fna
+382d58716a9cc287ca3c15cc932831b9,/usr/local/i5k/media/blast/db/GCF_012274295.1_USDA_OLig_1.0_translated_cds-idupdate.faa
+42895772f654078d6907eaba84612bc3,/usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_cds_from_genomic.fna
+9167daef2792fe1e6d6a20d4032335ea,/usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_genomic.fna
+ea99f237a570b2a9755ebd3b14e7e380,/usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_rna_from_genomic.fna
+65c9e11a24238f1380bb498477a11773,/usr/local/i5k/media/blast/db/GCF_013339725.1_ASM1333972v1_translated_cds.faa
+920676bd63b39de1acb189a883cbef82,/usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_cds_from_genomic-idupdate.fna
+a603eb9c7598f32e9217e5fc250b8c98,/usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_genomic.fna
+0a49c6bffc23bd88c6e135e3514eea0f,/usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_rna_from_genomic-idupdate.fna
+0d676db02a13640752fd33e0bccea03d,/usr/local/i5k/media/blast/db/GCF_013357705.1_ASM1335770v1_translated_cds-idupdate.faa
+e50c551782a06d2d949e627bd48e44d0,/usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_cds_from_genomic.fna
+fba5d8ac9c4a323ab7f1b9636f437b37,/usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_genomic.fna
+240740243fb13b15a6e7ad941ac440ba,/usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_rna_from_genomic.fna
+01c06bfe9961a6beabaeca920aca3ad9,/usr/local/i5k/media/blast/db/GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_translated_cds.faa
+c52eb8b0c2db0d79c31765b90a9fc555,/usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_cds_from_genomic.fna
+2553537805c703f062db28e9ae30935f,/usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_genomic.fna
+afec1670ce9a1d860c16a3d6644d59fa,/usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_rna_from_genomic.fna
+80c7d3f99876d620bfc30ddd0e21a533,/usr/local/i5k/media/blast/db/GCF_014529535.1_BU_Bcop_v1_translated_cds.faa
+731b2dca30ee6ef7f6ace210289b2e8f,/usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_cds_from_genomic-idupdate.fna
+86af2cd691f8c106389aba1bf96c406f,/usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_genomic.fna
+863adbca42e654a708fc8d1ce39e41f4,/usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_rna_from_genomic-idupdate.fna
+20de33f771a7efec0095586510258f87,/usr/local/i5k/media/blast/db/GCF_014839805.1_JHU_Msex_v1.0_translated_cds-idupdate.faa
+e6d6fa5a42b2f6bad5025b3dc75eae83,/usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_cds_from_genomic.fna
+7e9a9611c3ce7315859621e7013ebf1a,/usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_genomic.fna
+16e20cafdd0a42d907ab56d405622045,/usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_rna_from_genomic.fna
+5213c14b9e818517c6a58c12ef8ae43a,/usr/local/i5k/media/blast/db/GCF_015345945.1_Tmad_KSU_1.1_translated_cds.faa
+06aebb75a1753f2a17d548af0053d366,/usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_cds_from_genomic-idupdate.fna
+9015643e5ffd377f5a538b99fd4e7398,/usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_genomic.fna
+08f283a727d3f508fe4e2ec24ecaf3fb,/usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_rna_from_genomic-idupdate.fna
+247bba2445cdf76eef4356606f517271,/usr/local/i5k/media/blast/db/GCF_015586225.1_ASM1558622v1_translated_cds-idupdate.faa
+c50bc3d2963f54b4144ac49f18709814,/usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_cds_from_genomic-idupdate.fna
+9fb613949a80efc37c95a4ec485a87bf,/usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_genomic.fna
+eea5345e81831afa5bc9184aa02939ce,/usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_rna_from_genomic-idupdate.fna
+e20cc442d22613c2d4bba42fc1a40b66,/usr/local/i5k/media/blast/db/GCF_018152115.1_ASM1815211v1_translated_cds-idupdate.faa
+da8b750772e7509c5ebd81c89c73e24a,/usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_cds_from_genomic.fna
+31f4f89e2d19c9306113a3e44035d9ad,/usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_genomic.fna
+f0ba2ddb18592f56ff0fba46b52b3ebb,/usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_rna_from_genomic.fna
+92229797c7b4902f5ae9a67598b225e4,/usr/local/i5k/media/blast/db/GCF_018152265.1_ASM1815226v1_translated_cds.faa
+66ea39a2cfe8234924711ae5e85431ea,/usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_cds_from_genomic.fna
+f46b4a18f93e71aec5f1f0b32a8a8927,/usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_genomic.fna
+a7b1d2487e02d71929d009dfe34617a7,/usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_rna_from_genomic.fna
+b7e184f606f6c4cb4a27c92f6ba078f5,/usr/local/i5k/media/blast/db/GCF_018152505.1_ASM1815250v1_translated_cds.faa
+5828cf39eafe1b203ac5ffdae25a0510,/usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_cds_from_genomic.fna
+1097b68995d01794191349d5da901de1,/usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_genomic.fna
+4132bd1434fb7f61b6063f8304dd5d8b,/usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_rna_from_genomic.fna
+f3433ca5db3ac2e51cec6d49d6920a31,/usr/local/i5k/media/blast/db/GCF_018152535.1_ASM1815253v1_translated_cds.faa
+f6081043701572c867ed3294a7946883,/usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_cds_from_genomic-idupdate.fna
+e92bbbba9ae89b4c0dfc22368e1097e2,/usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_genomic.fna
+5e0b01f302fb0edd3807422c3af7699f,/usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_rna_from_genomic-idupdate.fna
+1ecead770b39d07fca098f73e585740c,/usr/local/i5k/media/blast/db/GCF_018152695.1_ASM1815269v1_translated_cds-idupdate.faa
+43b597f4494a4768e25c0be9676e403f,/usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_cds_from_genomic.fna
+0e05be6b478fed8f448338d3a5f37748,/usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_genomic.fna
+31ee269094429a83eb6621297fe552a2,/usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_rna_from_genomic.fna
+191da5dc10ea1a1411721a3b0e47dc68,/usr/local/i5k/media/blast/db/GCF_018153835.1_ASM1815383v1_translated_cds.faa
+2b0a4731cc9bbf6a3e7d8aa8d750d3a5,/usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_cds_from_genomic.fna
+fb8b88c9fa2e4d51c7cfb8aeac7d50ac,/usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_genomic.fna
+bf0ec73964acd718cc03f5c9cbe227f2,/usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_rna_from_genomic.fna
+2e6f8e49dc86eb0a6ec9f4052faf4da4,/usr/local/i5k/media/blast/db/GCF_018153845.1_ASM1815384v1_translated_cds.faa
+7e4ba58c06c2eb8235f493d00c0f8bd7,/usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_cds_from_genomic.fna
+04d76d9b3f435737c2b4b1df2334427e,/usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_genomic.fna
+b0d8b36f29e0b93661a0b20a10b448d2,/usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_rna_from_genomic.fna
+cc9370bd66ea1b3ddd4cb09838ad90ba,/usr/local/i5k/media/blast/db/GCF_019457755.1_ASM1945775v1_translated_cds.faa
+3f16f2d6d66e9563c92d2750a2ca0755,/usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_cds_from_genomic.fna
+83b45f8c32d33aba82da056fd7f4037a,/usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_genomic.fna
+0eacaf93025143655633be386316f794,/usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_rna_from_genomic.fna
+ba29d9bb7508c2310e4ecad1fc82bbe4,/usr/local/i5k/media/blast/db/GCF_021155765.1_iyDipSimi1.1_translated_cds.faa
+2a9057d92356eb0ad6dd26bd5e0a6868,/usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_cds_from_genomic.fna
+116a1be7c845fd93d8104d79e2821f77,/usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_genomic.fna
+0df6f3a45def6d6da5ab7a0958f3d68c,/usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_rna_from_genomic.fna
+a40e3c0caeb0e0a017408a448c99fd47,/usr/local/i5k/media/blast/db/GCF_021155775.1_iyNeoPine1.1_translated_cds.faa
+98207083a424d6bde1be3b3695f0662a,/usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_cds_from_genomic.fna
+e92b4ec6e7bb14150d37d56d74291955,/usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_genomic.fna
+cd04aad00b01103e29c8f908dd9f06b8,/usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_rna_from_genomic.fna
+7854df3f053532c1e33a050ee07cd674,/usr/local/i5k/media/blast/db/GCF_021155785.1_iyNeoFabr1.1_translated_cds.faa
+4bbc21a30625f94d44721cced65094a6,/usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_cds_from_genomic.fna
+78642ea2bc69bb7e899849b8c0a4a5ec,/usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_protein.faa
+c11d029922be1a8f3299ef4d5c1846f4,/usr/local/i5k/media/blast/db/GCF_021461385.2_iqSchPice1.1_rna.fna
+ec28b4710d525ecd65d283034bfdff71,/usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_cds_from_genomic.fna
+aa0ab666f2a564ac4eef2d1b5f7b231d,/usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_protein.faa
+d6d80dfffb0f8a3dee60a097eef00019,/usr/local/i5k/media/blast/db/GCF_021461395.2_iqSchAmer2.1_rna.fna
+3a7cb1c31ecdf0d4a35a96db6d19c8f4,/usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_cds_from_genomic.fna
+cbdaa522ac5adf88e6dd145a54272424,/usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_genomic.fna
+408cf30bd556c928d0ae52e50ad598b5,/usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_rna_from_genomic.fna
+40d9877c3729879dc728e8d125c88532,/usr/local/i5k/media/blast/db/GCF_021901455.1_iyNeoLeco1.1_translated_cds.faa
+cdf0cfe9f13b359c8f54973edeab8d41,/usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_cds_from_genomic.fna
+eead9caf5c7d0fc5a67d1d40a860cacb,/usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_genomic.fna
+908c5fc93ced4e44422c8406e097de70,/usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_rna_from_genomic.fna
+20527d8e9e1bb51b00191841ba04cab3,/usr/local/i5k/media/blast/db/GCF_021901495.1_iyNeoVirg1.1_translated_cds.faa
+efa4f39f3ec47e95a3d5d5492552904f,/usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_cds_from_genomic.fna
+02911e5a059cf639f44b5fba93f0fec9,/usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_genomic.fna
+0f391538594c72b04c569b8e7f77da21,/usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_rna_from_genomic.fna
+449822b148ef8d5c406686541809f5ee,/usr/local/i5k/media/blast/db/GCF_022581195.2_ilHelZeax1.1_translated_cds.faa
+936d08896732fa92970988a76a777149,/usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_cds_from_genomic.fna
+417918029eb89b4ac47c48d6a6cbbc1a,/usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_genomic.fna
+553bafff3976bcf7672217eb4560bbef,/usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_rna_from_genomic.fna
+8ea8996718815532bc354dee75c6cbc6,/usr/local/i5k/media/blast/db/GCF_022605725.1_icAntGran1.3_translated_cds.faa
+9edc748e53fdab26a67e81f2aa9b5d98,/usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_cds_from_genomic.fna
+8e2eda7e0ced105928a52c46943bf139,/usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_genomic.fna
+cb79dc3cd289c07fc60114882b7b241d,/usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_rna_from_genomic.fna
+ddce3e2ae97071f1830d6184f69d21a5,/usr/local/i5k/media/blast/db/GCF_023078275.1_LegGlyc_1.1_translated_cds.faa
+74d2445074f68f47f7c2d80dc56c010c,/usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_cds_from_genomic.fna
+8e0c3c618b95a355b12e97e42b79b67f,/usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_genomic.fna
+755c9b2499e9f8980bffa10a2270ed64,/usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_rna_from_genomic.fna
+90c49bc8341a3672638949e3d1616512,/usr/local/i5k/media/blast/db/GCF_023373825.1_ASM2337382v1_translated_cds.faa
+a79aaa43a9ef1544f3dc4a10dd7f7028,/usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_cds_from_genomic.fna
+8856703de6901c13b060e69c23cc8964,/usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_genomic.fna
+a0f89ed6d245228de148631e53adbddf,/usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_rna_from_genomic.fna
+26d698c1852cca4d325a4e12a3d93af7,/usr/local/i5k/media/blast/db/GCF_023375885.1_qqDerAnde1.2_translated_cds.faa
+92aa09dfde5bf98896304ac2d8204e4b,/usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_protein.faa
+518f26ddd153433e10f35d0a46712ca5,/usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_rna.fna
+17b27eed93a597a0e85c4a4ce6b1c851,/usr/local/i5k/media/blast/db/GCF_023864275.1_iqSchCanc2.1_rna_from_genomic.fna
+c35e59633605f7560dfb08214865c087,/usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_cds_from_genomic.fna
+51fd2dad49031bae136a0f2b6206ff0a,/usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_protein.faa
+ad6ebe2450d540b110c52fca4c0f9bae,/usr/local/i5k/media/blast/db/GCF_023864345.2_iqSchSeri2.2_rna.fna
+e538b65070cfefa8aa75b5573809c6e6,/usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_cds_from_genomic.fna
+74485070c3828335ab4993d17992839a,/usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_protein.faa
+67ee71593fc5025eb47755c4507866c2,/usr/local/i5k/media/blast/db/GCF_023897955.1_iqSchGreg1.2_rna.fna
+caaaa9575db2e6e2d9a46471ccc93d65,/usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_cds_from_genomic.fna
+90ced053c13d64d16725477803534952,/usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_protein.faa
+ca8d00fb8bd724d69e5480cb8d953b3d,/usr/local/i5k/media/blast/db/GCF_023898315.1_iqSchNite1.1_rna.fna
+d13e1a9392964430f88fde3431a7b3a3,/usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_cds_from_genomic.fna
+d15ee562ea87dcea98021002b1ea9363,/usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_genomic.fna
+e22b95ea5afeeb9026af7a5410c340f4,/usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_rna_from_genomic.fna
+55d2fc0ecffbbf1af9d2f72c46d1d7fa,/usr/local/i5k/media/blast/db/GCF_024362695.1_ilPecGoss1.1_translated_cds.faa
+fadf2075f540ef40e8215d459d0e3b81,/usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_cds_from_genomic.fna
+341c9d5af6da9b661526bb442e0f04e3,/usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_genomic.fna
+5d3c7726f59e36d61f1af65b5174d11e,/usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_rna_from_genomic.fna
+a3bae64d5584cbf232c5a0745613801f,/usr/local/i5k/media/blast/db/GCF_024364675.1_icAetTumi1.1_translated_cds.faa
+de1825dbc005fff177baf8b7e94f4b48,/usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_cds_from_genomic.fna
+a021fd6a0f3b28709ac29666d7c65441,/usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_genomic.fna
+61246e0c3df9f7e0b9e99d43dbeaa60c,/usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_rna_from_genomic.fna
+9b244286d7351bcb4add859dff18f978,/usr/local/i5k/media/blast/db/GCF_024516045.1_iyBomAffi1.2_translated_cds.faa
+8b1cc13788e866f82deeafc6851f523e,/usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_cds_from_genomic.fna
+e30ae54ab2d1035b9d1469776f895c95,/usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_genomic.fna
+ab52c3c59314ba295f5fea03043d0c3b,/usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_rna_from_genomic.fna
+d7e24cd1b68889abc51ee50fecfa4abb,/usr/local/i5k/media/blast/db/GCF_024542735.1_iyBomHunt1.1_translated_cds.faa
+411f4678cc111d96d056e9c31977265e,/usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_cds_from_genomic.fna
+8ad8a9760dab8a6d50a0c0079647e003,/usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_genomic.fna
+5af299481eb10b8c38539d137a290f42,/usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_rna_from_genomic.fna
+c55509747e9c1d3f066f3e50be1c8aa9,/usr/local/i5k/media/blast/db/GCF_025231255.1_RU_DBia_V1.1_translated_cds.faa
+eea2930ab9ed385ce7c61e74a4baf2e4,/usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_cds_from_genomic.fna
+72ee9c63f8f738693086bb13bff4de84,/usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_genomic.fna
+ea68c56c6344afa2a8ccb369896ef48f,/usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_rna_from_genomic.fna
+2b628a872a1658f4cd231f9134bb4d5e,/usr/local/i5k/media/blast/db/GCF_026212275.2_iyMicDemo2.1a_translated_cds.faa
+1edc563cdfae6f49b3a367f1c890e498,/usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_cds_from_genomic.fna
+5c7a6351db73e3e3a5b7a1a5184cba9b,/usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_genomic.fna
+77c3ccebfe397839f03fd337fe144c7e,/usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_rna_from_genomic.fna
+96c979f74a34b808834983e14ddbd288,/usr/local/i5k/media/blast/db/GCF_026225885.1_UHH_iyHylAnth1.0_haploid_translated_cds.faa
+0f0094ffa21d8022af6c892fe10cd784,/usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_cds_from_genomic.fna
+e5dfefcea74f449749da5d626b3453da,/usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_genomic.fna
+4d1c2b7f602905ad423c52ba5e7d302e,/usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_rna_from_genomic.fna
+db04825be367472de99801024c377705,/usr/local/i5k/media/blast/db/GCF_026230105.1_icDioSubl1.1_translated_cds.faa
+8ae7012ad4ef0725183b4c71d0ab2758,/usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_cds_from_genomic.fna
+c2262d144728a195e0774fa705ca990b,/usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_genomic.fna
+3b5c3152507b687f4989b48884b2e667,/usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_rna_from_genomic.fna
+281964cfb5f3ef73cbb082d3bcef8694,/usr/local/i5k/media/blast/db/GCF_026250575.1_icDioCari1.1_translated_cds.faa
+c88a2214f2e67db8328ac12acaa3b15f,/usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_cds_from_genomic.fna
+843d54029695cfbadac55fe4a9e3978c,/usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_genomic.fna
+6c081a0c7a227737fda65c461f4b01ed,/usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_rna_from_genomic.fna
+c33ff5ff10481b07345e55bebf2a4fe1,/usr/local/i5k/media/blast/db/GCF_026283585.1_UHH_iyHylVolc1.0_haploid_translated_cds.faa
+ff2fae70a4804792f05bf0a5b05a857e,/usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_cds_from_genomic.fna
+b6c256edf48f3fc318f962218a50d463,/usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_genomic.fna
+599a3271a1bb2c824a602cbb0054c58f,/usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_rna_from_genomic.fna
+8144595d71e36450aa2bafdc8c87ac52,/usr/local/i5k/media/blast/db/GCF_026898425.1_CSIRO_AGI_GalMel_v1_translated_cds.faa
+bda4df666105f6ba9d2a098b7cef6259,/usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_cds_from_genomic.fna
+018acca98dee252660b9b33648db22c4,/usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_genomic.fna
+f37d070e0e1878e20e095c48c9ee15c9,/usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_rna_from_genomic.fna
+2c564ba7019d2c6dc029c405663f2c62,/usr/local/i5k/media/blast/db/GCF_027563975.2_ilPloInte3.2_translated_cds.faa
+168339f8b3f19c418f5a4e4276e5a887,/usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_cds_from_genomic.fna
+b2c189cc369dc34c1fc4e51483d28325,/usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_genomic.fna
+365849bef12e3f3a00131f6777da215e,/usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_rna_from_genomic.fna
+9e4d71283a1a4515885ada3088555a04,/usr/local/i5k/media/blast/db/GCF_027943255.1_idAnaObli1_1.0_translated_cds.faa
+5a02756d7ad9ad06d4b1fe84e9383f3a,/usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_cds_from_genomic.fna
+93772fab30a90767c86d595f65fcb369,/usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_genomic.fna
+5a467f2db92bddcf170d8376b5e9583c,/usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_rna_from_genomic.fna
+7050c23cc189d332583867f9dd23e631,/usr/local/i5k/media/blast/db/GCF_028408465.1_idAnaLude1.1_translated_cds.faa
+ca60536c322a7d6d5909aa730555a0d2,/usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_cds_from_genomic.fna
+70179032bf7624a34cdc1a6b2492f6a5,/usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_genomic.fna
+dc4f3478aff12b250e1809cfc877e2c9,/usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_rna_from_genomic.fna
+62aff0dfedcce1a545d221033a941e9e,/usr/local/i5k/media/blast/db/GCF_028554725.1_idZeuCucr1.2_translated_cds.faa
+09ba90f33d442f5835de6741f51140f8,/usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_cds_from_genomic.fna
+14ae30cdef20632fdc786fc0c9bea115,/usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_genomic.fna
+31bcf3282941d5c2e7db2bf5ef470918,/usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_rna_from_genomic.fna
+cb5b4fa0b488b1a6aedd47aa9150005a,/usr/local/i5k/media/blast/db/GCF_029852145.1_iyMicMedi2.1_translated_cds.faa
+23a548608f028ce1090d46be8996c37c,/usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_cds_from_genomic.fna
+4642b8b002069a4d1678f33f2d95a79f,/usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_genomic.fna
+0aef6e532a3d1006a8567f84e9a5f3a8,/usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_rna_from_genomic.fna
+4f87d4860462f7f92eac8df5ef273f7e,/usr/local/i5k/media/blast/db/GCF_029955315.1_icCylForm1.1_translated_cds.faa
+9d84f0c932769f7db3fd73eac1a56fdb,/usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_cds_from_genomic.fna
+2a5b57bf2bb3a1f79ae9c36b9529b8b4,/usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_genomic.fna
+29b85024072f340ac58af10658ff40fd,/usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_rna_from_genomic.fna
+c4dad953ba2cc163237847420efcdedc,/usr/local/i5k/media/blast/db/GCF_031307605.1_icTriCast1.1_translated_cds.faa
+2f372bf9c6aff282193166c6ac20fdae,/usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_cds_from_genomic.fna
+5b11a67aafea5bd9eab17500c3b23223,/usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_genomic.fna
+7d66fea2dc32ef48fe9c25ac48f77837,/usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_rna_from_genomic.fna
+f0ad70ce326b5003512f3afd4ae32d4b,/usr/local/i5k/media/blast/db/GCF_032362555.1_ilAmyTran1.1_translated_cds.faa
+83fb81ecfa9b1a137d0af64174360dcc,/usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_cds_from_genomic.fna
+2349e7ddd11d3a0905484fdad35a43d9,/usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_genomic.fna
+a1088f1a455ad554de5d159d6b9a9221,/usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_rna_from_genomic.fna
+e57ac475141b5b79025fbff3474554f8,/usr/local/i5k/media/blast/db/GCF_033807575.1_ilCydPomo1_translated_cds.faa
+351159d9032ac44a5d943e2038186cce,/usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_cds_from_genomic.fna
+4f8010eebbdeba18f7f576946854e714,/usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_genomic.fna
+8b56af4caef5a41ca986513004285030,/usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_rna_from_genomic.fna
+54a23d6a5912099813e78d289c8fc94c,/usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_translated_cds.faa
+b427894c90cc387c82cbb5aea31a7d9d,/usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_cds_from_genomic.fna
+2ef5b85a25bd63453b88e85ecd159747,/usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_genomic.fna
+e79e8ae7253f154b68ff98aa7b6471ca,/usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_rna_from_genomic.fna
+b667f91398388b7213b47007ce1c313c,/usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_translated_cds.faa
+c185d3a57acac4a10f59d933d714caef,/usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_cds_from_genomic.fna
+a4ff5eb0143aa9b117bcf5fcb8f5f783,/usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_genomic.fna
+b7f407c1c2a7cd3767402cc1a7b58e75,/usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_rna_from_genomic.fna
+580abf10226def3798ad74de67a1903f,/usr/local/i5k/media/blast/db/GCF_037126465.1_ASM3712646v1_translated_cds.faa
+98d88f440de052c941e7214822d70bb8,/usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_cds_from_genomic.fna
+81a45c3b4e22c81b3c37a2dcc6d829b9,/usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_rna_from_genomic.fna
+ca81ca663a67f211e339d709e7caee9b,/usr/local/i5k/media/blast/db/GCF_040414725.1_ASM4041472v1_translated_cds.faa
+ca8d27f3808e66c987c57b3ff9d8a0fc,/usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_cds_from_genomic.fna
+f59fd219ea2f03f63a9a285e798b8e7c,/usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_genomic.fna
+96b96bb35ef9a21d76647d0aa251ef0d,/usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_rna_from_genomic.fna
+ed090375921d97581dd5d05a6c67bf8c,/usr/local/i5k/media/blast/db/GCF_910591885.1_iyBomTerr1.2_translated_cds.faa
+54eb7c388b1163c689a050818358054c,/usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_cds_from_genomic.fna
+4dd796fda015784a518dfd80d077ccaa,/usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_genomic.fna
+138afcbd0ed961a3568a794590238c56,/usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_rna_from_genomic.fna
+09e65ed09ecf686cab56ac8f61152a0d,/usr/local/i5k/media/blast/db/GCF_917208135.1_iyAthRosa1.1_translated_cds.faa
+3723419c5fb6be789b8638c2beb7f3d6,/usr/local/i5k/media/blast/db/Gbue.scaffolds.50_new_ids.fa
+b986a7ceeced0eaedaf195817f0fd353,/usr/local/i5k/media/blast/db/HAZT.CDS.fna
+defcd1f664e3a7b1c9ee8ea22b933bcd,/usr/local/i5k/media/blast/db/HAZT.faa
+3298a54df89cc0f86dd7d99032c60730,/usr/local/i5k/media/blast/db/HVIT_new_ids.faa
+4b873a08eac83a1c088b62ff5fda565a,/usr/local/i5k/media/blast/db/HVIT_new_ids.fna
+ef92c421aabd80bb932e306c275df989,/usr/local/i5k/media/blast/db/Hazt_redundans_assembly_test_3_4_2016.fa
+89071b1d9de8cadce5c9bd2abb5020ff,/usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_cds.fa
+2ef289369fe92fde69b06a65717b332b,/usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_pep.fa
+796d609c26dfe092776f920d1c627eb2,/usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_trans.fa
+01d7f766576859be1feff5475db85305,/usr/local/i5k/media/blast/db/JAMg_OGSv1.1_cds.fa
+d0a0a62d9990499f460d423ef63b3183,/usr/local/i5k/media/blast/db/JAMg_OGSv1.1_pep.fa
+5c68c4330c239c4d1ddddffdf2744d92,/usr/local/i5k/media/blast/db/JAMg_OGSv1.1_trans.fa
+f48f05f0b3a2f00473798b6119520a93,/usr/local/i5k/media/blast/db/LDEC_new_ids.faa
+90195de7435edeb282ad7d07680cb730,/usr/local/i5k/media/blast/db/LDEC_new_ids.fna
+447eea0c9623e5a37e3185cae03cf003,/usr/local/i5k/media/blast/db/LHES_new_ids.faa
+9c1cf329e8d4c3e0d0ac4e5a43c855e8,/usr/local/i5k/media/blast/db/LHES_new_ids.fna
+7ada79612998331710d4632e192b2d48,/usr/local/i5k/media/blast/db/LLUN_new_ids.faa
+bbca27d2cc8272b41bd231f861645304,/usr/local/i5k/media/blast/db/LLUN_new_ids.fna
+584c1f76db8e332b7a076684c401f051,/usr/local/i5k/media/blast/db/LREC_new_ids.faa
+1341a49351401b6106566d81967a06ac,/usr/local/i5k/media/blast/db/LREC_new_ids.fna
+0c9f43c9f98c6ae88bd8005501e63065,/usr/local/i5k/media/blast/db/Lalb_OGS_v5.42.cds.fa
+768d4004bb759f312e722252b17b84b6,/usr/local/i5k/media/blast/db/Lalb_OGS_v5.42.pep.fa
+9983b0ccdc585415c117c4d93aa337cf,/usr/local/i5k/media/blast/db/Ldec.genome.10062013_new_ids.fa
+cdb3711e07fbfb0930a43623f5a9aab9,/usr/local/i5k/media/blast/db/Llun.scaffolds_new_ids.fa
+656716152f1bbf9cec127c6b409b0576,/usr/local/i5k/media/blast/db/Lm_assembly2-2.fasta
+675ddd9297a2bb961ea3cd1df10561af,/usr/local/i5k/media/blast/db/Lm_assembly2-2_over499.fasta
+4ef14deb703a2cb801e60012a6cdd3e8,/usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_cds.fa
+198682d7786d95fa3c37f4eda415fe61,/usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_pep.fa
+6b53793d5d497ceda15c0c32f5437180,/usr/local/i5k/media/blast/db/MEAM1_v1.2-GCF_001854935.1_trans.fa
+722f87755540e2bf3dce36810929ee31,/usr/local/i5k/media/blast/db/Megachile_rotundata_v1.1.cds.fa
+8087e80683312dc1b734af62f7de7a75,/usr/local/i5k/media/blast/db/Megachile_rotundata_v1.1.pep.fa
+a59715e955c7f1d1728feea4809ac1ef,/usr/local/i5k/media/blast/db/Melipona_quadrifasciata_v1.1.cds.fa
+9590ac9c8a6373293c0ce43869fbafe3,/usr/local/i5k/media/blast/db/Melipona_quadrifasciata_v1.1.pep.fa
+9dbf65e9c06ba5ea85570226236a75db,/usr/local/i5k/media/blast/db/Mext_OGS_v1.0_pep.fa
+cf249728c2829966b5f24ff630621a93,/usr/local/i5k/media/blast/db/Mext_OGS_v1.0_transcripts.fa
+a86375999237a38ebfd0ae8178ffeebe,/usr/local/i5k/media/blast/db/NCBI_Dufourea_novaeangliae_Annotation_Release_100_protein.fa
+6a076960a9036010e5b2f21b99bb53f8,/usr/local/i5k/media/blast/db/NCBI_Dufourea_novaeangliae_Annotation_Release_100_rna.fa
+789a8e79f64b77f09375560dc3cb6064,/usr/local/i5k/media/blast/db/NCBI_Megachile_rotundata_Annotation_Release_101_protein.fa
+be0b65b689d32c074140d35863bb2f45,/usr/local/i5k/media/blast/db/NCBI_Megachile_rotundata_Annotation_Release_101_rna.fa
+ff32d0fe9b73ca824d91dff454e82b90,/usr/local/i5k/media/blast/db/NIJG01_GenBankIDs.fa
+bbcecb6f1c0e3796f983941759748afe,/usr/local/i5k/media/blast/db/Nlec_v1_NCBI_scaffolds_GenBankIDs.fasta
+8262f62e543f8ae89bc7bca0a31abcfb,/usr/local/i5k/media/blast/db/Nlec_v1_proteins_renamed_alphabetized.fasta
+d3b2f41fdd0e083a2c989a0b206567e2,/usr/local/i5k/media/blast/db/Nlec_v1_transcripts_renamed_alphabetized.fasta
+5d9121bc7cca97fad18313a24742320b,/usr/local/i5k/media/blast/db/OFAS_new_ids.faa
+c917adb621beb9004101144cfdfb8b12,/usr/local/i5k/media/blast/db/OFAS_new_ids.fna
+32f1e5e341bdc8a6605dd5863e2b321c,/usr/local/i5k/media/blast/db/Ofas.scaffolds_new_ids.fa
+8cd500db399bf67bb694aac066db51ef,/usr/local/i5k/media/blast/db/PTEP_new_ids.faa
+96ed8e85012835691cf5665d98854f42,/usr/local/i5k/media/blast/db/PTEP_new_ids.fna
+291359da7da92fdbf9f5badf8f384725,/usr/local/i5k/media/blast/db/PVEN_new_ids.faa
+d021565d92fe2386e6815a788ba56743,/usr/local/i5k/media/blast/db/PVEN_new_ids.fna
+50a39069d8d0b5b90efc06bec4bc02d8,/usr/local/i5k/media/blast/db/Planthopper-HiC-final_nocontam.fasta
+5a6b71ddcf35aa1bddb71a0486ac3878,/usr/local/i5k/media/blast/db/Ptep01282013.genome_new_ids.fa
+59206d7bbfb7eaa1834ed31fe9d4d03c,/usr/local/i5k/media/blast/db/Pven10162013.scaffolds_new_ids.fa
+691e85b58d95024a889e6821270b228e,/usr/local/i5k/media/blast/db/_____RdoDt3_Drdd8_decomES.fasta
+9399c5cc222d5e48480b98ecd8a61109,/usr/local/i5k/media/blast/db/agla_OGS_v1_2_peptide.fa
+b622727be43be7546b543c557f4d444d,/usr/local/i5k/media/blast/db/anogla_OGSv1.3_cds.fa
+da926ac5104d9b9e6b0f63cae9a12c63,/usr/local/i5k/media/blast/db/anogla_OGSv1.3_pep.fa
+e90c7b5d36ca3df1a0abe1d32fc44da4,/usr/local/i5k/media/blast/db/anogla_OGSv1.3_trans.fa
+acdc8f5aca0970a21046de27156a487e,/usr/local/i5k/media/blast/db/apimel_OGSv3.4_cds.fa
+fcaf54dd4d8a37cf20b74ed7ed3b1e17,/usr/local/i5k/media/blast/db/apimel_OGSv3.4_pep.fa
+bee04d5921945b8add620063ab48fe6d,/usr/local/i5k/media/blast/db/apimel_OGSv3.4_trans.fa
+7c41c0730aa5a301194b68cd9bd8e043,/usr/local/i5k/media/blast/db/athros_OGSv1.3_cds.fa
+c78458c36fb7a23379179751fbdaeb31,/usr/local/i5k/media/blast/db/athros_OGSv1.3_pep.fa
+5ef82879050cd1800c8248689fd7f31e,/usr/local/i5k/media/blast/db/athros_OGSv1.3_trans.fa
+50aa84757e8494f710c67662abb0b66a,/usr/local/i5k/media/blast/db/aug3.1.aa_new_ids.fa
+b0946ff020b98b98d6db6b714920ff49,/usr/local/i5k/media/blast/db/aug3.1.mrna_new_ids.fa
+106633bf6fddf4ef9bfbcd7f1ffa73d8,/usr/local/i5k/media/blast/db/blager_OGSv1.2_cds.fa
+df04389f4502fd3e3fe8b86c5c09339f,/usr/local/i5k/media/blast/db/blager_OGSv1.2_pep.fa
+8c69b9962a4974ea6dfdb41631fdd59d,/usr/local/i5k/media/blast/db/blager_OGSv1.2_trans.fa
+e242b734f45b08d953a2273ff7238f23,/usr/local/i5k/media/blast/db/bomimp_OGSv1.1_cds_new.fa
+d12c43bd06c304c170ef2e5e837c5f64,/usr/local/i5k/media/blast/db/bomimp_OGSv1.1_pep_new.fa
+b72541a663cbe577ad58655d24ad7c64,/usr/local/i5k/media/blast/db/cepcin_OGSv1.2_cds.fa
+f7cfa4c5d5ba710d74b6f4e61ccdf72d,/usr/local/i5k/media/blast/db/cepcin_OGSv1.2_pep.fa
+a9e791d82232465ec00f4471ed4ca340,/usr/local/i5k/media/blast/db/cepcin_OGSv1.2_trans.fa
+9d7df382cc16822c85e52b7c9bd151d5,/usr/local/i5k/media/blast/db/cercap_OGSv1.1_cds.fa
+1a7bec265b5e37551b840b3a3ef340c6,/usr/local/i5k/media/blast/db/cercap_OGSv1.1_pep.fa
+e22cea2ca240497bb530b5e2fd2d436f,/usr/local/i5k/media/blast/db/cercap_OGSv1.1_trans.fa
+6f4c624f6eca78f54e86a6815d5394a9,/usr/local/i5k/media/blast/db/cimlec_OGSv1.3_cds.fa
+03aacce52cbdc3f2af085f6067907978,/usr/local/i5k/media/blast/db/cimlec_OGSv1.3_pep.fa
+e2a2e86df38be8bfbe877215e6623d6d,/usr/local/i5k/media/blast/db/cimlec_OGSv1.3_trans.fa
+00eda233926d702eeadc14425086c77b,/usr/local/i5k/media/blast/db/clec_OGS_v1_2_peptide.fa
+609fbbffd648ca7e95316a52d361c853,/usr/local/i5k/media/blast/db/diaci1.1_new_ids.fa
+0621b551982c44f3cbe233e58e3236b6,/usr/local/i5k/media/blast/db/ephdan_OGSv1.0_cds.fa
+f2f3e5f076de02e2da2b250142e49151,/usr/local/i5k/media/blast/db/ephdan_OGSv1.0_pep.fa
+3587935d407e1ea1372f54ea4c49b243,/usr/local/i5k/media/blast/db/ephdan_OGSv1.0_trans.fa
+f017850b53f158c142837aaa9bc87ad8,/usr/local/i5k/media/blast/db/eufmex_OGSv1.3_cds.fa
+58f889961385de1e6c2d884b7e3089af,/usr/local/i5k/media/blast/db/eufmex_OGSv1.3_pep.fa
+c01c5348fa44d0a93a49d9736615c1dd,/usr/local/i5k/media/blast/db/eufmex_OGSv1.3_trans.fa
+bc4a6debdddc05bc90c1b9f1011d40d0,/usr/local/i5k/media/blast/db/fopari_v100_protein.fa
+b9f7be3b30e435fcd21d1fb1d0f55886,/usr/local/i5k/media/blast/db/fopari_v100_rna.fa
+3bc6cf45f946ce5d9f11cde2a2f573a7,/usr/local/i5k/media/blast/db/fraocc_OGSv1.2_cds.fa
+2e8346c3f7992682a44a1215126a68d8,/usr/local/i5k/media/blast/db/fraocc_OGSv1.2_pep.fa
+b6295dfef2fa3888f5cdb19a1452745f,/usr/local/i5k/media/blast/db/fraocc_OGSv1.2_trans.fa
+d13c394b4e257fb5e12de88862fad138,/usr/local/i5k/media/blast/db/gerbue_OGSv1.1_cds.fa
+998e00cc1a906847021a1f37670c08d9,/usr/local/i5k/media/blast/db/gerbue_OGSv1.1_pep.fa
+256ae2e59878398002cfebf628974743,/usr/local/i5k/media/blast/db/gerbue_OGSv1.1_trans.fa
+f2e4c4b7635438e6d24ccc1ed14d2474,/usr/local/i5k/media/blast/db/halhal_OGSv1.2_cds.fa
+3ca3901e49c0009e1d777e1bc8809153,/usr/local/i5k/media/blast/db/halhal_OGSv1.2_pep.fa
+26ff72506de9c4693ac2eefcfd88ad10,/usr/local/i5k/media/blast/db/halhal_OGSv1.2_trans.fa
+279c52d01721bac1ddcddce68ce5383e,/usr/local/i5k/media/blast/db/helvir_OGSv1.1_cds.fa
+42c73cb122702eccdda1022d5c6657e2,/usr/local/i5k/media/blast/db/helvir_OGSv1.1_pep.fa
+77c5c523b8c1fe6e616331071c2f119c,/usr/local/i5k/media/blast/db/helvir_OGSv1.1_trans.fa
+8b2d10c5f15df50e64a57ac812e4f383,/usr/local/i5k/media/blast/db/hf_OGS1.0.cdna.fasta
+57bc64feb55fab713ab9142273da7aa7,/usr/local/i5k/media/blast/db/hf_OGS1.0.cds.fasta
+0bc606768249c0db9b412332378eea2e,/usr/local/i5k/media/blast/db/hf_OGS1.0.pep.fasta
+4ee5f8d2bb6517ac49005d1fc213a556,/usr/local/i5k/media/blast/db/hf_scaffolds_blast_ids.fa
+d407dcf7cf3af26c6d1a28b096b1c85b,/usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_cds.fa
+a24132a0b391a628bd5d92d7d04b6982,/usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_pep.fa
+ae82bbdcae5d786cda22461618311d9f,/usr/local/i5k/media/blast/db/hyaazt_OGSv1.3_trans.fa
+330099c9513a4be4ca8a3ad73a439521,/usr/local/i5k/media/blast/db/ihOncFasc_HiC_hap1_scaffold.fasta
+6b78b40c19bd5020d55c8da32966ec2e,/usr/local/i5k/media/blast/db/ihOncFasc_HiC_hap2_scaffold.fasta
+560b4e87ef13ed1e1795bf58613f82a0,/usr/local/i5k/media/blast/db/ladful_OGSv1.0_cds.fa
+a3d5b57e845b6cc82d9395f44eca2064,/usr/local/i5k/media/blast/db/ladful_OGSv1.0_pep.fa
+6088fb7215b6c828f9a1b5222c981e5e,/usr/local/i5k/media/blast/db/ladful_OGSv1.0_trans.fa
+297c259788aba8e48b2824593583c63b,/usr/local/i5k/media/blast/db/laostr_OGSv1.2_cds.fna
+7de705f6e2ea13b7db7f0a1eefebde6b,/usr/local/i5k/media/blast/db/laostr_OGSv1.2_pep.faa
+b5a39d096c3086bea987a73c49d21127,/usr/local/i5k/media/blast/db/laostr_OGSv1.2_trans.fna
+21cbdd9c52221d4fe318a1d5c6f559c1,/usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_cds.fa
+476331ab5c9e53a7df2a8a8c28f7288b,/usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_pep.fa
+99f03039e5f08040a39dc06c9d63801f,/usr/local/i5k/media/blast/db/lepdec_OGSv1.2_GCF_000500325.1_trans.fa
+d815c68a16fdd1a2c3fdaa07fa1d8bce,/usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.cds
+dc18a0a24e390b43e3003e3079144398,/usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.mRNA.fa
+52ae6d9bd665cf1f4ae613cb00180d09,/usr/local/i5k/media/blast/db/locust.OGS_preQC.gff3.pep
+b7f3c9df4e0c1310ddbed267ca889546,/usr/local/i5k/media/blast/db/maker_genes_diaci1.1_proteins_NALmod_new_ids.fasta
+a7d74ac2c8850ecddf2325953f3db898,/usr/local/i5k/media/blast/db/maker_genes_diaci1.1_transcripts_NALmod_new_ids.fasta
+f779a8bb23a7f4688ef1da460f1a6dbd,/usr/local/i5k/media/blast/db/ms_ogs_proteins.fa
+f5ba93f35e54ca6129aeb1a3c0dd69d0,/usr/local/i5k/media/blast/db/ms_ogs_transcripts.fa
+0ac554aa064363cb56c2d0d4186299fa,/usr/local/i5k/media/blast/db/nicves_OGSv1.0_cds.fa
+fc3a3c76b9640c1acd066ca206b66300,/usr/local/i5k/media/blast/db/nicves_OGSv1.0_pep.fa
+4907cdfdd3f865660af32a010b49b6a4,/usr/local/i5k/media/blast/db/nicves_OGSv1.0_trans.fa
+23eee2e8c5cdbb68247bb6b21fd59a51,/usr/local/i5k/media/blast/db/nylful_OGSv1.1_cds.fa
+304fcb7d7bdf67dcc3feb38a5fca518a,/usr/local/i5k/media/blast/db/nylful_OGSv1.1_pep.fa
+8a8ae1093b212dbd44fe58d57509a7b0,/usr/local/i5k/media/blast/db/nylful_OGSv1.1_trans.fa
+8e1d9e7fa3a6ec57731c5b421b395784,/usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_cds.fa
+05917c84d51b9188b5bd43a1eb9f4e00,/usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_peptide.fa
+d01d7d53be74ab62af9746adee1e4c59,/usr/local/i5k/media/blast/db/oncfas_OGSv1.2_original_transcript.fa
+17117f55c4efb52f3ee67cc720c0c53d,/usr/local/i5k/media/blast/db/oruabi_OGSv1.2_cds.fa
+aae834688eee855d234de864f682840d,/usr/local/i5k/media/blast/db/oruabi_OGSv1.2_pep.fa
+2908d7309ce0f31b3815ba99a06f1a81,/usr/local/i5k/media/blast/db/oruabi_OGSv1.2_trans.fa
+b636aedd5aead2cdd13171ada49b83b5,/usr/local/i5k/media/blast/db/permai_annotations_v2023_cds.fa
+4a7db2a4c5feca83312892c0e18fcef1,/usr/local/i5k/media/blast/db/permai_annotations_v2023_pep.fa
+cae5002d0922bbb5b12d6b9f40b7fcb1,/usr/local/i5k/media/blast/db/permai_annotations_v2023_trans.fa
+81857da4614537ff4272e1c2880091a9,/usr/local/i5k/media/blast/db/tigcal_OGSv1.1_cds.fa
+365ac6fc0e8b0239f83113e3218e0797,/usr/local/i5k/media/blast/db/tigcal_OGSv1.1_pep.fa
+0debb1fc4a01d665e10adbc84b79325a,/usr/local/i5k/media/blast/db/tigcal_OGSv1.1_trans.fa
+18cb309d7d7acd6aa4346635293270a7,/usr/local/i5k/media/blast/db/tricas_OGSv3.1_cds.fa
+be7f37ecebf1fc0b3e00f410897266b5,/usr/local/i5k/media/blast/db/tricas_OGSv3.1_pep.fa
+70df7adb8168baa1c6ea1ece13caacd4,/usr/local/i5k/media/blast/db/tricas_OGSv3.1_trans.fa
