@@ -349,7 +349,7 @@ if __name__ == "__main__":
     SORTBY = MATCH + GROUPED
 
     # Pathe Related Constants
-    EXPORTDIR = "exporter/data"
+    EXPORTDIR = os.environ.get('DATADIR')
     EXPORTED_DJANGO = os.path.join(EXPORTDIR,"django_export.db")
     FASTA_FILE_PATH = os.path.join(EXPORTDIR,"fastafiles.txt")
     CHECKSUM_PATH = f"{EXPORTDIR}/fastafiles.md5"
