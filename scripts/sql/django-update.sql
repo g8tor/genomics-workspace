@@ -66,8 +66,27 @@ ALTER TABLE blast_blastdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE training.blast_blastdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE training.hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
+ ALTER TABLE app_organism  ADD COLUMN train_id INTEGER UNIQUE;
 
 -- SELECT schemaname,relname, n_tup_ins - n_tup_del as rowcount 
 -- FROM pg_stat_all_tables 
 -- WHERE schemaname in ('public','training') AND relname NOT LIKE 'pg%' AND relname NOT LIKE 'sql%' order by schemaname, relname ASC;
+
+-- Update the training ids for app organisms
+UPDATE
+    app_organism ao
+SET
+    train_id = tao.id
+FROM
+    training.app_organism tao
+WHERE
+    ao.display_name = tao.display_name;
+
+
+-- UPDATE
+--     app_organism ao
+-- SET
+--     train_id = ao.id
+-- WHERE
+--     ao.train_id is NULL;
 
