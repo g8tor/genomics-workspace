@@ -1,5 +1,5 @@
 **
-!docker-files/
+!files/
 !src/app/
 !src/blast/
 !src/clustal/
