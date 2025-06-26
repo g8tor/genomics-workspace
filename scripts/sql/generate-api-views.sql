@@ -6,7 +6,7 @@ CREATE SCHEMA IF NOT EXISTS api;
 
 -- Create Fasta File View
 CREATE TABLE api.fastafiles AS
-    SELECT id , file_name, checksum
+    SELECT id, checksum , file_name, True as is_shown
     FROM public.fastafiles 
     ORDER BY file_name ASC
 ;
@@ -19,12 +19,13 @@ CREATE TABLE api.sequencetypes AS
 ;
 
 -- Create the Organisms view
-CREATE TABLE api.organisms AS
+CREATE TABLE api.tmp_organisms AS
     SELECT po.id as id, 
         split_part(po.display_name, ' ', 1) genus ,
         split_part(po.display_name, ' ', 2) species,
         lower(po.short_name) as short_name,
         po.tax_id,
+        NULL as infraspecies,
         True as is_shown,
         COALESCE(t.id,NULL) as organism_id
     FROM app_organism po
@@ -33,10 +34,15 @@ CREATE TABLE api.organisms AS
     ORDER BY genus, species, organism_id ASC
 ;
 
+CREATE TABLE api.organisms AS
+    SELECT id,genus,species,short_name,infraspecies,tax_id,is_shown
+    FROM api.tmp_organisms
+    ORDER BY genus ASC
+
 -- Create Organism Updates View
 CREATE TABLE api.organism_updates AS
     SELECT id as prod_id, organism_id
-    FROM api.organisms
+    FROM api.tmp_organisms
     WHERE organism_id is not NULL
     AND id != organism_id
     ORDER BY organism_id, prod_id ASC
@@ -45,7 +51,7 @@ CREATE TABLE api.organism_updates AS
 -- Create Database View
 CREATE TABLE api.databases AS
     SELECT f.id as id, b.organism_id, b.type_id as sequencetype_id, f.id as fastafile_id ,  
-           b.title,b.description --, f.checksum, f.file_name 
+           b.title,b.description, True as is_shown
     FROM blast_blastdb b
     LEFT OUTER JOIN api.fastafiles f
     ON b.file_name = f.file_name
@@ -54,7 +60,7 @@ CREATE TABLE api.databases AS
 
 -- Create Prduction BlastDBs
 CREATE TABLE api.production_blastdbs AS 
-    SELECT 0 as id, b.organism_id, f.id as database_id, True as is_shown --, b.file_name,  f.checksum  
+    SELECT 0 as id, b.organism_id, f.id as database_id, True as is_shown 
     FROM blast_blastdb  b 
     INNER JOIN api.fastafiles f 
     ON f.file_name = b.file_name
@@ -67,7 +73,7 @@ SET id = nextval('api.production_blastdbs_seq');
 
 -- Create Prduction HmmerDBs
 CREATE TABLE api.production_hmmerdbs AS 
-    SELECT 0 as id, h.organism_id, f.id as datyabase_id, True as is_shown --, h.file_name,  f.checksum  
+    SELECT 0 as id, h.organism_id, f.id as database_id, True as is_shown
     FROM hmmer_hmmerdb  h 
     INNER JOIN api.fastafiles f 
     ON f.file_name = h.file_name
@@ -81,7 +87,7 @@ SET id = nextval('api.production_hmmerdbs_seq');
 
 -- Create Training BlastDBs
 CREATE TABLE api.training_blastdbs AS
-    SELECT 0 as id, COALESCE(ou.prod_id,b.organism_id) as organism_id, f.id as database_id, True as is_shown --, b.file_name,  f.checksum
+    SELECT 0 as id, COALESCE(ou.prod_id,b.organism_id) as organism_id, f.id as database_id, True as is_shown 
     FROM training.blast_blastdb  b 
     INNER JOIN api.fastafiles f
     ON f.file_name = b.file_name
@@ -97,7 +103,7 @@ SET id = nextval('api.training_blastdbs_seq');
 
 -- Create Training HmmerDBs
 CREATE TABLE api.training_hmmerdbs AS 
-    SELECT 0 as id, COALESCE(ou.prod_id,h.organism_id) as organism_id, f.id as database_id, True as is_shown --, h.file_name,  f.checksum 
+    SELECT 0 as id, COALESCE(ou.prod_id,h.organism_id) as organism_id, f.id as database_id, True as is_shown 
     FROM training.hmmer_hmmerdb  h 
     INNER JOIN api.fastafiles f 
     ON f.file_name = h.file_name
@@ -113,29 +119,18 @@ SET id = nextval('api.training_hmmerdbs_seq');
 
 \d api.*
 
---DROP VIEW api.organism_updates;
--- -- \dt;
--- -- \dt training.*;
--- \x
+\copy api.sequencetypes to '/sql/csvs/sequencetypes.csv' WITH (FORMAT CSV, HEADER);
 
--- \dt 
--- SELECT table_name FROM information_schema.tables WHERE table_schema = 'api';
-\c
-\o 
-sequencetypes.csv; select * from  sequencetypes;
-\o 
-organisms.csv; select * from  organisms;
-\o 
-organism_updates .csv; select * from  organism_updates;
-\o 
-databases.csv; select * from  databases;
-\o 
-fastafile.csv; select * from  fastafiles;
-\o 
-production_blastdbs  .csv; select * from  production_blastdbs;
-\o 
-production_hmmerdbs  .csv; select * from  production_hmmerdbs;
-\o 
-training_blastdbs.csv; select * from  training_blastdbs;
-\o 
-training_hmmerdbs.csv; select * from  training_hmmerdbs;
+\copy api.organisms TO '/sql/csvs/organisms.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.databases TO '/sql/csvs/databases.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.fastafiles TO '/sql/csvs/fastafiles.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.production_blastdbs  TO '/sql/csvs/production_blastdbs.csv'WITH (FORMAT CSV, HEADER);
+
+\copy api.production_hmmerdbs TO '/sql/csvs/production_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.training_blastdbs TO '/sql/csvs/training_blastdbs.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.training_hmmerdbs TO '/sql/csvs/training_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
