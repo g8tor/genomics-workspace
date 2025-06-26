@@ -5,10 +5,12 @@ description = "I5K Genomics Workspace"
 authors = ["Vernon Chapman <vernon.chapman@usda.gov>"]
 license = "Apache"
 readme = "README.md"
+package-mode = false
+packages = [{include = "i5k",  from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-psycopg2-binary = "2.9.9"
+psycopg2-binary = "==2.9.9"
 amqp = "2.5.2"
 billiard = "3.6.1.0"
 celery = "4.3.0"
