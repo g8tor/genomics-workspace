@@ -19,7 +19,7 @@ CREATE TABLE api.sequencetypes AS
 ;
 
 -- Create the Organisms view
-CREATE TABLE api.tmp_organisms AS
+CREATE TABLE api.organisms AS
     SELECT po.id as id, 
         split_part(po.display_name, ' ', 1) genus ,
         split_part(po.display_name, ' ', 2) species,
@@ -34,15 +34,12 @@ CREATE TABLE api.tmp_organisms AS
     ORDER BY genus, species, organism_id ASC
 ;
 
-CREATE TABLE api.organisms AS
-    SELECT id,genus,species,short_name,infraspecies,tax_id,is_shown
-    FROM api.tmp_organisms
-    ORDER BY genus ASC
+
 
 -- Create Organism Updates View
 CREATE TABLE api.organism_updates AS
     SELECT id as prod_id, organism_id
-    FROM api.tmp_organisms
+    FROM api.organisms
     WHERE organism_id is not NULL
     AND id != organism_id
     ORDER BY organism_id, prod_id ASC
@@ -60,7 +57,7 @@ CREATE TABLE api.databases AS
 
 -- Create Prduction BlastDBs
 CREATE TABLE api.production_blastdbs AS 
-    SELECT 0 as id, b.organism_id, f.id as database_id, True as is_shown 
+    SELECT b.id as blast_db_id, 0 as id, b.organism_id, f.id as database_id, True as is_shown
     FROM blast_blastdb  b 
     INNER JOIN api.fastafiles f 
     ON f.file_name = b.file_name
@@ -70,6 +67,19 @@ CREATE SEQUENCE api.production_blastdbs_seq START 1;
 
 UPDATE api.production_blastdbs
 SET id = nextval('api.production_blastdbs_seq');
+
+-- Create Production JBrowse
+CREATE TABLE api.production_jbrowsesettings AS 
+    SELECT 0 as id, b.id as blastdb_id, j.url
+    FROM blast_jbrowsesetting j
+    INNER JOIN api.production_blastdbs b
+    ON b.blast_db_id = j.blast_db_id
+;
+-- Create Production JBrowse Seq Table
+CREATE SEQUENCE api.production_jbrowsesettings_seq START 1;
+
+UPDATE api.production_jbrowsesettings
+SET id = nextval('api.production_jbrowsesettings_seq');
 
 -- Create Prduction HmmerDBs
 CREATE TABLE api.production_hmmerdbs AS 
@@ -87,7 +97,7 @@ SET id = nextval('api.production_hmmerdbs_seq');
 
 -- Create Training BlastDBs
 CREATE TABLE api.training_blastdbs AS
-    SELECT 0 as id, COALESCE(ou.prod_id,b.organism_id) as organism_id, f.id as database_id, True as is_shown 
+    SELECT b.id as blast_db_id,0 as id, COALESCE(ou.prod_id,b.organism_id) as organism_id, f.id as database_id, True as is_shown 
     FROM training.blast_blastdb  b 
     INNER JOIN api.fastafiles f
     ON f.file_name = b.file_name
@@ -100,6 +110,19 @@ CREATE SEQUENCE api.training_blastdbs_seq START 1;
 
 UPDATE api.training_blastdbs
 SET id = nextval('api.training_blastdbs_seq');
+
+-- Create Production JBrowse
+CREATE TABLE api.training_jbrowsesettings AS 
+    SELECT  0 as id, b.id as blastdb_id, j.url
+    FROM training.blast_jbrowsesetting j
+    INNER JOIN api.training_blastdbs b
+    ON b.blast_db_id = j.blast_db_id
+;
+-- Create Production JBrowse Seq Table
+CREATE SEQUENCE api.training_jbrowsesettings_seq START 1;
+
+UPDATE api.training_jbrowsesettings
+SET id = nextval('api.training_jbrowsesettings_seq');
 
 -- Create Training HmmerDBs
 CREATE TABLE api.training_hmmerdbs AS 
@@ -117,7 +140,10 @@ CREATE SEQUENCE api.training_hmmerdbs_seq START 1;
 UPDATE api.training_hmmerdbs
 SET id = nextval('api.training_hmmerdbs_seq');
 
-\d api.*
+
+ALTER TABLE api.organisms DROP column organism_id;
+ALTER TABLE api.production_blastdbs DROP column blast_db_id;
+ALTER TABLE api.training_blastdbs DROP column blast_db_id;
 
 \copy api.sequencetypes to '/sql/csvs/sequencetypes.csv' WITH (FORMAT CSV, HEADER);
 
@@ -127,10 +153,14 @@ SET id = nextval('api.training_hmmerdbs_seq');
 
 \copy api.fastafiles TO '/sql/csvs/fastafiles.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.production_blastdbs  TO '/sql/csvs/production_blastdbs.csv'WITH (FORMAT CSV, HEADER);
+\copy api.production_blastdbs  TO '/sql/csvs/production_blastdbs.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.production_jbrowsesettings  TO '/sql/csvs/production_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
 
 \copy api.production_hmmerdbs TO '/sql/csvs/production_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
 
 \copy api.training_blastdbs TO '/sql/csvs/training_blastdbs.csv' WITH (FORMAT CSV, HEADER);
+
+\copy api.training_jbrowsesettings  TO '/sql/csvs/training_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
 
 \copy api.training_hmmerdbs TO '/sql/csvs/training_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
