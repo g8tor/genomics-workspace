@@ -18,7 +18,7 @@ services:
 
 
   django-db:
-    image: "docker.io/library/postgres:16.2-alpine"
+    image: "docker.io/library/postgres:17-alpine3.22"
     container_name: "django-db"
     hostname: "django-db"
     environment:
@@ -26,42 +26,47 @@ services:
       POSTGRES_PASSWORD: "${APP_USER}"
       POSTGRES_HOST_AUTH_METHOD: md5
       DB_NAME: "${DB_NAME}"
+      DATABASE_URL: postgresql+psycopg2://${APP_USER}:${APP_USER}@localhost:5432/django
     profiles:
       - db
       - django
     volumes:
+      - /Users/vernon.chapman/git/ree/nal-i5k-drupal-migration/web/api:/export/
+      - ./scripts/sql:/sql
       - ./data/fastafiles.md5:/fastafiles.md5
       - ./data/django.pgc:/django.pgc
       - ./data/django_training.pgc:/django_training.pgc
       - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-      - ./scripts/sql:/sql
+      - ./docker-files/init-env.sh:/sql/init-env.sh
+      
+      
 
-  django:
-    image: "localhost/i5k-django:latest"
-    hostname: "django"
-    container_name: "django"
-    working_dir: /app/i5k
-    tty: true
-    build:
-      args:
-        UID: "${UID}"
-        GID: "${GID}"
-    environment:
-      PYTHONWARNINGS: "ignore"
-      PYTHONPATH: "/app/i5k/src"
-      DATADIR: "/app/i5k/data"
-      SSL_MODE: ${SSL_MODE}
-      DB_PASS:  ${DB_PASS}
-      DB_USER:  ${DB_USER}
-      DB_HOST:  ${DB_HOST}
-    profiles:
-      - django
-    volumes: 
-      - ./scripts:/app/i5k/scripts
-      - ./src:/app/i5k/src
-      - ./pyproject.toml:/app/i5k/pyproject.toml
-      - ./api:/app/i5k/lib/api
-      - ./data:/app/i5k/data
+  # django:
+  #   image: "localhost/i5k-django:latest"
+  #   hostname: "django"
+  #   container_name: "django"
+  #   working_dir: /app/i5k
+  #   tty: true
+  #   build:
+  #     args:
+  #       UID: "${UID}"
+  #       GID: "${GID}"
+  #   environment:
+  #     PYTHONWARNINGS: "ignore"
+  #     PYTHONPATH: "/app/i5k/src"
+  #     DATADIR: "/app/i5k/data"
+  #     SSL_MODE: ${SSL_MODE}
+  #     DB_PASS:  ${DB_PASS}
+  #     DB_USER:  ${DB_USER}
+  #     DB_HOST:  ${DB_HOST}
+  #   profiles:
+  #     - django
+  #   volumes: 
+  #     - ./scripts:/app/i5k/scripts
+  #     - ./src:/app/i5k/src
+  #     - ./pyproject.toml:/app/i5k/pyproject.toml
+  #     - ./api:/app/i5k/lib/api
+  #     - ./data:/app/i5k/data
 
 networks:
   default:
