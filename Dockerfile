@@ -1,4 +1,4 @@
-FROM  python:3.9.20-slim-bullseye as builder
+FROM  python:3.10-slim-bullseye
 ARG GID=1001 UID=1001 APP_HOME=/app/i5k APP_USER=i5k
 ENV MULTIDICT_NO_EXTENSIONS=1 DEBIAN_FRONTEND=nointeractive TZ=America/New_York PYTHONPATH=${APP_HOME}/src DJANGO_SETTINGS_MODULE=i5k.settings
 WORKDIR ${APP_HOME}
