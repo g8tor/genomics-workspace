@@ -1,22 +1,5 @@
 services:
 
-  # django-spark:
-  #   image: "localhost/i5k-spark:latest"
-  #   hostname: "django-spark"
-  #   container_name: "django-spark"
-  #   tty: true
-  #   environment:
-  #     PYTHONPATH: /opt/spark/work-dir/code/api/src:/opt/spark/python:/opt/spark/python/lib/py4j-0.10.9.9-src.zip
-  #     DB_PASS:  ${DB_PASS}
-  #     DB_USER:  ${DB_USER}
-  #     DB_HOST:  ${DB_HOST}
-  #   volumes:
-  #     - ./scripts:/opt/spark/work-dir/scripts
-  #     - ./data:/opt/spark/work-dir/data
-  #     - ./api:/opt/spark/work-dir/code/api
-  #     - ./src:/opt/spark/work-dir/code/src
-
-
   django-db:
     image: "docker.io/library/postgres:17-alpine3.22"
     container_name: "django-db"
@@ -26,59 +9,13 @@ services:
       POSTGRES_PASSWORD: "${APP_USER}"
       POSTGRES_HOST_AUTH_METHOD: md5
       DB_NAME: "${DB_NAME}"
-      DATABASE_URL: postgresql+psycopg2://${APP_USER}:${APP_USER}@localhost:5432/django
-    profiles:
-      - db
-      - django
     volumes:
-
-      - ./scripts/sql:/sql
-      - ./data/fastafiles.md5:/fastafiles.md5
-      - ./data/django.pgc:/django.pgc
-      - ./data/django_training.pgc:/django_training.pgc
-      - ./docker-files/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-      - ./docker-files/init-env.sh:/sql/init-env.sh
-      
-      
-
-  # django:
-  #   image: "localhost/i5k-django:latest"
-  #   hostname: "django"
-  #   container_name: "django"
-  #   working_dir: /app/i5k
-  #   tty: true
-  #   build:
-  #     args:
-  #       UID: "${UID}"
-  #       GID: "${GID}"
-  #   environment:
-  #     PYTHONWARNINGS: "ignore"
-  #     PYTHONPATH: "/app/i5k/src"
-  #     DATADIR: "/app/i5k/data"
-  #     SSL_MODE: ${SSL_MODE}
-  #     DB_PASS:  ${DB_PASS}
-  #     DB_USER:  ${DB_USER}
-  #     DB_HOST:  ${DB_HOST}
-  #   profiles:
-  #     - django
-  #   volumes: 
-  #     - ./scripts:/app/i5k/scripts
-  #     - ./src:/app/i5k/src
-  #     - ./pyproject.toml:/app/i5k/pyproject.toml
-  #     - ./api:/app/i5k/lib/api
-  #     - ./data:/app/i5k/data
-
+      - ./files/sql:/sql
+      - ./files/data/fastafiles.md5:/fastafiles.md5
+      - ./files/data/django.pgc:/django.pgc
+      - ./files/data/django_training.pgc:/django_training.pgc
+      - ./files/scripts/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./files/scripts/init-env.sh:/sql/init-env.sh
 networks:
   default:
     name: django
-
-# volumes:
-#   bin:
-#     external: true
-#     name: i5k-dev_bin
-#   dbs:
-#     external: true
-#     name: i5k-dev_dbs
-#   tasks:
-
-
