@@ -31,7 +31,7 @@ services:
       - db
       - django
     volumes:
-      - /Users/vernon.chapman/git/ree/nal-i5k-drupal-migration/web/api:/export/
+
       - ./scripts/sql:/sql
       - ./data/fastafiles.md5:/fastafiles.md5
       - ./data/django.pgc:/django.pgc
