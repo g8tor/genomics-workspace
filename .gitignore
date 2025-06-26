@@ -48,6 +48,7 @@
 dist/
 
 tmp/
+.tmp
 # static files installed by webpack
 
 # /app/static/app/scripts/bootstrap.js
