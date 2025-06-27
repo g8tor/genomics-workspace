@@ -1,5 +1,5 @@
 **
-!docker-files/
+!files/
 !src/app/
 !src/blast/
 !src/clustal/
@@ -7,13 +7,7 @@
 !src/hmmer/
 !src/i5k
 !src/misc
-!src/sphinx_doc
 !src/util
 !src/manage.py
-!src/package*.json
-!src/webpack.config.js
 !src/README.md
-!supervisord.conf
-!docker-files
-!poetry.lock
 !pyproject.toml
