@@ -145,22 +145,22 @@ ALTER TABLE api.organisms DROP column organism_id;
 ALTER TABLE api.production_blastdbs DROP column blast_db_id;
 ALTER TABLE api.training_blastdbs DROP column blast_db_id;
 
-\copy api.sequencetypes to '/sql/csvs/sequencetypes.csv' WITH (FORMAT CSV, HEADER);
+\copy api.sequencetypes to '/opt/sequencetypes.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.organisms TO '/sql/csvs/organisms.csv' WITH (FORMAT CSV, HEADER);
+\copy api.organisms TO '/opt/organisms.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.databases TO '/sql/csvs/databases.csv' WITH (FORMAT CSV, HEADER);
+\copy api.databases TO '/opt/databases.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.fastafiles TO '/sql/csvs/fastafiles.csv' WITH (FORMAT CSV, HEADER);
+\copy api.fastafiles TO '/opt/fastafiles.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.production_blastdbs  TO '/sql/csvs/production_blastdbs.csv' WITH (FORMAT CSV, HEADER);
+\copy api.production_blastdbs  TO '/opt/production_blastdbs.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.production_jbrowsesettings  TO '/sql/csvs/production_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
+\copy api.production_jbrowsesettings  TO '/opt/production_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.production_hmmerdbs TO '/sql/csvs/production_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
+\copy api.production_hmmerdbs TO '/opt/production_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.training_blastdbs TO '/sql/csvs/training_blastdbs.csv' WITH (FORMAT CSV, HEADER);
+\copy api.training_blastdbs TO '/opt/training_blastdbs.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.training_jbrowsesettings  TO '/sql/csvs/training_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
+\copy api.training_jbrowsesettings  TO '/opt/training_jbrowsesettings.csv' WITH (FORMAT CSV, HEADER);
 
-\copy api.training_hmmerdbs TO '/sql/csvs/training_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
+\copy api.training_hmmerdbs TO '/opt/training_hmmerdbs.csv' WITH (FORMAT CSV, HEADER);
