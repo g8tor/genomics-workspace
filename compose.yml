@@ -11,11 +11,14 @@ services:
       DB_NAME: "${DB_NAME}"
     volumes:
       - ./files/sql:/sql
+      - ./files/data/output:/opt
+      - ./files/sql/api.schema:/opt/api.schema
       - ./files/data/fastafiles.md5:/fastafiles.md5
-      - ./files/data/django.pgc:/django.pgc
-      - ./files/data/django_training.pgc:/django_training.pgc
+      - ./files/backups/django.pgc:/django.pgc
+      - ./files/backups/django_training.pgc:/django_training.pgc
+      - ./files/scripts/export.sh:/export.sh
       - ./files/scripts/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-      - ./files/scripts/init-env.sh:/sql/init-env.sh
+      - ./files/scripts/init-env.sh:/init-env.sh
 networks:
   default:
     name: django
