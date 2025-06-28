@@ -10,15 +10,15 @@ services:
       POSTGRES_HOST_AUTH_METHOD: md5
       DB_NAME: "${DB_NAME}"
     volumes:
-      - ./files/sql:/sql
-      - ./files/data/output:/opt
-      - ./files/sql/api.schema:/opt/api.schema
+      - ./files/scripts/sql:/sql
+      - ./output:/opt
+      # - ./files/scripts/sql/api.schema:/opt/api.schema
       - ./files/data/fastafiles.md5:/fastafiles.md5
       - ./files/backups/django.pgc:/django.pgc
       - ./files/backups/django_training.pgc:/django_training.pgc
-      - ./files/scripts/export.sh:/export.sh
-      - ./files/scripts/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
-      - ./files/scripts/init-env.sh:/init-env.sh
+      - ./files/scripts/shell/export.sh:/export.sh
+      - ./files/scripts/shell/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./files/scripts/shell/init-env.sh:/init-env.sh
 networks:
   default:
     name: django
