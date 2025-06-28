@@ -1,44 +1,51 @@
 #!/bin/bash
 
+############################################
+# Set script variables for later use
+############################################
 OUTPUTDIR=/opt
-UPDATE_SCRIPT=/sql/django-update.sql
-GENERATE_SCRIPT=/sql/generate-api-views.sql
 APIDB=${OUTPUTDIR}/api.db
 
-if [ -d "${OUTPUTDIR}" ];
+SQLDIR=/sql
+UPDATE_SCRIPT=${SQLDIR}/django-update.sql
+GENERATE_SCRIPT=${SQLDIR}/generate-api-views.sql
+
+APIDB_SCHEMA=${SQLDIR}/api.schema
+
+if [ -d "${OUTPUTDIR}" ]; # Check that the $OUTPUTDIR exists
 then
+    echo "Update apk database"
     apk update &> /dev/null
+
+    echo "Install nano and sqlite"
     apk add nano sqlite &> /dev/null
 
-    cd ${OUTPUTDIR}
+    cd ${OUTPUTDIR} # Change into the $OUTPUTDIR
     rm *.csv ${APIDB} &> /dev/null
 
     psql -U ${POSTGRES_USER} -d ${DB_NAME} <  ${UPDATE_SCRIPT} &> /dev/null
-    if [ $? -eq 0 ];
+    if [ $? -eq 0 ]; # Check that the $UPDATE_SCRIPT ran successfully
     then
         echo "Updated Django DB"
-        if [ $? -eq 0 ];
+        psql -U ${POSTGRES_USER} -d ${DB_NAME} <  ${GENERATE_SCRIPT} &> /dev/null
+        if [ $? -eq 0 ]; # Check that the $GENERATE_SCRIPT ran successfully
         then
-            psql -U ${POSTGRES_USER} -d ${DB_NAME} <  ${GENERATE_SCRIPT} &> /dev/null
-            if [ $? -eq 0 ];
+            echo "API Tables Successfully Exported"
+            sqlite3 ${APIDB} ".read ${APIDB_SCHEMA}"
+            if [ -f "${APIDB}" ]; # # Check that $APIDB was created
             then
-                echo "API Tables Successfully Generated & Exported"
-                sqlite3 ${APIDB} ".read api.schema"
-                if [ -f "${APIDB}" ];
-                then
-                    echo "API Database Created"
-                    for fn in *.csv; do 
-                        TABLE=`basename -s .csv  ${fn}`
-                        sqlite3 api.db ".import --skip 1 --csv ${fn} ${TABLE}"
-                        if [ $? -eq 0 ];
-                        then
-                            count=`sqlite3 api.db " select count(*) from ${TABLE}"`
-                            echo "Imported ${count} records into ${TABLE}"
-                            rm ${fn}
-                        fi
-                    done
-                fi
-            fi
-        fi
-    fi
-fi
+                echo "API Database Created"
+                for fn in *.csv; do 
+                    TABLE=`basename -s .csv  ${fn}`
+                    sqlite3 api.db ".import --skip 1 --csv ${fn} ${TABLE}"
+                    if [ $? -eq 0 ];
+                    then
+                        count=`sqlite3 api.db " select count(*) from ${TABLE}"`
+                        echo "Imported ${count} records into ${TABLE}"
+                        rm ${fn}
+                    fi # Chweck that $fh was importted into $TABLE
+                done # Finish loop over *.csv files
+            fi # Finish checking for $APIDB
+        fi # Finish checking that $GENERATE_SCRIPT ran successfully
+    fi # Finish checking that $UPDATE_SCRIPT ran successfully
+fi # Finish check thatthe $OUTPUTDIR exists
