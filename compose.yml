@@ -12,7 +12,6 @@ services:
     volumes:
       - ./files/scripts/sql:/sql
       - ./output:/opt
-      # - ./files/scripts/sql/api.schema:/opt/api.schema
       - ./files/data/fastafiles.md5:/fastafiles.md5
       - ./files/backups/django.pgc:/django.pgc
       - ./files/backups/django_training.pgc:/django_training.pgc
