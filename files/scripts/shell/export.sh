@@ -8,17 +8,17 @@ APIDB=${OUTPUTDIR}/api.db
 
 SQLDIR=/sql
 UPDATE_SCRIPT=${SQLDIR}/django-update.sql
-GENERATE_SCRIPT=${SQLDIR}/generate-api-views.sql
+GENERATE_SCRIPT=${SQLDIR}/generate-api-tables.sql
 
 APIDB_SCHEMA=${SQLDIR}/api.schema
 
 if [ -d "${OUTPUTDIR}" ]; # Check that the $OUTPUTDIR exists
 then
-    echo "Update apk database"
-    apk update &> /dev/null
+    # echo "Update apk database"
+    # apk update &> /dev/null
 
-    echo "Install nano and sqlite"
-    apk add nano sqlite &> /dev/null
+    # echo "Install nano and sqlite"
+    # apk add nano sqlite &> /dev/null
 
     cd ${OUTPUTDIR} # Change into the $OUTPUTDIR
     rm *.csv ${APIDB} &> /dev/null
