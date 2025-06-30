@@ -2,13 +2,12 @@ CREATE TABLE IF NOT EXISTS "fastafiles" (
   "id" INTEGER,
   "checksum" TEXT,
   "file_name" TEXT,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER);
+
 CREATE TABLE IF NOT EXISTS "sequencetypes" (
   "id" INTEGER,
   "molecule_type" TEXT,
-  "dataset_type" TEXT
-);
+  "dataset_type" TEXT);
 
 CREATE TABLE IF NOT EXISTS "organisms" (
   "id" INTEGER,
@@ -17,9 +16,7 @@ CREATE TABLE IF NOT EXISTS "organisms" (
   "short_name" TEXT,
   "tax_id" INTEGER,
   "infraspecies" REAL,
-  "is_shown" INTEGER
-);
-
+  "is_shown" INTEGER );
 
 CREATE TABLE IF NOT EXISTS "databases" (
   "id" INTEGER,
@@ -28,32 +25,32 @@ CREATE TABLE IF NOT EXISTS "databases" (
   "fastafile_id" INTEGER,
   "title" TEXT,
   "description" TEXT,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER);
+
 CREATE TABLE IF NOT EXISTS "production_blastdbs" (
   "id" INTEGER,
   "organism_id" INTEGER,
   "database_id" INTEGER,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER);
+
 CREATE TABLE IF NOT EXISTS "production_hmmerdbs" (
   "id" INTEGER,
   "organism_id" INTEGER,
   "database_id" INTEGER,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER);
+
 CREATE TABLE IF NOT EXISTS "training_blastdbs" (
   "id" INTEGER,
   "organism_id" INTEGER,
   "database_id" INTEGER,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER );
+
 CREATE TABLE IF NOT EXISTS "training_hmmerdbs" (
   "id" INTEGER,
   "organism_id" INTEGER,
   "database_id" INTEGER,
-  "is_shown" INTEGER
-);
+  "is_shown" INTEGER);
+
 CREATE TABLE IF NOT EXISTS "production_jbrowsesettings" (
   "id" INTEGER,
   "blastdb_id" INTEGER,
