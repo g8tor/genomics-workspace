@@ -49,13 +49,13 @@ DELETE FROM training.hmmer_hmmerdb  WHERE is_shown = False;
 UPDATE app_organism set short_name = lower(short_name);
 UPDATE training.app_organism set short_name = lower(short_name);
 -- Update the blast_blastdb.fasta_file column
-UPDATE blast_blastdb set fasta_file = regexp_replace(fasta_file,'^.*\/','');
-UPDATE training.blast_blastdb set fasta_file = regexp_replace(fasta_file,'^.*\/','');
+UPDATE blast_blastdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/',''));
+UPDATE training.blast_blastdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/',''));
 -- Update *hmmer_hmmerdb.fasta_file 
-UPDATE hmmer_hmmerdb set fasta_file = regexp_replace(fasta_file,'^.*\/','') where is_shown = True;
-UPDATE training.hmmer_hmmerdb set fasta_file = regexp_replace(fasta_file,'^.*\/','') where is_shown = True;
+UPDATE hmmer_hmmerdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/','')) where is_shown = True;
+UPDATE training.hmmer_hmmerdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/','')) where is_shown = True;
 -- Update the file_name column by removing the path
-UPDATE fastafiles SET file_name = regexp_replace(file_name,'^.*\/','');
+UPDATE fastafiles SET file_name = trim(regexp_replace(file_name,'^.*\/',''));
 
 -- Drop THe Description Column
 ALTER TABLE app_organism DROP COLUMN description;
@@ -66,7 +66,7 @@ ALTER TABLE blast_blastdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE training.blast_blastdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE training.hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
- ALTER TABLE app_organism  ADD COLUMN train_id INTEGER UNIQUE;
+ALTER TABLE app_organism  ADD COLUMN train_id INTEGER UNIQUE;
 
 -- SELECT schemaname,relname, n_tup_ins - n_tup_del as rowcount 
 -- FROM pg_stat_all_tables 
