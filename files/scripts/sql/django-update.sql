@@ -1,4 +1,5 @@
 -- Create The Fasta File Table
+\o /dev/null
 CREATE TABLE IF NOT EXISTS fastafiles (
   id SERIAL,
   checksum VARCHAR(200) NOT NULL,
@@ -18,7 +19,7 @@ COPY fastafiles(checksum, file_name)
 FROM '/fastafiles.md5'
 DELIMITER ',';
 
-
+\o
 -- Create the extension that allows us to query across dbs
 CREATE EXTENSION postgres_fdw;
 
@@ -34,13 +35,34 @@ CREATE SCHEMA training;
 -- Import the "foreign schema into the newly created training schema"
 IMPORT FOREIGN SCHEMA public FROM SERVER training INTO training;
 
+\o /dev/null
 
--- Delete *.blast_jbrowsesetting Where the blast_blastdbs is_shown = False
-DELETE from blast_jbrowsesetting WHERE blast_db_id IN ( SELECT id from blast_blastdb WHERE is_shown = False);
-DELETE from training.blast_jbrowsesetting WHERE blast_db_id IN ( SELECT id from training.blast_blastdb WHERE is_shown = False);
--- Delete *.blast_blastdb where is_show is False
+BEGIN;
+ALTER TABLE blast_jbrowsesetting
+DROP CONSTRAINT "blast_jbrowsesetting_blast_db_id_583d9543_fk_blast_blastdb_id",
+ADD CONSTRAINT "blast_jbrowsesetting_blast_db_id_583d9543_fk_blast_blastdb_id"
+  FOREIGN KEY ("blast_db_id")
+  REFERENCES "blast_blastdb"(id)
+  ON DELETE CASCADE;
+  
+COMMIT;
 DELETE FROM blast_blastdb  WHERE is_shown = False;
-DELETE FROM training.blast_blastdb  WHERE is_shown = False;
+\c django_training
+
+BEGIN;
+ALTER TABLE blast_jbrowsesetting
+DROP CONSTRAINT "blast_jbrowses_blast_db_id_704033e7148f2da8_fk_blast_blastdb_id",
+ADD CONSTRAINT "blast_jbrowses_blast_db_id_704033e7148f2da8_fk_blast_blastdb_id"
+  FOREIGN KEY ("blast_db_id")
+  REFERENCES "blast_blastdb"(id)
+  ON DELETE CASCADE;
+COMMIT;
+DELETE FROM blast_blastdb  WHERE is_shown = False;
+\c django
+
+
+
+
 -- Update The *.hmmer_hmmerbds
 DELETE FROM hmmer_hmmerdb  WHERE is_shown = False;
 DELETE FROM training.hmmer_hmmerdb  WHERE is_shown = False;
@@ -48,9 +70,11 @@ DELETE FROM training.hmmer_hmmerdb  WHERE is_shown = False;
 -- Update short_name in *.organism tables
 UPDATE app_organism set short_name = lower(short_name);
 UPDATE training.app_organism set short_name = lower(short_name);
+
 -- Update the blast_blastdb.fasta_file column
 UPDATE blast_blastdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/',''));
 UPDATE training.blast_blastdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/',''));
+
 -- Update *hmmer_hmmerdb.fasta_file 
 UPDATE hmmer_hmmerdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/','')) where is_shown = True;
 UPDATE training.hmmer_hmmerdb set fasta_file = trim(regexp_replace(fasta_file,'^.*\/','')) where is_shown = True;
@@ -68,10 +92,6 @@ ALTER TABLE hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE training.hmmer_hmmerdb RENAME COLUMN fasta_file TO file_name;
 ALTER TABLE app_organism  ADD COLUMN train_id INTEGER UNIQUE;
 
--- SELECT schemaname,relname, n_tup_ins - n_tup_del as rowcount 
--- FROM pg_stat_all_tables 
--- WHERE schemaname in ('public','training') AND relname NOT LIKE 'pg%' AND relname NOT LIKE 'sql%' order by schemaname, relname ASC;
-
 -- Update the training ids for app organisms
 UPDATE
     app_organism ao
@@ -82,6 +102,26 @@ FROM
 WHERE
     ao.display_name = tao.display_name;
 
+UPDATE hmmer_hmmerdb
+SET title = regexp_replace(title,'^.*\/','')
+where title like '/%';
+
+
+\c django_training 
+
+UPDATE hmmer_hmmerdb
+SET title = regexp_replace(title,'^.*\/','')
+where title like '/%';
+
+\o 
+SELECT schemaname,relname, n_tup_ins - n_tup_del as rowcount 
+FROM pg_stat_all_tables 
+WHERE schemaname in ('public','training') AND relname NOT LIKE 'pg%' AND relname NOT LIKE 'sql%' order by schemaname, relname ASC;
+
+\c django
+SELECT schemaname,relname, n_tup_ins - n_tup_del as rowcount 
+FROM pg_stat_all_tables 
+WHERE schemaname in ('public','training') AND relname NOT LIKE 'pg%' AND relname NOT LIKE 'sql%' order by schemaname, relname ASC;
 
 -- UPDATE
 --     app_organism ao
@@ -90,3 +130,7 @@ WHERE
 -- WHERE
 --     ao.train_id is NULL;
 
+
+-- UPDATE hmmer_hmmerdb
+-- SET title = regexp_replace(title,'^.*\/','')
+-- where title like '/%';
