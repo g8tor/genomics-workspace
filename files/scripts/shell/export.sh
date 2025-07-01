@@ -14,11 +14,11 @@ APIDB_SCHEMA=${SQLDIR}/api.schema
 
 if [ -d "${OUTPUTDIR}" ]; # Check that the $OUTPUTDIR exists
 then
-    # echo "Update apk database"
-    # apk update &> /dev/null
+    echo "Update apk database"
+    apk update &> /dev/null
 
-    # echo "Install nano and sqlite"
-    # apk add nano sqlite &> /dev/null
+    echo "Install nano and sqlite"
+    apk add nano sqlite &> /dev/null
 
     cd ${OUTPUTDIR} # Change into the $OUTPUTDIR
     rm *.csv ${APIDB} &> /dev/null
