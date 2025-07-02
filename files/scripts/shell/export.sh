@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export PGOPTIONS='--client-min-messages=warning'
 ############################################
 # Set script variables for later use
 ############################################
@@ -14,20 +14,23 @@ APIDB_SCHEMA=${SQLDIR}/api.schema
 
 if [ -d "${OUTPUTDIR}" ]; # Check that the $OUTPUTDIR exists
 then
+    echo
     echo "Update apk database"
     apk update &> /dev/null
 
     echo "Install nano and sqlite"
     apk add nano sqlite &> /dev/null
 
+    echo ""
+
     cd ${OUTPUTDIR} # Change into the $OUTPUTDIR
     rm *.csv ${APIDB} &> /dev/null
 
-    psql -U ${POSTGRES_USER} -d ${DB_NAME} <  ${UPDATE_SCRIPT} &> /dev/null
+    psql --quiet -U ${POSTGRES_USER} -d ${DB_NAME} <  ${UPDATE_SCRIPT} #&> /dev/null
     if [ $? -eq 0 ]; # Check that the $UPDATE_SCRIPT ran successfully
     then
         echo "Updated Django DB"
-        psql -U ${POSTGRES_USER} -d ${DB_NAME} <  ${GENERATE_SCRIPT} &> /dev/null
+        psql --quiet -U ${POSTGRES_USER} -d ${DB_NAME} <  ${GENERATE_SCRIPT} &> /dev/null
         if [ $? -eq 0 ]; # Check that the $GENERATE_SCRIPT ran successfully
         then
             echo "API Tables Successfully Exported"
@@ -38,14 +41,16 @@ then
                 for fn in *.csv; do 
                     TABLE=`basename -s .csv  ${fn}`
                     sqlite3 api.db ".import --skip 1 --csv ${fn} ${TABLE}"
-                    if [ $? -eq 0 ];
-                    then
-                        count=`sqlite3 api.db " select count(*) from ${TABLE}"`
-                        echo "Imported ${count} records into ${TABLE}"
-                        rm ${fn}
+                    if [ $? -eq 0 ];then
+                         count=`sqlite3 api.db " select count(*) from ${TABLE}"`
+                         echo "Imported ${count} records into ${TABLE}"
+                        if [ -f "${fn}" ];then
+                            rm ${fn}
+                        fi
                     fi # Chweck that $fh was importted into $TABLE
                 done # Finish loop over *.csv files
             fi # Finish checking for $APIDB
         fi # Finish checking that $GENERATE_SCRIPT ran successfully
     fi # Finish checking that $UPDATE_SCRIPT ran successfully
-fi # Finish check thatthe $OUTPUTDIR exists
+    echo
+fi # Finish check that the $OUTPUTDIR exists
