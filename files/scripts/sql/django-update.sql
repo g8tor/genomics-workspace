@@ -1,5 +1,5 @@
 -- Create The Fasta File Table
-\o /dev/null
+-- \o /dev/null
 CREATE TABLE IF NOT EXISTS fastafiles (
   id SERIAL,
   checksum VARCHAR(200) NOT NULL,

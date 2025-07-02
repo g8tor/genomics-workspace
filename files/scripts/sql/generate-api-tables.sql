@@ -1,8 +1,10 @@
+
 -- Drop the API schema if it exists
 DROP SCHEMA IF EXISTS api CASCADE;
 
 -- Create api schema
 CREATE SCHEMA api;
+
 
 -- Create Fasta File Table
 CREATE TABLE api.fastafiles AS
@@ -181,16 +183,23 @@ UPDATE api.training_hmmerdbs
 SET id = nextval('api.training_hmmerdbs_seq');
 
 ALTER TABLE api.databases DROP column file_name;
+ALTER TABLE api.organisms DROP column organism_id;
+ALTER TABLE api.production_hmmerdbs DROP COLUMN file_name;
 ALTER TABLE api.production_jbrowsesettings DROP column new_blast_id;
+ALTER TABLE api.production_blastdbs DROP COLUMN  blast_db_id;
+ALTER TABLE api.training_blastdbs DROP COLUMN  blast_db_id;
 
 -- Check Fasta Files table
 SELECT * FROM api.fastafiles where checksum is NULL;
 SELECT * FROM api.fastafiles where file_name is NULL;
 SELECT * FROM api.fastafiles where is_shown = False;
+COPY (SELECT * FROM api.fastafiles ORDER BY id ASC) TO '/opt/fastafiles.csv' DELIMITER ',' CSV HEADER;
 
 -- Check Sequence Types table
 SELECT * FROM api.sequencetypes where molecule_type is NULL;
 SELECT * FROM api.sequencetypes where dataset_type is NULL;
+COPY (SELECT * FROM api.sequencetypes ORDER BY id ASC) TO '/opt/sequencetypes.csv' DELIMITER ',' CSV HEADER;
+
 
 -- CHeck Organisms Table
 SELECT * FROM api.organisms where genus is NULL;
@@ -198,6 +207,9 @@ SELECT * FROM api.organisms where species is NULL;
 SELECT * FROM api.organisms where short_name is NULL;
 SELECT * FROM api.organisms where tax_id is NULL;
 SELECT * FROM api.organisms where is_shown = False;
+COPY (SELECT * FROM api.organisms ORDER BY id ASC) TO '/opt/organisms.csv' DELIMITER ',' CSV HEADER;
+
+
 
 -- Check Shared Database Table Foreihgn Keys
 SELECT * FROM api.databases where fastafile_id not in (SELECT id FROM api.fastafiles );
@@ -206,26 +218,35 @@ SELECT * FROM api.databases where organism_id not in (SELECT id FROM api.organis
 SELECT * FROM api.databases where title is NULL;
 SELECT * FROM api.databases where description is NULL;
 SELECT * FROM api.databases where is_shown = False;
+COPY (SELECT * FROM api.databases ORDER BY id ASC) TO '/opt/databases.csv' DELIMITER ',' CSV HEADER;
+
 
 -- Check Production BlastDBs
 select * FROM api.production_blastdbs where  organism_id not in (SELECT id FROM api.organisms);
 select * FROM api.production_blastdbs where  database_id not in (SELECT id FROM api.databases);
+COPY (SELECT * FROM api.production_blastdbs ORDER BY id ASC) TO '/opt/production_blastdbs.csv' DELIMITER ',' CSV HEADER;
 
 -- Check Production HmmerDBs
 select * FROM api.production_hmmerdbs where  organism_id not in (SELECT id FROM api.organisms);
 select * FROM api.production_hmmerdbs where  database_id not in (SELECT id FROM api.databases);
+COPY (SELECT * FROM api.production_hmmerdbs ORDER BY id ASC) TO '/opt/production_hmmerdbs.csv' DELIMITER ',' CSV HEADER;
 
 -- Check Training BlastDBs
 select * FROM api.training_blastdbs where  organism_id not in (SELECT id FROM api.organisms);
 select * FROM api.training_blastdbs where  database_id not in (SELECT id FROM api.databases);
+COPY (SELECT * FROM api.training_blastdbs ORDER BY id ASC) TO '/opt/training_blastdbs.csv' DELIMITER ',' CSV HEADER;
 
 -- Check Training HmmerDBs
 select * FROM api.training_hmmerdbs where  organism_id not in (SELECT id FROM api.organisms);
 select * FROM api.training_hmmerdbs where  database_id not in (SELECT id FROM api.databases);
+COPY (SELECT * FROM api.training_hmmerdbs ORDER BY id ASC) TO '/opt/training_hmmerdbs.csv' DELIMITER ',' CSV HEADER;
 
 
 
 ALTER TABLE api.production_jbrowsesettings RENAME COLUMN blast_db_id to blastdb_id;
 select * from api.production_jbrowsesettings where blastdb_id not in (select id from api.production_blastdbs );
+COPY (SELECT * FROM api.production_jbrowsesettings  ORDER BY id ASC) TO '/opt/production_jbrowsesettings.csv' DELIMITER ',' CSV HEADER;
 
 select * from api.training_jbrowsesettings where blastdb_id not in (select id from api.training_blastdbs );
+COPY (SELECT * FROM api.training_jbrowsesettings  ORDER BY id ASC) TO '/opt/training_jbrowsesettings.csv' DELIMITER ',' CSV HEADER;
+
