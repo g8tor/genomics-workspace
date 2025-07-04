@@ -35,7 +35,7 @@ CREATE SCHEMA training;
 -- Import the "foreign schema into the newly created training schema"
 IMPORT FOREIGN SCHEMA public FROM SERVER training INTO training;
 
-\o /dev/null
+-- \o /dev/null
 
 BEGIN;
 ALTER TABLE blast_jbrowsesetting
@@ -59,8 +59,6 @@ ADD CONSTRAINT "blast_jbrowses_blast_db_id_704033e7148f2da8_fk_blast_blastdb_id"
 COMMIT;
 DELETE FROM blast_blastdb  WHERE is_shown = False;
 \c django
-
-
 
 
 -- Update The *.hmmer_hmmerbds

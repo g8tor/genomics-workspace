@@ -4,8 +4,6 @@ CREATE TABLE IF NOT EXISTS "collections" (
   "display_name" TEXT NULL,
   UNIQUE(name,display_name));
 
-INSERT INTO collections (name, display_name) VALUES('production','Production Collection');
-INSERT INTO collections (name, display_name) VALUES('training','Training Collection');
 
 CREATE TABLE IF NOT EXISTS "fastafiles" (
   "id" INTEGER,
