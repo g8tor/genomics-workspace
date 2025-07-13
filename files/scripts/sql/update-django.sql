@@ -142,7 +142,7 @@ FROM pg_stat_all_tables
 WHERE schemaname in ('public','training') AND relname NOT LIKE 'pg%' AND relname NOT LIKE 'sql%' order by schemaname, relname ASC;
 
 
-\i /sql/combo.sql
+\i /sql/generate-api-data.sql
 
 \c django
 
@@ -176,14 +176,14 @@ end $$;
 DROP SCHEMA training CASCADE;
 
 \! rm api.pgc &> /dev/null
-\! pg_dump -n api  -U i5k -d api  -C -c --if-exists -Fc -f api.pgc 2>/dev/null
+\! pg_dump -n api  -U i5k -d api  -C -c --if-exists -Fc -f /opt/api.pgc 2>/dev/null
 
 \c api
 set search_path to api;
-ALTER TABLE collections SET SCHEMA public;
-ALTER TABLE fastafiles SET SCHEMA public;
-ALTER TABLE organisms SET SCHEMA public;
-ALTER TABLE sequencetypes SET SCHEMA public;
+-- ALTER TABLE collections SET SCHEMA public;
+-- ALTER TABLE fastafiles SET SCHEMA public;
+-- ALTER TABLE organisms SET SCHEMA public;
+-- ALTER TABLE sequencetypes SET SCHEMA public;
 -- CREATE SCHEMA public;
 -- CREATE SCHEMA production;
 -- CREATE SCHEMA training;
