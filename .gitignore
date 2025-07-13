@@ -19,6 +19,6 @@
 # vs code workspace settings
 .vscode/
 
-
+output
 tmp/
 .tmp
