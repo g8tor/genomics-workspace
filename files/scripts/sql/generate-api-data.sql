@@ -67,7 +67,9 @@ CREATE TABLE api.organisms AS
         trim(split_part(po.display_name, ' ', 1)) genus ,
         trim(split_part(po.display_name, ' ', 2)) species,
         lower(trim(po.short_name)) as short_name,
-        po.tax_id
+        po.tax_id,
+        null as infraspecies,
+        True as is_shown
     FROM app_organism po
     LEFT OUTER JOIN training.app_organism t 
     ON trim(po.display_name) = trim(t.display_name)
@@ -78,6 +80,8 @@ CREATE TABLE api.organisms AS
     ALTER COLUMN genus SET NOT NULL,
     ALTER COLUMN species SET NOT NULL,
     ALTER COLUMN short_name SET NOT NULL,
+    ALTER COLUMN tax_id SET NOT NULL,
+    ALTER COLUMN is_shown SET DEFAULT True,
     ADD UNIQUE(short_name),
     ADD UNIQUE(genus,species,short_name),
     ADD PRIMARY KEY (id);
@@ -158,7 +162,8 @@ CREATE TABLE api.hmmer AS
         LEFT OUTER JOIN organism_updates ou
         ON th.organism_id = ou.organism_id
         ORDER BY file_name, source ASC
-    ) SELECT source,0 as id, 0 as database_id, f.checksum, trim(ah.file_name) as file_name,organism_id, 3 as sequencetype_id, f.id as fastafile_id, trim(ah.description) as description, null as url
+    ) SELECT source,0 as id, 0 as database_id, f.checksum, trim(ah.file_name) as file_name,organism_id, 
+             3 as sequencetype_id, f.id as fastafile_id, trim(ah.description) as description, null as url
     FROM all_hmmer ah
     LEFT OUTER JOIN api.fastafiles f
     ON trim(ah.file_name) = trim(f.file_name)
@@ -189,7 +194,7 @@ CREATE TABLE api.databases AS
     )
     SELECT DISTINCT ON (checksum,file_name) 
         id, organism_id, sequencetype_id,fastafile_id, description,
-        checksum,file_name,url
+        checksum,file_name,url,True as is_shown
     FROM data;
 
     CREATE SEQUENCE api.databases_seq START 1;
@@ -237,7 +242,7 @@ CREATE TABLE api.databases AS
 \echo Create Production Blast DBs Table
 
 CREATE TABLE api.production_blastdbs AS
-    SELECT id, organism_id,database_id 
+    SELECT id, organism_id,database_id, True as is_shown 
     FROM api.blast
     WHERE source = 'blast'
     ORDER BY id ASC;
@@ -252,7 +257,7 @@ CREATE TABLE api.production_blastdbs AS
 \echo Create Production Hmmer DBs table
 
 CREATE TABLE api.production_hmmerdbs AS
-    SELECT id, organism_id,database_id 
+    SELECT id, organism_id,database_id ,True as is_shown
     FROM api.hmmer
     WHERE source = 'hmmer';
 
@@ -272,7 +277,7 @@ CREATE TABLE api.production_jbrowsesettings AS
 \echo Create Training Blast Dbs
 
 CREATE TABLE api.training_blastdbs AS
-    SELECT id, organism_id,database_id 
+    SELECT id, organism_id,database_id ,True as is_shown
     FROM api.blast
     WHERE source = 'training_blast'
     ORDER BY id ASC;
@@ -286,7 +291,7 @@ CREATE TABLE api.training_blastdbs AS
 \echo Create Training Hmmer DBs table
 
 CREATE TABLE api.training_hmmerdbs AS
-    SELECT id, organism_id,database_id 
+    SELECT id, organism_id,database_id ,True as is_shown
     FROM api.hmmer
     WHERE source = 'training_hmmer';
 
@@ -336,7 +341,8 @@ DROP COLUMN display_name,
 DROP COLUMN organism_id;
 DROP EXTENSION  postgres_fdw CASCADE;
 
-
+ALTER TABLE api.collections
+ADD UNIQUE(name, display_name);
 -- -----------------------------------
 -- -- Drop the API schema if it exists
 -- -----------------------------------
