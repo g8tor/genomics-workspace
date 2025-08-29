@@ -15,6 +15,7 @@ services:
       - ./files/data/fastafiles.md5:/fastafiles.md5
       - ./files/backups/django.pgc:/django.pgc
       - ./files/backups/django_training.pgc:/django_training.pgc
+      - ./files/backups/i5k-dev-data.pgc:/i5k-dev-data.pgc
       - ./files/scripts/shell/export.sh:/export.sh
       - ./files/scripts/shell/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
       - ./files/scripts/shell/init-env.sh:/init-env.sh
