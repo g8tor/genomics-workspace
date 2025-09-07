@@ -90,10 +90,6 @@
 /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_cds_from_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_rna_from_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_000648675.2_Clec_2.1_translated_cds.faa
-/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_cds_from_genomic.fna
-/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_genomic.fna
-/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_rna_from_genomic.fna
-/usr/local/i5k/media/blast/db/GCF_000648695.1_Otau_2.0_translated_cds.faa
 /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_cds_from_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_000671375.1_Cexi_2.0_rna_from_genomic.fna
@@ -383,6 +379,10 @@
 /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_rna_from_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_034640455.1_iyDiaLong2_translated_cds.faa
+/usr/local/i5k/media/blast/db/GCF_036711975.1_IU_Otau_3.0_cds_from_genomic.fna
+/usr/local/i5k/media/blast/db/GCF_036711975.1_IU_Otau_3.0_genomic.fna
+/usr/local/i5k/media/blast/db/GCF_036711975.1_IU_Otau_3.0_rna_from_genomic.fna
+/usr/local/i5k/media/blast/db/GCF_036711975.1_IU_Otau_3.0_translated_cds.faa
 /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_cds_from_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_genomic.fna
 /usr/local/i5k/media/blast/db/GCF_037043105.1_ilVanTame1_primary_haplotype_rna_from_genomic.fna
@@ -407,7 +407,6 @@
 /usr/local/i5k/media/blast/db/HAZT.faa
 /usr/local/i5k/media/blast/db/HVIT_new_ids.faa
 /usr/local/i5k/media/blast/db/HVIT_new_ids.fna
-/usr/local/i5k/media/blast/db/Hazt_redundans_assembly_test_3_4_2016.fa
 /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_cds.fa
 /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_pep.fa
 /usr/local/i5k/media/blast/db/Holacanthella_duospinosa_annotation_1.0_trans.fa
