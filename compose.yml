@@ -10,6 +10,7 @@ services:
       POSTGRES_HOST_AUTH_METHOD: md5
       DB_NAME: "${DB_NAME}"
     volumes:
+      - ./files/scripts/shell:/shell
       - ./files/scripts/sql:/sql
       - ./files/backups:/opt
       - ./files/data/fastafiles.md5:/fastafiles.md5
