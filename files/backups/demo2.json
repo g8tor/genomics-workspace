@@ -1,0 +1,2566 @@
+[
+  {
+    "Aethina tumida": [
+      {
+        "description": "Genome Assembly - Aethina tumida genome assembly, icAetTumi1.1",
+        "file_name": "GCF_024364675.1_icAetTumi1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Aethina tumida NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_024364675.1_icAetTumi1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Aethina tumida NCBI Annotation release 101, CDS",
+        "file_name": "GCF_024364675.1_icAetTumi1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Aethina tumida NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_024364675.1_icAetTumi1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Agrilus planipennis": [
+      {
+        "description": "Genome Assembly - Agrilus planipennis genome assembly, Apla_2.0",
+        "file_name": "GCF_000699045.2_Apla_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Agrilus planipennis NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000699045.2_Apla_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Agrilus planipennis NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000699045.2_Apla_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Agrilus planipennis NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000699045.2_Apla_2.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Amyelois transitella": [
+      {
+        "description": "Genome Assembly - Amyelois transitella genome assembly, ilAmyTran1.1",
+        "file_name": "GCF_032362555.1_ilAmyTran1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Amyelois transitella NCBI Annotation release GCF_032362555.1-RS_2023_11, translated CDS",
+        "file_name": "GCF_032362555.1_ilAmyTran1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Amyelois transitella NCBI Annotation release GCF_032362555.1-RS_2023_11, CDS",
+        "file_name": "GCF_032362555.1_ilAmyTran1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Amyelois transitella NCBI Annotation release GCF_032362555.1-RS_2023_11, transcripts",
+        "file_name": "GCF_032362555.1_ilAmyTran1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Anabrus simplex": [
+      {
+        "description": "Protein - Anabrus simplex NCBI Annotation release GCF_040414725.1-RS_2024_09, translated CDS",
+        "file_name": "GCF_040414725.1_ASM4041472v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Anabrus simplex NCBI Annotation release GCF_040414725.1-RS_2024_09, CDS",
+        "file_name": "GCF_040414725.1_ASM4041472v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Anabrus simplex NCBI Annotation release GCF_040414725.1-RS_2024_09, transcripts",
+        "file_name": "GCF_040414725.1_ASM4041472v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Anastrepha ludens": [
+      {
+        "description": "Genome Assembly - Anastrepha ludens genome assembly, idAnaLude1.1",
+        "file_name": "GCF_028408465.1_idAnaLude1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Anastrepha ludens NCBI Annotation release GCF_028408465.1-RS_2023_03, translated CDS",
+        "file_name": "GCF_028408465.1_idAnaLude1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Anastrepha ludens NCBI Annotation release GCF_028408465.1-RS_2023_03, CDS",
+        "file_name": "GCF_028408465.1_idAnaLude1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Anastrepha ludens NCBI Annotation release GCF_028408465.1-RS_2023_03, transcripts",
+        "file_name": "GCF_028408465.1_idAnaLude1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Anastrepha obliqua": [
+      {
+        "description": "Genome Assembly - Anastrepha obliqua genome assembly, idAnaObli1_1.0",
+        "file_name": "GCF_027943255.1_idAnaObli1_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Anastrepha obliqua NCBI Annotation release GCF_027943255.1-RS_2023_03, translated CDS",
+        "file_name": "GCF_027943255.1_idAnaObli1_1.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Anastrepha obliqua NCBI Annotation release GCF_027943255.1-RS_2023_03, CDS",
+        "file_name": "GCF_027943255.1_idAnaObli1_1.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Anastrepha obliqua NCBI Annotation release GCF_027943255.1-RS_2023_03, transcripts",
+        "file_name": "GCF_027943255.1_idAnaObli1_1.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Anoplophora glabripennis": [
+      {
+        "description": "Genome Assembly - Agla_Btl03082013.genome_new_ids.fa",
+        "file_name": "Agla_Btl03082013.genome_new_ids.fa"
+      },
+      {
+        "description": "Protein - Anoplophora glabripennis OGSv1.3, proteins",
+        "file_name": "anogla_OGSv1.3_pep.fa"
+      },
+      {
+        "description": "Protein - NCBI Anoplophora glabripennis Annotation Release 101, translated CDS",
+        "file_name": "GCF_000390285.2_Agla_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Anoplophora glabripennis OGSv1.3, CDS",
+        "file_name": "anogla_OGSv1.3_cds.fa"
+      },
+      {
+        "description": "Transcript - Anoplophora glabripennis OGSv1.3, RNA",
+        "file_name": "anogla_OGSv1.3_trans.fa"
+      },
+      {
+        "description": "Transcript - NCBI Anoplophora glabripennis Annotation Release 101, cds from genomic",
+        "file_name": "GCF_000390285.2_Agla_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - NCBI Anoplophora glabripennis Annotation Release 101, rna from genomic",
+        "file_name": "GCF_000390285.2_Agla_2.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Anthonomus grandis": [
+      {
+        "description": "Genome Assembly - Anthonomus grandis grandis genome assembly, icAntGran1.3",
+        "file_name": "GCF_022605725.1_icAntGran1.3_genomic.fna"
+      },
+      {
+        "description": "Protein - Anthonomus grandis grandis NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_022605725.1_icAntGran1.3_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Anthonomus grandis grandis NCBI Annotation release 100, CDS",
+        "file_name": "GCF_022605725.1_icAntGran1.3_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Anthonomus grandis grandis NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_022605725.1_icAntGran1.3_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Apis mellifera": [
+      {
+        "description": "Genome Assembly - Apis mellifera genome assembly, Amel_HAv3.1",
+        "file_name": "GCF_003254395.2_Amel_HAv3.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Apis mellifera NCBI Annotation release 104, translated CDS",
+        "file_name": "GCF_003254395.2_Amel_HAv3.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Apis mellifera OGSv3.4, translated CDS",
+        "file_name": "apimel_OGSv3.4_pep.fa"
+      },
+      {
+        "description": "Transcript - Apis mellifera NCBI Annotation release 104, CDS",
+        "file_name": "GCF_003254395.2_Amel_HAv3.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Apis mellifera NCBI Annotation release 104, transcripts",
+        "file_name": "GCF_003254395.2_Amel_HAv3.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Apis mellifera OGSv3.4, CDS",
+        "file_name": "apimel_OGSv3.4_cds.fa"
+      },
+      {
+        "description": "Transcript - Apis mellifera OGSv3.4, transcripts",
+        "file_name": "apimel_OGSv3.4_trans.fa"
+      }
+    ]
+  },
+  {
+    "Athalia rosae": [
+      {
+        "description": "Genome Assembly - Athalia rosae genome assembly, iyAthRosa1.1",
+        "file_name": "GCF_917208135.1_iyAthRosa1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Athalia rosae NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_917208135.1_iyAthRosa1.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Athalia rosae OGSv1.3, translated CDS",
+        "file_name": "athros_OGSv1.3_pep.fa"
+      },
+      {
+        "description": "Transcript - Athalia rosae NCBI Annotation release 103, CDS",
+        "file_name": "GCF_917208135.1_iyAthRosa1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Athalia rosae NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_917208135.1_iyAthRosa1.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Athalia rosae OGSv1.3, CDS",
+        "file_name": "athros_OGSv1.3_cds.fa"
+      },
+      {
+        "description": "Transcript - Athalia rosae OGSv1.3, transcripts",
+        "file_name": "athros_OGSv1.3_trans.fa"
+      }
+    ]
+  },
+  {
+    "Bactrocera dorsalis": [
+      {
+        "description": "Genome Assembly - Bactrocera dorsalis genome assembly, ASM2337382v1",
+        "file_name": "GCF_023373825.1_ASM2337382v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Bactrocera dorsalis Bdor_v1 MAKER annotations-BDOR1.1, translated CDS",
+        "file_name": "Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_pep.fa"
+      },
+      {
+        "description": "Protein - Bactrocera dorsalis NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_023373825.1_ASM2337382v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Bactrocera dorsalis Bdor_v1 MAKER annotations-BDOR1.1, CDS",
+        "file_name": "Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Bactrocera dorsalis Bdor_v1 MAKER annotations-BDOR1.1, transcripts",
+        "file_name": "Bactrocera_dorsalis_Bdor_v1_MAKER_annotations-BDOR1.1_trans.fa"
+      },
+      {
+        "description": "Transcript - Bactrocera dorsalis NCBI Annotation release 103, CDS",
+        "file_name": "GCF_023373825.1_ASM2337382v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bactrocera dorsalis NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_023373825.1_ASM2337382v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Bactrocera oleae": [
+      {
+        "description": "Genome Assembly - Bactrocera oleae genome assembly, MU_Boleae_v2",
+        "file_name": "GCF_001188975.3_MU_Boleae_v2_genomic.fna"
+      },
+      {
+        "description": "Protein - Bactrocera oleae JAMg_OGSv1.1, translated CDS",
+        "file_name": "JAMg_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Protein - Bactrocera oleae NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_001188975.3_MU_Boleae_v2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Bactrocera oleae JAMg_OGSv1.1, CDS",
+        "file_name": "JAMg_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Bactrocera oleae JAMg_OGSv1.1, transcripts",
+        "file_name": "JAMg_OGSv1.1_trans.fa"
+      },
+      {
+        "description": "Transcript - Bactrocera oleae NCBI Annotation release 101, CDS",
+        "file_name": "GCF_001188975.3_MU_Boleae_v2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bactrocera oleae NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_001188975.3_MU_Boleae_v2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Bemisia tabaci": [
+      {
+        "description": "Genome Assembly - Bemisia tabaci genome assembly GCF_001854935.1 (ASM185493v1)",
+        "file_name": "GCF_001854935.1_ASM185493v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Bemisia tabaci NCBI annotation release 100, proteins",
+        "file_name": "GCF_001854935.1_ASM185493v1_protein.faa"
+      },
+      {
+        "description": "Protein - Bemisia tabaci OGS MEAM1_v1.2, proteins",
+        "file_name": "MEAM1_v1.2-GCF_001854935.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Bemisia tabaci NCBI annotation release 100, RNA",
+        "file_name": "GCF_001854935.1_ASM185493v1_rna.fna"
+      },
+      {
+        "description": "Transcript - Bemisia tabaci OGS MEAM1_v1.2, coding sequence (CDS)",
+        "file_name": "MEAM1_v1.2-GCF_001854935.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Bemisia tabaci OGS MEAM1_v1.2, transcripts",
+        "file_name": "MEAM1_v1.2-GCF_001854935.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Blattella germanica": [
+      {
+        "description": "Genome Assembly - Blattella_germanica_scaffolds",
+        "file_name": "Bgermanica.scaffolds.fa"
+      },
+      {
+        "description": "Protein - Blattella germanica OGSv1.2, peptides",
+        "file_name": "blager_OGSv1.2_pep.fa"
+      },
+      {
+        "description": "Transcript - Blattella germanica OGSv1.2, coding sequence (CDS)",
+        "file_name": "blager_OGSv1.2_cds.fa"
+      },
+      {
+        "description": "Transcript - Blattella germanica OGSv1.2, transcripts",
+        "file_name": "blager_OGSv1.2_trans.fa"
+      }
+    ]
+  },
+  {
+    "Bombus affinis": [
+      {
+        "description": "Genome Assembly - Bombus affinis genome assembly, iyBomAffi1.2",
+        "file_name": "GCF_024516045.1_iyBomAffi1.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Bombus affinis NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_024516045.1_iyBomAffi1.2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Bombus affinis NCBI Annotation release 100, CDS",
+        "file_name": "GCF_024516045.1_iyBomAffi1.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bombus affinis NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_024516045.1_iyBomAffi1.2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Bombus huntii": [
+      {
+        "description": "Genome Assembly - Bombus huntii genome assembly, iyBomHunt1.1",
+        "file_name": "GCF_024542735.1_iyBomHunt1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Bombus huntii NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_024542735.1_iyBomHunt1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Bombus huntii NCBI Annotation release 100, CDS",
+        "file_name": "GCF_024542735.1_iyBomHunt1.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bombus huntii NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_024542735.1_iyBomHunt1.1_cds_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Bombus impatiens": [
+      {
+        "description": "Genome Assembly - Bombus impatiens genome assembly, BIMP2.2",
+        "file_name": "GCF_000188095.3_BIMP_2.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Bombus impatiens NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_000188095.3_BIMP_2.2_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Bombus impatiens OGSv1.1, peptlde",
+        "file_name": "bomimp_OGSv1.1_pep_new.fa"
+      },
+      {
+        "description": "Transcript - Bombus impatiens NCBI Annotation release 103, CDS",
+        "file_name": "GCF_000188095.3_BIMP_2.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bombus impatiens NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_000188095.3_BIMP_2.2_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bombus impatiens OGSv1.1, CDS",
+        "file_name": "bomimp_OGSv1.1_cds_new.fa"
+      }
+    ]
+  },
+  {
+    "Bombus terrestris": [
+      {
+        "description": "Genome Assembly - Bombus terrestris genome assembly, iyBomTerr1.2",
+        "file_name": "GCF_910591885.1_iyBomTerr1.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Bombus terrestris NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_910591885.1_iyBomTerr1.2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Bombus terrestris NCBI Annotation release 103, CDS",
+        "file_name": "GCF_910591885.1_iyBomTerr1.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bombus terrestris NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_910591885.1_iyBomTerr1.2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Bradysia coprophila": [
+      {
+        "description": "Genome Assembly - Bradysia coprophila genome assembly, BU_Bcop_v1",
+        "file_name": "GCF_014529535.1_BU_Bcop_v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Bradysia coprophila NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_014529535.1_BU_Bcop_v1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Bradysia_coprophila.Bcop_v1.0, proteins",
+        "file_name": "Bradysia_coprophila.Bcop_v1.0_proteins_with_putative_function.fasta"
+      },
+      {
+        "description": "Transcript - Bradysia coprophila NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_014529535.1_BU_Bcop_v1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Bradysia_coprophila.Bcop_v1.0, transcripts",
+        "file_name": "Bradysia_coprophila.Bcop_v1.0_transcripts_with_putative_function.fasta"
+      }
+    ]
+  },
+  {
+    "Catajapyx aquilonaris": [
+      {
+        "description": "Genome Assembly - Catajapyx aquilonaris genome assembly, Caqu_2.0",
+        "file_name": "GCA_000934665.2_Caqu_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Catajapyx aquilonaris BCM 0.5.3, translated CDS",
+        "file_name": "CAQU.Models-Caqu_2.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Catajapyx aquilonaris BCM 0.5.3, CDS",
+        "file_name": "CAQU.Models-Caqu_2.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Catajapyx aquilonaris BCM 0.5.3, transcripts",
+        "file_name": "CAQU.Models-Caqu_2.0_trans.fa"
+      }
+    ]
+  },
+  {
+    "Centruroides sculpturatus": [
+      {
+        "description": "Genome Assembly - Centruroides sculpturatus genome assembly, Cexi_2.0",
+        "file_name": "GCF_000671375.1_Cexi_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Centruroides sculpturatus NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_000671375.1_Cexi_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Centruroides sculpturatus NCBI Annotation release 100, CDS",
+        "file_name": "GCF_000671375.1_Cexi_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Centruroides sculpturatus NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_000671375.1_Cexi_2.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Cephus cinctus": [
+      {
+        "description": "Genome Assembly - Cephus cinctus genome assembly, Ccin1v2",
+        "file_name": "GCF_000341935.2_Ccin1v2_genomic.fna"
+      },
+      {
+        "description": "Protein - Cephus cinctus NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000341935.2_Ccin1v2_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Cephus cinctus cepcin_OGSv1.2, translated CDS",
+        "file_name": "cepcin_OGSv1.2_pep.fa"
+      },
+      {
+        "description": "Transcript - Cephus cinctus NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000341935.2_Ccin1v2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cephus cinctus NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000341935.2_Ccin1v2_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cephus cinctus cepcin_OGSv1.2, CDS",
+        "file_name": "cepcin_OGSv1.2_cds.fa"
+      },
+      {
+        "description": "Transcript - Cephus cinctus cepcin_OGSv1.2, transcripts",
+        "file_name": "cepcin_OGSv1.2_trans.fa"
+      }
+    ]
+  },
+  {
+    "Ceratitis capitata": [
+      {
+        "description": "Genome Assembly - Ceratitis capitata genome assembly, Ccap_2.1",
+        "file_name": "GCF_000347755.3_Ccap_2.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Ceratitis capitata NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_000347755.3_Ccap_2.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Ceratitis capitata OGS  release 1.1, translated CDS",
+        "file_name": "cercap_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Ceratitis capitata NCBI Annotation release 103, CDS",
+        "file_name": "GCF_000347755.3_Ccap_2.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Ceratitis capitata NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_000347755.3_Ccap_2.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Ceratitis capitata OGS release 1.1, CDS",
+        "file_name": "cercap_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Ceratitis capitata OGS release 1.1, transcripts",
+        "file_name": "cercap_OGSv1.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Chelonus insularis": [
+      {
+        "description": "Genome Assembly - Chelonus insularis genome assembly GCF_013357705.1",
+        "file_name": "GCF_013357705.1_ASM1335770v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Chelonus insularis NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_013357705.1_ASM1335770v1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Chelonus insularis NCBI Annotation Release 100, CDS from genomic",
+        "file_name": "GCF_013357705.1_ASM1335770v1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Chelonus insularis NCBI Annotation Release 100, RNA from genomic",
+        "file_name": "GCF_013357705.1_ASM1335770v1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Cimex lectularius": [
+      {
+        "description": "Genome Assembly - Clec_Bbug02212013.genome_new_ids.fa",
+        "file_name": "Clec_Bbug02212013.genome_new_ids.fa"
+      },
+      {
+        "description": "Protein - Cimex lectularius NCBI annotation release 101, peptide",
+        "file_name": "GCF_000648675.2_Clec_2.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Cimex lectularius OGSv1.3, peptides",
+        "file_name": "cimlec_OGSv1.3_pep.fa"
+      },
+      {
+        "description": "Transcript - Cimex lectularius NCBI annotation release 101, cds from genomic",
+        "file_name": "GCF_000648675.2_Clec_2.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cimex lectularius NCBI annotation release 101, rna from genomic",
+        "file_name": "GCF_000648675.2_Clec_2.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cimex lectularius OGSv1.3, coding sequence (CDS)",
+        "file_name": "cimlec_OGSv1.3_cds.fa"
+      },
+      {
+        "description": "Transcript - Cimex lectularius OGSv1.3, transcripts",
+        "file_name": "cimlec_OGSv1.3_trans.fa"
+      }
+    ]
+  },
+  {
+    "Clitarchus hookeri": [
+      {
+        "description": "Genome Assembly - Clitarchus hookeri genome assembly GCA_002778355.1 - sequences larger 1000 bp, with genome browser connection",
+        "file_name": "GCA_002778355.1_ASM277835v1_genomic_over_1000.fna"
+      },
+      {
+        "description": "Protein - Clitarchus hookeri Maker annotations, proteins",
+        "file_name": "Clitarchus_hookeri_Maker_annotations_pep.fa"
+      },
+      {
+        "description": "Transcript - Clitarchus hookeri Maker annotations, CDS",
+        "file_name": "Clitarchus_hookeri_Maker_annotations_cds.fa"
+      },
+      {
+        "description": "Transcript - Clitarchus hookeri Maker annotations, transcripts",
+        "file_name": "Clitarchus_hookeri_Maker_annotations_trans.fa"
+      }
+    ]
+  },
+  {
+    "Contarinia nasturtii": [
+      {
+        "description": "Genome Assembly - Contarinia nasturtii genome assembly GCF_009176525.2",
+        "file_name": "GCF_009176525.2_AAFC_CNas_1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Contarinia nasturtii NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_009176525.2_AAFC_CNas_1.1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Contarinia nasturtii NCBI Annotation Release 100, CDS from genomic",
+        "file_name": "GCF_009176525.2_AAFC_CNas_1.1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Contarinia nasturtii NCBI Annotation Release 100, RNA from genomic",
+        "file_name": "GCF_009176525.2_AAFC_CNas_1.1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Copidosoma floridanum": [
+      {
+        "description": "Genome Assembly - Copidosoma floridanum genome assembly, Cflo_2.0",
+        "file_name": "GCF_000648655.2_Cflo_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Copidosoma floridanum NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000648655.2_Cflo_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Copidosoma floridanum NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000648655.2_Cflo_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Copidosoma floridanum NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000648655.2_Cflo_2.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Cydia pomonella": [
+      {
+        "description": "Genome Assembly - Cydia pomonella genome assembly, ilCydPomo1",
+        "file_name": "GCF_033807575.1_ilCydPomo1_genomic.fna"
+      },
+      {
+        "description": "Protein - Cydia pomonella NCBI Annotation release GCF_033807575.1-RS_2023_12, translated CDS",
+        "file_name": "GCF_033807575.1_ilCydPomo1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Cydia pomonella NCBI Annotation release GCF_033807575.1-RS_2023_12, CDS",
+        "file_name": "GCF_033807575.1_ilCydPomo1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cydia pomonella NCBI Annotation release GCF_033807575.1-RS_2023_12, transcripts",
+        "file_name": "GCF_033807575.1_ilCydPomo1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Cylas formicarius": [
+      {
+        "description": "Genome Assembly - Cylas formicarius genome assembly, icCylForm1.1",
+        "file_name": "GCF_029955315.1_icCylForm1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Cylas formicarius NCBI Annotation release GCF_029955315.1-RS_2023_10, translated CDS",
+        "file_name": "GCF_029955315.1_icCylForm1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Cylas formicarius NCBI Annotation release GCF_029955315.1-RS_2023_10, CDS",
+        "file_name": "GCF_029955315.1_icCylForm1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Cylas formicarius NCBI Annotation release GCF_029955315.1-RS_2023_10, transcripts",
+        "file_name": "GCF_029955315.1_icCylForm1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Dermacentor andersoni": [
+      {
+        "description": "Genome Assembly - Dermacentor andersoni genome assembly, qqDerAnde1.2",
+        "file_name": "GCF_023375885.1_qqDerAnde1.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Dermacentor andersoni NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023375885.1_qqDerAnde1.2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Dermacentor andersoni NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023375885.1_qqDerAnde1.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Dermacentor andersoni NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023375885.1_qqDerAnde1.2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Diachasma alloeum": [
+      {
+        "description": "Genome Assembly - Diachasma alloeum genome assembly GCF_001412515.2",
+        "file_name": "GCF_001412515.2_Dall2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Diachasma alloeum NCBI Annotation Release 101, translated CDS",
+        "file_name": "GCF_001412515.2_Dall2.0_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Diachasma alloeum NCBI Annotation Release 101, CDS from genomic",
+        "file_name": "GCF_001412515.2_Dall2.0_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Diachasma alloeum NCBI Annotation Release 101, RNA from genomic",
+        "file_name": "GCF_001412515.2_Dall2.0_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Diachasmimorpha longicaudata": [
+      {
+        "description": "Genome Assembly - Diachasmimorpha longicaudata genome assembly, iyDiaLong2",
+        "file_name": "GCF_034640455.1_iyDiaLong2_genomic.fna"
+      },
+      {
+        "description": "Protein - Diachasmimorpha longicaudata NCBI Annotation release GCF_034640455.1-RS_2024_03, translated CDS",
+        "file_name": "GCF_034640455.1_iyDiaLong2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Diachasmimorpha longicaudata NCBI Annotation release GCF_034640455.1-RS_2024_03, CDS",
+        "file_name": "GCF_034640455.1_iyDiaLong2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Diachasmimorpha longicaudata NCBI Annotation release GCF_034640455.1-RS_2024_03, transcripts",
+        "file_name": "GCF_034640455.1_iyDiaLong2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Diaphorina citri": [
+      {
+        "description": "Genome Assembly - NCBI-diaci1.1 (Current RefSeq assembly version)",
+        "file_name": "121845_ref_Diaci_psyllid_genome_assembly_version_1.1_chrUn.fa"
+      },
+      {
+        "description": "Genome Assembly - diaci1.1 (Legacy assembly version)",
+        "file_name": "diaci1.1_new_ids.fa"
+      },
+      {
+        "description": "Protein - Diacit_International_psyllid_consortium_proteins_v1",
+        "file_name": "maker_genes_diaci1.1_proteins_NALmod_new_ids.fasta"
+      },
+      {
+        "description": "Protein - Diacit_RefSeq_proteins_Release_100",
+        "file_name": "Diacit_refseq_protein.fa"
+      },
+      {
+        "description": "Protein - Diaphorina citri OGSv1.0, proteins",
+        "file_name": "Dcitr_OGSv1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Diacit_International_psyllid_consortium_transcripts_v1",
+        "file_name": "maker_genes_diaci1.1_transcripts_NALmod_new_ids.fasta"
+      },
+      {
+        "description": "Transcript - Diacit_RefSeq_transcripts_Release_100",
+        "file_name": "Diacit_refseq_rna.fa"
+      },
+      {
+        "description": "Transcript - Diaphorina citri OGSv1.0, coding sequence (CDS)",
+        "file_name": "Dcitr_OGSv1.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Diaphorina citri OGSv1.0, transcripts",
+        "file_name": "Dcitr_OGSv1.0_rna.fa"
+      }
+    ]
+  },
+  {
+    "Diorhabda carinulata": [
+      {
+        "description": "Genome Assembly - Diorhabda carinulata genome assembly, icDioCari1.1",
+        "file_name": "GCF_026250575.1_icDioCari1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Diorhabda carinulata NCBI Annotation release GCF_026250575.1-RS_2023_06, translated CDS",
+        "file_name": "GCF_026250575.1_icDioCari1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Diorhabda carinulata NCBI Annotation release GCF_026250575.1-RS_2023_06, CDS",
+        "file_name": "GCF_026250575.1_icDioCari1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Diorhabda carinulata NCBI Annotation release GCF_026250575.1-RS_2023_06, transcripts",
+        "file_name": "GCF_026250575.1_icDioCari1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Diorhabda sublineata": [
+      {
+        "description": "Genome Assembly - Diorhabda sublineata genome assembly, icDioSubl1.1",
+        "file_name": "GCF_026230105.1_icDioSubl1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Diorhabda sublineata NCBI Annotation release GCF_026230105.1-RS_2023_05, translated CDS",
+        "file_name": "GCF_026230105.1_icDioSubl1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Diorhabda sublineata NCBI Annotation release GCF_026230105.1-RS_2023_05, CDS",
+        "file_name": "GCF_026230105.1_icDioSubl1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Diorhabda sublineata NCBI Annotation release GCF_026230105.1-RS_2023_05, transcripts",
+        "file_name": "GCF_026230105.1_icDioSubl1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Diprion similis": [
+      {
+        "description": "Genome Assembly - Diprion similis genome assembly, DipSimi1.1",
+        "file_name": "GCF_021155765.1_iyDipSimi1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Diprion similis NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021155765.1_iyDipSimi1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Diprion similis NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021155765.1_iyDipSimi1.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - ‘Diprion similis NCBI Annotation release 100, CDS’",
+        "file_name": "GCF_021155765.1_iyDipSimi1.1_cds_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila biarmipes": [
+      {
+        "description": "Genome Assembly - Drosophila biarmipes genome assembly, RU_DBia_V1.1",
+        "file_name": "GCF_025231255.1_RU_DBia_V1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila biarmipes NCBI Annotation release 103, translated CDS",
+        "file_name": "GCF_025231255.1_RU_DBia_V1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila biarmipes NCBI Annotation release 103, CDS",
+        "file_name": "GCF_025231255.1_RU_DBia_V1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila biarmipes NCBI Annotation release 103, transcripts",
+        "file_name": "GCF_025231255.1_RU_DBia_V1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila bipectinata": [
+      {
+        "description": "Genome Assembly - Drosophila bipectinata genome assembly, ASM1815384v1",
+        "file_name": "GCF_018153845.1_ASM1815384v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila bipectinata NCBI Annotation release 102, translated CDS",
+        "file_name": "GCF_018153845.1_ASM1815384v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila bipectinata NCBI Annotation release 102, CDS",
+        "file_name": "GCF_018153845.1_ASM1815384v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila bipectinata NCBI Annotation release 102, transcripts",
+        "file_name": "GCF_018153845.1_ASM1815384v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila elegans": [
+      {
+        "description": "Genome Assembly - Drosophila elegans genome assembly, ASM1815250v1",
+        "file_name": "GCF_018152505.1_ASM1815250v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila elegans NCBI Annotation Release 102, translated CDS",
+        "file_name": "GCF_018152505.1_ASM1815250v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila elegans NCBI Annotation Release 102, CDS",
+        "file_name": "GCF_018152505.1_ASM1815250v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila elegans NCBI Annotation Release 102, transcripts",
+        "file_name": "GCF_018152505.1_ASM1815250v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila eugracilis": [
+      {
+        "description": "Genome Assembly - Drosophila eugracilis genome assembly, ASM1815383v1",
+        "file_name": "GCF_018153835.1_ASM1815383v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila eugracilis NCBI Annotation Release 102, translated CDS",
+        "file_name": "GCF_018153835.1_ASM1815383v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila eugracilis NCBI Annotation Release 102, CDS",
+        "file_name": "GCF_018153835.1_ASM1815383v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila eugracilis NCBI Annotation Release 102, transcripts",
+        "file_name": "GCF_018153835.1_ASM1815383v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila ficusphila": [
+      {
+        "description": "Genome Assembly - Drosophila ficusphila genome assembly, ASM1815226v1",
+        "file_name": "GCF_018152265.1_ASM1815226v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila ficusphila NCBI Annotation release 102, translated CDS",
+        "file_name": "GCF_018152265.1_ASM1815226v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila ficusphila NCBI Annotation release 102, CDS",
+        "file_name": "GCF_018152265.1_ASM1815226v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila ficusphila NCBI Annotation release 102, transcripts",
+        "file_name": "GCF_018152265.1_ASM1815226v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila kikkawai": [
+      {
+        "description": "Genome Assembly - Drosophila kikkawai genome assembly, ASM1815253v1",
+        "file_name": "GCF_018152535.1_ASM1815253v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila kikkawai NCBI Annotation Release 102, translated CDS",
+        "file_name": "GCF_018152535.1_ASM1815253v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Drosophila kikkawai NCBI Annotation Release 102, CDS",
+        "file_name": "GCF_018152535.1_ASM1815253v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Drosophila kikkawai NCBI Annotation Release 102, transcripts",
+        "file_name": "GCF_018152535.1_ASM1815253v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila rhopaloa": [
+      {
+        "description": "Genome Assembly - Drosophila rhopaloa genome assembly, ASM1815211v1",
+        "file_name": "GCF_018152115.1_ASM1815211v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila rhopaloa NCBI Annotation release 102, translated CDS",
+        "file_name": "GCF_018152115.1_ASM1815211v1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Drosophila rhopaloa NCBI Annotation release 102, CDS",
+        "file_name": "GCF_018152115.1_ASM1815211v1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Drosophila rhopaloa NCBI Annotation release 102, transcripts",
+        "file_name": "GCF_018152115.1_ASM1815211v1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Drosophila takahashii": [
+      {
+        "description": "Genome Assembly - Drosophila takahashii genome assembly, ASM1815269v1",
+        "file_name": "GCF_018152695.1_ASM1815269v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Drosophila takahashii NCBI Annotation release 102, translated CDS",
+        "file_name": "GCF_018152695.1_ASM1815269v1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Drosophila takahashii NCBI Annotation release 102, CDS",
+        "file_name": "GCF_018152695.1_ASM1815269v1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Drosophila takahashii NCBI Annotation release 102, transcripts",
+        "file_name": "GCF_018152695.1_ASM1815269v1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Dufourea novaeangliae": [
+      {
+        "description": "Genome Assembly - Dufourea novaeangliae RefSeq assembly, ASM127255v1",
+        "file_name": "178035_ref_ASM127255v1_chrUn_RefSeqIDs.fa"
+      },
+      {
+        "description": "Protein - Dufourea novaeangliae v1.1, peptide sequences",
+        "file_name": "Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_peptide.faa"
+      },
+      {
+        "description": "Protein - NCBI Dufourea novaeangliae Annotation Release 100, proteins",
+        "file_name": "NCBI_Dufourea_novaeangliae_Annotation_Release_100_protein.fa"
+      },
+      {
+        "description": "Transcript - Dufourea novaeangliae v1.1 coding sequence (CDS)",
+        "file_name": "Dufourea_novaeangliae_v1.1_mapped-to-RefSeq_CDS.fna"
+      },
+      {
+        "description": "Transcript - NCBI Dufourea novaeangliae Annotation Release 100, RNA",
+        "file_name": "NCBI_Dufourea_novaeangliae_Annotation_Release_100_rna.fa"
+      }
+    ]
+  },
+  {
+    "Ephemera danica": [
+      {
+        "description": "Genome Assembly - Ephemera danica genome assembly GCA_000507165.2",
+        "file_name": "GCA_000507165.2_Edan_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Ephemera danica ephdan_OGSv1.0, proteins",
+        "file_name": "ephdan_OGSv1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Ephemera danica ephdan_OGSv1.0, CDS",
+        "file_name": "ephdan_OGSv1.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Ephemera danica ephdan_OGSv1.0, transcripts",
+        "file_name": "ephdan_OGSv1.0_trans.fa"
+      }
+    ]
+  },
+  {
+    "Eufriesea mexicana": [
+      {
+        "description": "Genome Assembly - Eufriesea mexicana genome assembly, ASM148370v2",
+        "file_name": "GCF_001483705.2_ASM148370v2_genomic.fna"
+      },
+      {
+        "description": "Protein - Eufriesea mexicana NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_001483705.2_ASM148370v2_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Eufriesea mexicana OGSv1.3, translated CDS",
+        "file_name": "eufmex_OGSv1.3_pep.fa"
+      },
+      {
+        "description": "Transcript - Eufriesea mexicana NCBI Annotation release 100, CDS",
+        "file_name": "GCF_001483705.2_ASM148370v2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Eufriesea mexicana NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_001483705.2_ASM148370v2_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Eufriesea mexicana OGSv1.3, CDS",
+        "file_name": "eufmex_OGSv1.3_cds.fa"
+      },
+      {
+        "description": "Transcript - Eufriesea mexicana OGSv1.3, transcripts",
+        "file_name": "eufmex_OGSv1.3_trans.fa"
+      }
+    ]
+  },
+  {
+    "Euglossa dilemma": [
+      {
+        "description": "Genome Assembly - Euglossa dilemma genome assembly NIJG01 (GCA_002201625.1)",
+        "file_name": "NIJG01_GenBankIDs.fa"
+      },
+      {
+        "description": "Protein - Euglossa dilemma v1.0, proteins",
+        "file_name": "Edil_v1.0_peptide.fa"
+      },
+      {
+        "description": "Transcript - Euglossa dilemma v1.0, transcripts",
+        "file_name": "Edil_v1.0_transcripts.fa"
+      }
+    ]
+  },
+  {
+    "Eurytemora affinis": [
+      {
+        "description": "Genome Assembly - Eaff_11172013.genome_new_ids.fa",
+        "file_name": "Eaff_11172013.genome_new_ids.fa"
+      },
+      {
+        "description": "Protein - EAFF_new_ids.faa",
+        "file_name": "EAFF_new_ids.faa"
+      },
+      {
+        "description": "Transcript - EAFF_new_ids.fna",
+        "file_name": "EAFF_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Fopius arisanus": [
+      {
+        "description": "Genome Assembly - Fopius arisanus NCBI-RefSeq scaffolds",
+        "file_name": "64838_ref_asm80636v1_chrun_refseq_ids.fa"
+      },
+      {
+        "description": "Protein - Fopius arisanus - NCBI annotation release 100, proteins",
+        "file_name": "fopari_v100_protein.fa"
+      },
+      {
+        "description": "Transcript - Fopius arisanus - NCBI annotation release 100, RNA",
+        "file_name": "fopari_v100_rna.fa"
+      }
+    ]
+  },
+  {
+    "Frankliniella occidentalis": [
+      {
+        "description": "Genome Assembly - Frankliniella occidentalis genome assembly, Focc_3.1",
+        "file_name": "GCF_000697945.3_Focc_3.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Frankliniella occidentalis NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000697945.3_Focc_3.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Frankliniella occidentalis OGSv1.2, translated CDS",
+        "file_name": "fraocc_OGSv1.2_pep.fa"
+      },
+      {
+        "description": "Transcript - Frankliniella occidentalis NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000697945.3_Focc_3.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Frankliniella occidentalis NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000697945.3_Focc_3.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Frankliniella occidentalis OGSv1.2, CDS",
+        "file_name": "fraocc_OGSv1.2_cds.fa"
+      },
+      {
+        "description": "Transcript - Frankliniella occidentalis OGSv1.2, transcripts",
+        "file_name": "fraocc_OGSv1.2_trans.fa"
+      }
+    ]
+  },
+  {
+    "Galleria mellonella": [
+      {
+        "description": "Genome Assembly - Galleria mellonella genome assembly, CSIRO_AGI_GalMel_v1",
+        "file_name": "GCF_026898425.1_CSIRO_AGI_GalMel_v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Galleria mellonella NCBI Annotation release GCF_026898425.1-RS_2022_12, translated CDS",
+        "file_name": "GCF_026898425.1_CSIRO_AGI_GalMel_v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Galleria mellonella NCBI Annotation release GCF_026898425.1-RS_2022_12, CDS",
+        "file_name": "GCF_026898425.1_CSIRO_AGI_GalMel_v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Galleria mellonella NCBI Annotation release GCF_026898425.1-RS_2022_12, transcripts",
+        "file_name": "GCF_026898425.1_CSIRO_AGI_GalMel_v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Gerris buenoi": [
+      {
+        "description": "Genome Assembly - Gbue.scaffolds.50_new_ids.fa",
+        "file_name": "Gbue.scaffolds.50_new_ids.fa"
+      },
+      {
+        "description": "Protein - GBUE_new_ids.faa",
+        "file_name": "GBUE_new_ids.faa"
+      },
+      {
+        "description": "Protein - Gerris buenoi OGSv1.1, proteins",
+        "file_name": "gerbue_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Transcript - GBUE_new_ids.fna",
+        "file_name": "GBUE_new_ids.fna"
+      },
+      {
+        "description": "Transcript - Gerris buenoi OGSv1.1, CDS",
+        "file_name": "gerbue_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Gerris buenoi OGSv1.1, RNA",
+        "file_name": "gerbue_OGSv1.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Habropoda laboriosa": [
+      {
+        "description": "Genome Assembly - Habropoda laboriosa genome assembly Hlab1.0 (ASM126327v1), genomic scaffolds",
+        "file_name": "GCA_001263275.1_ASM126327v1_genomic_GenBankIds.fna"
+      },
+      {
+        "description": "Protein - Habropoda laboriosa - ASM126327v1 GenBank Annotations, proteins",
+        "file_name": "GCA_001263275.1_ASM126327v1_protein.faa"
+      }
+    ]
+  },
+  {
+    "Halyomorpha halys": [
+      {
+        "description": "Genome Assembly - Halyomorpha halys genome assembly GCA_000696795.3",
+        "file_name": "GCA_000696795.3_Hhal_1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Halyomorpha halys Official Gene Set v1.2, proteins",
+        "file_name": "halhal_OGSv1.2_pep.fa"
+      },
+      {
+        "description": "Transcript - Halyomorpha halys Official Gene Set v1.2, CDS",
+        "file_name": "halhal_OGSv1.2_cds.fa"
+      },
+      {
+        "description": "Transcript - Halyomorpha halys Official Gene Set v1.2, transcripts",
+        "file_name": "halhal_OGSv1.2_trans.fa"
+      }
+    ]
+  },
+  {
+    "Helicoverpa zea": [
+      {
+        "description": "Genome Assembly - Helicoverpa zea genome assembly, ilHelZeax1.1",
+        "file_name": "GCF_022581195.2_ilHelZeax1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Helicoverpa zea NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_022581195.2_ilHelZeax1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Helicoverpa zea NCBI Annotation Release 100, CDS",
+        "file_name": "GCF_022581195.2_ilHelZeax1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Helicoverpa zea NCBI Annotation Release 100, transcripts",
+        "file_name": "GCF_022581195.2_ilHelZeax1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Heliothis virescens": [
+      {
+        "description": "Genome Assembly - Heliothis virescens genome assembly, ASM238286v2",
+        "file_name": "GCA_002382865.2_ASM238286v2_genomic.fna"
+      },
+      {
+        "description": "Protein - Heliothis virescens OGS 1.1, translated CDS",
+        "file_name": "helvir_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Heliothis virescens OGS 1.1, CDS",
+        "file_name": "helvir_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Heliothis virescens OGS 1.1, transcripts",
+        "file_name": "helvir_OGSv1.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Holacanthella duospinosa": [
+      {
+        "description": "Genome Assembly - Holacanthella duospinosa genome assembly GCA_002738285.1",
+        "file_name": "GCA_002738285.1_ASM273828v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Holacanthella duospinosa annotations Holacanthella_duospinosa_annotation v1.0, proteins",
+        "file_name": "Holacanthella_duospinosa_annotation_1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Holacanthella duospinosa annotations Holacanthella_duospinosa_annotation v1.0, CDS",
+        "file_name": "Holacanthella_duospinosa_annotation_1.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Holacanthella duospinosa annotations Holacanthella_duospinosa_annotation v1.0, transcripts",
+        "file_name": "Holacanthella_duospinosa_annotation_1.0_trans.fa"
+      }
+    ]
+  },
+  {
+    "Homalodisca vitripennis": [
+      {
+        "description": "Genome Assembly - Homalodisca vitripennis genome assembly GCA_000696855.1",
+        "file_name": "GCA_000696855.1_Hvit_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - HVIT_new_ids.faa",
+        "file_name": "HVIT_new_ids.faa"
+      },
+      {
+        "description": "Transcript - HVIT_new_ids.fna",
+        "file_name": "HVIT_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Hyalella azteca": [
+      {
+        "description": "Genome Assembly - Hyalella azteca genome assembly, Hazt_2.0.2",
+        "file_name": "GCF_000764305.2_Hazt_2.0.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Hyalella azteca NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000764305.2_Hazt_2.0.2_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Hyalella azteca OGSv1.3, translated CDS",
+        "file_name": "hyaazt_OGSv1.3_pep.fa"
+      },
+      {
+        "description": "Transcript - Hyalella azteca NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000764305.2_Hazt_2.0.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Hyalella azteca NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000764305.2_Hazt_2.0.2_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Hyalella azteca OGSv1.3, CDS",
+        "file_name": "hyaazt_OGSv1.3_cds.fa"
+      },
+      {
+        "description": "Transcript - Hyalella azteca OGSv1.3, transcripts",
+        "file_name": "hyaazt_OGSv1.3_trans.fa"
+      }
+    ]
+  },
+  {
+    "Hylaeus anthracinus": [
+      {
+        "description": "Genome Assembly - Hylaeus anthracinus genome assembly, UHH_iyHylAnth1.0_haploid",
+        "file_name": "GCF_026225885.1_UHH_iyHylAnth1.0_haploid_genomic.fna"
+      },
+      {
+        "description": "Protein - Hylaeus anthracinus NCBI Annotation release GCF_026225885.1-RS_2023_03, translated CDS",
+        "file_name": "GCF_026225885.1_UHH_iyHylAnth1.0_haploid_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Hylaeus anthracinus NCBI Annotation release GCF_026225885.1-RS_2023_03, CDS",
+        "file_name": "GCF_026225885.1_UHH_iyHylAnth1.0_haploid_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Hylaeus anthracinus NCBI Annotation release GCF_026225885.1-RS_2023_03, transcripts",
+        "file_name": "GCF_026225885.1_UHH_iyHylAnth1.0_haploid_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Hylaeus volcanicus": [
+      {
+        "description": "Genome Assembly - Hylaeus volcanicus genome assembly, UHH_iyHylVolc1.0_haploid",
+        "file_name": "GCF_026283585.1_UHH_iyHylVolc1.0_haploid_genomic.fna"
+      },
+      {
+        "description": "Protein - Hylaeus volcanicus NCBI Annotation release GCF_026283585.1-RS_2023_03, translated CDS",
+        "file_name": "GCF_026283585.1_UHH_iyHylVolc1.0_haploid_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Hylaeus volcanicus NCBI Annotation release GCF_026283585.1-RS_2023_03, CDS",
+        "file_name": "GCF_026283585.1_UHH_iyHylVolc1.0_haploid_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Hylaeus volcanicus NCBI Annotation release GCF_026283585.1-RS_2023_03, transcripts",
+        "file_name": "GCF_026283585.1_UHH_iyHylVolc1.0_haploid_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Ladona fulva": [
+      {
+        "description": "Genome Assembly - Ladona fulva genome assembly, Lful_2.0",
+        "file_name": "GCA_000376725.2_Lful_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Ladona fulva Official Gene Set ladful OGSv1.0, translated CDS",
+        "file_name": "ladful_OGSv1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Ladona fulva Official Gene Set ladful OGSv1.0, CDS",
+        "file_name": "ladful_OGSv1.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Ladona fulva Official Gene Set ladful OGSv1.0, transcripts",
+        "file_name": "ladful_OGSv1.0_trans.fa"
+      }
+    ]
+  },
+  {
+    "Laodelphax striatellus": [
+      {
+        "description": "Genome Assembly - Laodelphax striatellus genome assembly GCA_003335185.2",
+        "file_name": "GCA_003335185.2_ASM333518v2_genomic.fna"
+      },
+      {
+        "description": "Protein - Laodelphax striatellus laostr_OGSv1.2, proteins",
+        "file_name": "laostr_OGSv1.2_pep.faa"
+      },
+      {
+        "description": "Transcript - Laodelphax striatellus laostr_OGSv1.2, CDS",
+        "file_name": "laostr_OGSv1.2_cds.fna"
+      },
+      {
+        "description": "Transcript - Laodelphax striatellus laostr_OGSv1.2, RNA",
+        "file_name": "laostr_OGSv1.2_trans.fna"
+      }
+    ]
+  },
+  {
+    "Lasioglossum albipes": [
+      {
+        "description": "Genome Assembly - Lasioglossum albipes genome assembly ASM34657v1",
+        "file_name": "GCA_000346575.1_ASM34657v1_genomic_GenBankIDs.fna"
+      },
+      {
+        "description": "Protein - Lasioglossum albipes proteins, Lalb_OGS_v5.42",
+        "file_name": "Lalb_OGS_v5.42.pep.fa"
+      },
+      {
+        "description": "Transcript - Lasioglossum albipes coding sequence (CDS), Lalb_OGS_v5.42",
+        "file_name": "Lalb_OGS_v5.42.cds.fa"
+      }
+    ]
+  },
+  {
+    "Latrodectus hesperus": [
+      {
+        "description": "Genome Assembly - Latrodectus hesperus genome assembly GCA_000697925.1",
+        "file_name": "GCA_000697925.1_Lhes_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - LHES_new_ids.faa",
+        "file_name": "LHES_new_ids.faa"
+      },
+      {
+        "description": "Transcript - LHES_new_ids.fna",
+        "file_name": "LHES_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Leguminivora glycinivorella": [
+      {
+        "description": "Genome Assembly - Leguminivora glycinivorella genome assembly, LegGlyc_1.1",
+        "file_name": "GCF_023078275.1_LegGlyc_1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Leguminivora glycinivorella NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023078275.1_LegGlyc_1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Leguminivora glycinivorella NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023078275.1_LegGlyc_1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Leguminivora glycinivorella NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023078275.1_LegGlyc_1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Leptinotarsa decemlineata": [
+      {
+        "description": "Genome Assembly - Deprecated Genome Assembly Ldec.genome.10062013_new_ids.fa (No Apollo access)",
+        "file_name": "Ldec.genome.10062013_new_ids.fa"
+      },
+      {
+        "description": "Genome Assembly - Leptinotarsa decemlineata genome assembly GCF_000500325.1",
+        "file_name": "GCF_000500325.1_Ldec_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - LDEC_new_ids.faa",
+        "file_name": "LDEC_new_ids.faa"
+      },
+      {
+        "description": "Protein - Leptinotarsa decemlineata NCBI annotation release 100, proteins",
+        "file_name": "GCF_000500325.1_Ldec_2.0_protein.faa"
+      },
+      {
+        "description": "Protein - Leptinotarsa decemlineata NCBI annotation release 100, translated cds",
+        "file_name": "GCF_000500325.1_Ldec_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Leptinotarsa decemlineata OGSv1.2, proteins",
+        "file_name": "lepdec_OGSv1.2_GCF_000500325.1_pep.fa"
+      },
+      {
+        "description": "Transcript - LDEC_new_ids.fna",
+        "file_name": "LDEC_new_ids.fna"
+      },
+      {
+        "description": "Transcript - Leptinotarsa decemlineata NCBI annotation release 100, rna",
+        "file_name": "GCF_000500325.1_Ldec_2.0_rna.fna"
+      },
+      {
+        "description": "Transcript - Leptinotarsa decemlineata NCBI annotation release 100, rna from genomic",
+        "file_name": "GCF_000500325.1_Ldec_2.0_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Leptinotarsa decemlineata OGSv1.2, CDS",
+        "file_name": "lepdec_OGSv1.2_GCF_000500325.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Leptinotarsa decemlineata OGSv1.2, transcripts",
+        "file_name": "lepdec_OGSv1.2_GCF_000500325.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Limnephilus lunatus": [
+      {
+        "description": "Genome Assembly - Llun.scaffolds_new_ids.fa",
+        "file_name": "Llun.scaffolds_new_ids.fa"
+      },
+      {
+        "description": "Protein - LLUN_new_ids.faa",
+        "file_name": "LLUN_new_ids.faa"
+      },
+      {
+        "description": "Transcript - LLUN_new_ids.fna",
+        "file_name": "LLUN_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Locusta migratoria": [
+      {
+        "description": "Genome Assembly - Locusta migratoria v2.2 - all sequences, no genome browser connection",
+        "file_name": "Lm_assembly2-2.fasta"
+      },
+      {
+        "description": "Genome Assembly - Locusta migratoria v2.2 - sequences larger than 500 bp, with genome browser connection",
+        "file_name": "Lm_assembly2-2_over499.fasta"
+      },
+      {
+        "description": "Protein - Locusta migratoria JAMg OGS v1, proteins",
+        "file_name": "locust.OGS_preQC.gff3.pep"
+      },
+      {
+        "description": "Transcript - Locusta migratoria JAMg OGS v1, CDS",
+        "file_name": "locust.OGS_preQC.gff3.cds"
+      },
+      {
+        "description": "Transcript - Locusta migratoria JAMg OGS v1, mRNA",
+        "file_name": "locust.OGS_preQC.gff3.mRNA.fa"
+      }
+    ]
+  },
+  {
+    "Loxosceles reclusa": [
+      {
+        "description": "Genome Assembly - Loxosceles reclusa genome assembly GCA_001188405.1",
+        "file_name": "GCA_001188405.1_Lrec_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - LREC_new_ids.faa",
+        "file_name": "LREC_new_ids.faa"
+      },
+      {
+        "description": "Transcript - LREC_new_ids.fna",
+        "file_name": "LREC_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Lucilia sericata": [
+      {
+        "description": "Genome Assembly - Lucilia sericata genome assembly, ASM1558622v1",
+        "file_name": "GCF_015586225.1_ASM1558622v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Lucilia sericata NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_015586225.1_ASM1558622v1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Lucilia sericata NCBI Annotation release 100, CDS",
+        "file_name": "GCF_015586225.1_ASM1558622v1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Lucilia sericata NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_015586225.1_ASM1558622v1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Mamestra configurata": [
+      {
+        "description": "Genome Assembly - Mamestra configurata genome assembly, ASM219265v3",
+        "file_name": "GCA_002192655.3_ASM219265v3_genomic.fna"
+      },
+      {
+        "description": "Protein - Mamestra configurata (GCA_002192655.3), translated CDS",
+        "file_name": "GCA_002192655.3_ASM219265v3_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Mamestra configurata (GCA_002192655.3), CDS",
+        "file_name": "GCA_002192655.3_ASM219265v3_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Mamestra configurata (GCA_002192655.3), transcripts",
+        "file_name": "GCA_002192655.3_ASM219265v3_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Manduca sexta": [
+      {
+        "description": "Genome Assembly - Manduca sexta genome assembly, JHU_Msex_v1.0",
+        "file_name": "GCF_014839805.1_JHU_Msex_v1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Manduca sexta NCBI Annotation release 102, translated CDS",
+        "file_name": "GCF_014839805.1_JHU_Msex_v1.0_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Protein - Manduca_sexta_OGS_v2.0_peptide",
+        "file_name": "ms_ogs_proteins.fa"
+      },
+      {
+        "description": "Transcript - Manduca sexta NCBI Annotation release 102, CDS",
+        "file_name": "GCF_014839805.1_JHU_Msex_v1.0_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Manduca sexta NCBI Annotation release 102, transcripts",
+        "file_name": "GCF_014839805.1_JHU_Msex_v1.0_rna_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Manduca_sexta_OGS_v2.0_transcript",
+        "file_name": "ms_ogs_transcripts.fa"
+      }
+    ]
+  },
+  {
+    "Mayetiola destructor": [
+      {
+        "description": "Genome Assembly - Mayetiola_destructor_scaffolds",
+        "file_name": "hf_scaffolds_blast_ids.fa"
+      },
+      {
+        "description": "Protein - Mayetiola destructor OGS_v1.0, proteins",
+        "file_name": "hf_OGS1.0.pep.fasta"
+      },
+      {
+        "description": "Transcript - Mayetiola destructor OGS_v1.0, cDNA",
+        "file_name": "hf_OGS1.0.cdna.fasta"
+      },
+      {
+        "description": "Transcript - Mayetiola destructor OGS_v1.0, coding sequence (CDS)",
+        "file_name": "hf_OGS1.0.cds.fasta"
+      }
+    ]
+  },
+  {
+    "Medauroidea extradentata": [
+      {
+        "description": "Genome Assembly - Medauroidea extradentata genome assembly GCA_003012365.1",
+        "file_name": "GCA_003012365.1_ASM301236v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Medauroidea extradentata annotations OGS v1.0, proteins",
+        "file_name": "Mext_OGS_v1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Medauroidea extradentata annotations OGS v1.0, transcripts",
+        "file_name": "Mext_OGS_v1.0_transcripts.fa"
+      }
+    ]
+  },
+  {
+    "Megachile rotundata": [
+      {
+        "description": "Genome Assembly - Megachile rotundata genome assembly MROT1.0 (GCF_000220905.1)",
+        "file_name": "GCF_000220905.1_MROT_1.0_genomic_RefSeqIDs.fna"
+      },
+      {
+        "description": "Protein - Megachile rotundata NCBI annotation release 101, proteins",
+        "file_name": "NCBI_Megachile_rotundata_Annotation_Release_101_protein.fa"
+      },
+      {
+        "description": "Protein - Megachile rotundata v1.1, proteins",
+        "file_name": "Megachile_rotundata_v1.1.pep.fa"
+      },
+      {
+        "description": "Transcript - Megachile rotundata NCBI annotation release 101, RNA",
+        "file_name": "NCBI_Megachile_rotundata_Annotation_Release_101_rna.fa"
+      },
+      {
+        "description": "Transcript - Megachile rotundata v1.1, coding sequence (CDS)",
+        "file_name": "Megachile_rotundata_v1.1.cds.fa"
+      }
+    ]
+  },
+  {
+    "Melipona quadrifasciata": [
+      {
+        "description": "Genome Assembly - Melipona quadrifasciata genome assembly ASM127656v1, genomic scaffolds",
+        "file_name": "GCA_001276565.1_ASM127656v1_genomic_GenBankIDs.fna"
+      },
+      {
+        "description": "Protein - Melipona quadrifasciata GLEAN predicted proteins",
+        "file_name": "GCA_001276565.1_ASM127656v1_protein.faa"
+      },
+      {
+        "description": "Protein - Melipona quadrifasciata v1.1. proteins",
+        "file_name": "Melipona_quadrifasciata_v1.1.pep.fa"
+      },
+      {
+        "description": "Transcript - Melipona quadrifasciata v1.1. coding sequence (CDS)",
+        "file_name": "Melipona_quadrifasciata_v1.1.cds.fa"
+      }
+    ]
+  },
+  {
+    "Microplitis demolitor": [
+      {
+        "description": "Genome Assembly - Microplitis demolitor genome assembly, iyMicDemo2.1a",
+        "file_name": "GCF_026212275.2_iyMicDemo2.1a_genomic.fna"
+      },
+      {
+        "description": "Protein - Microplitis demolitor NCBI Annotation release GCF_026212275.2-RS_2023_02, translated CDS",
+        "file_name": "GCF_026212275.2_iyMicDemo2.1a_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Microplitis demolitor NCBI Annotation release GCF_026212275.2-RS_2023_02, CDS",
+        "file_name": "GCF_026212275.2_iyMicDemo2.1a_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Microplitis demolitor NCBI Annotation release GCF_026212275.2-RS_2023_02, transcripts",
+        "file_name": "GCF_026212275.2_iyMicDemo2.1a_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Microplitis mediator": [
+      {
+        "description": "Genome Assembly - Microplitis mediator genome assembly, iyMicMedi2.1",
+        "file_name": "GCF_029852145.1_iyMicMedi2.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Microplitis mediator NCBI Annotation release GCF_029852145.1-RS_2023_06, translated CDS",
+        "file_name": "GCF_029852145.1_iyMicMedi2.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Microplitis mediator NCBI Annotation release GCF_029852145.1-RS_2023_06, CDS",
+        "file_name": "GCF_029852145.1_iyMicMedi2.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Microplitis mediator NCBI Annotation release GCF_029852145.1-RS_2023_06, transcripts",
+        "file_name": "GCF_029852145.1_iyMicMedi2.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Neodiprion fabricii": [
+      {
+        "description": "Genome Assembly - Neodiprion fabricii genome assembly, iyNeoFabr1.1",
+        "file_name": "GCF_021155785.1_iyNeoFabr1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Neodiprion fabricii NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021155785.1_iyNeoFabr1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Neodiprion fabricii NCBI Annotation release 100, CDS",
+        "file_name": "GCF_021155785.1_iyNeoFabr1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Neodiprion fabricii NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021155785.1_iyNeoFabr1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Neodiprion lecontei": [
+      {
+        "description": "Genome Assembly - Neodiprion lecontei genome assembly, iyNeoLeco1.1",
+        "file_name": "GCF_021901455.1_iyNeoLeco1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Neodiprion lecontei NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_021901455.1_iyNeoLeco1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Neodiprion lecontei NCBI Annotation release 101, CDS",
+        "file_name": "GCF_021901455.1_iyNeoLeco1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Neodiprion lecontei NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_021901455.1_iyNeoLeco1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Neodiprion pinetum": [
+      {
+        "description": "Genome Assembly - Neodiprion pinetum genome assembly, iyNeoPine1.1",
+        "file_name": "GCF_021155775.1_iyNeoPine1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Neodiprion pinetum NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021155775.1_iyNeoPine1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Neodiprion pinetum NCBI Annotation release 100, CDS",
+        "file_name": "GCF_021155775.1_iyNeoPine1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Neodiprion pinetum NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021155775.1_iyNeoPine1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Neodiprion virginiana": [
+      {
+        "description": "Genome Assembly - Neodiprion virginiana genome assembly, iyNeoVirg1.1",
+        "file_name": "GCF_021901495.1_iyNeoVirg1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Neodiprion virginiana NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021901495.1_iyNeoVirg1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Neodiprion virginiana NCBI Annotation release 100, CDS",
+        "file_name": "GCF_021901495.1_iyNeoVirg1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Neodiprion virginiana NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021901495.1_iyNeoVirg1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Nicrophorus vespilloides": [
+      {
+        "description": "Genome Assembly - Nicrophorus vespilloides genome assembly Nicve_v1.0 (GCF_001412225.1)",
+        "file_name": "GCF_001412225.1_Nicves_v1.0_genomic_RefSeqIDs.fna"
+      },
+      {
+        "description": "Protein - Nicrophorus vespilloides Annotation Release 100 (GCF_001412225.1), proteins",
+        "file_name": "GCF_001412225.1_Nicve_v1.0_protein.faa"
+      },
+      {
+        "description": "Protein - Nicrophorus vespilloides Official Gene Set v1.0 proteins (Cunningham et al. 2015 Genome Biology and Evolution)",
+        "file_name": "nicves_OGSv1.0_pep.fa"
+      },
+      {
+        "description": "Transcript - Nicrophorus vespilloides Annotation Release 100 (GCF_001412225.1), CDS predicted from genomic sequence",
+        "file_name": "GCF_001412225.1_Nicve_v1.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Nicrophorus vespilloides Annotation Release 100 (GCF_001412225.1), RNA predicted from genomic sequence",
+        "file_name": "GCF_001412225.1_Nicve_v1.0_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Nicrophorus vespilloides Official Gene Set v1.0 CDS (Cunningham et al. 2015 Genome Biology and Evolution)",
+        "file_name": "nicves_OGSv1.0_cds.fa"
+      },
+      {
+        "description": "Transcript - Nicrophorus vespilloides Official Gene Set v1.0 cDNA (Cunningham et al. 2015 Genome Biology and Evolution)",
+        "file_name": "nicves_OGSv1.0_trans.fa"
+      }
+    ]
+  },
+  {
+    "Nylanderia fulva": [
+      {
+        "description": "Genome Assembly - Nylanderia fulva genome assembly, TAMU_Nfulva_1.1",
+        "file_name": "GCF_005281655.2_TAMU_Nfulva_1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Nylanderia fulva NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_005281655.2_TAMU_Nfulva_1.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Nylanderia fulva nylful_OGSv1.1, translated CDS",
+        "file_name": "nylful_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Nylanderia fulva NCBI Annotation release 100, CDS",
+        "file_name": "GCF_005281655.2_TAMU_Nfulva_1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Nylanderia fulva NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_005281655.2_TAMU_Nfulva_1.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Nylanderia fulva nylful_OGSv1.1, CDS",
+        "file_name": "nylful_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Nylanderia fulva nylful_OGSv1.1, transcripts",
+        "file_name": "nylful_OGSv1.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Odontomachus brunneus": [
+      {
+        "description": "Genome Assembly - Odontomachus brunneus genome assembly GCF_010583005.1",
+        "file_name": "GCF_010583005.1_Obru_v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Odontomachus brunneus NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_010583005.1_Obru_v1_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Odontomachus brunneus NCBI Annotation Release 100, CDS from genomic",
+        "file_name": "GCF_010583005.1_Obru_v1_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Odontomachus brunneus NCBI Annotation Release 100, RNA from genomic",
+        "file_name": "GCF_010583005.1_Obru_v1_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Oncopeltus fasciatus": [
+      {
+        "description": "Genome Assembly - Ofas.scaffolds_new_ids.fa",
+        "file_name": "Ofas.scaffolds_new_ids.fa"
+      },
+      {
+        "description": "Protein - Oncopeltus fasciatus OGSv1.2, peptides",
+        "file_name": "oncfas_OGSv1.2_original_peptide.fa"
+      },
+      {
+        "description": "Transcript - Oncopeltus fasciatus OGSv1.2 transcripts",
+        "file_name": "oncfas_OGSv1.2_original_transcript.fa"
+      },
+      {
+        "description": "Transcript - Oncopeltus fasciatus OGSv1.2, CDS",
+        "file_name": "oncfas_OGSv1.2_original_cds.fa"
+      }
+    ]
+  },
+  {
+    "Onthophagus taurus": [
+      {
+        "description": "Genome Assembly - Onthophagus taurus genome assembly, IU_Otau_3.0",
+        "file_name": "GCF_036711975.1_IU_Otau_3.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Onthophagus taurus NCBI Annotation release GCF_036711975.1-RS_2025_01, translated CDS",
+        "file_name": "GCF_036711975.1_IU_Otau_3.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Onthophagus taurus NCBI Annotation release GCF_036711975.1-RS_2025_01, CDS",
+        "file_name": "GCF_036711975.1_IU_Otau_3.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Onthophagus taurus NCBI Annotation release GCF_036711975.1-RS_2025_01, transcripts",
+        "file_name": "GCF_036711975.1_IU_Otau_3.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Ornithodoros turicata": [
+      {
+        "description": "Genome Assembly - Ornithodoros turicata genome assembly, ASM3712646v1",
+        "file_name": "GCF_037126465.1_ASM3712646v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Ornithodoros turicata NCBI Annotation release GCF_037126465.1-RS_2024_04, translated CDS",
+        "file_name": "GCF_037126465.1_ASM3712646v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Ornithodoros turicata NCBI Annotation release GCF_037126465.1-RS_2024_04, CDS",
+        "file_name": "GCF_037126465.1_ASM3712646v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Ornithodoros turicata NCBI Annotation release GCF_037126465.1-RS_2024_04, transcripts",
+        "file_name": "GCF_037126465.1_ASM3712646v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Orussus abietinus": [
+      {
+        "description": "Genome Assembly - Orussus abietinus genome assembly, Oabi_2.0",
+        "file_name": "GCF_000612105.2_Oabi_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Orussus abietinus NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000612105.2_Oabi_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Orussus abietinus oruabi OGSv1.2, translated CDS",
+        "file_name": "oruabi_OGSv1.2_pep.fa"
+      },
+      {
+        "description": "Transcript - Orussus abietinus NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000612105.2_Oabi_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Orussus abietinus NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000612105.2_Oabi_2.0_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Orussus abietinus oruabi OGSv1.2, CDS",
+        "file_name": "oruabi_OGSv1.2_cds.fa"
+      },
+      {
+        "description": "Transcript - Orussus abietinus oruabi OGSv1.2, transcripts",
+        "file_name": "oruabi_OGSv1.2_trans.fa"
+      }
+    ]
+  },
+  {
+    "Osmia lignaria": [
+      {
+        "description": "Genome Assembly - Osmia lignaria genome assembly GCF_012274295.1",
+        "file_name": "GCF_012274295.1_USDA_OLig_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Osmia lignaria NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_012274295.1_USDA_OLig_1.0_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Osmia lignaria NCBI Annotation Release 100, CDS from genomic",
+        "file_name": "GCF_012274295.1_USDA_OLig_1.0_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Osmia lignaria NCBI Annotation Release 100, RNA from genomic",
+        "file_name": "GCF_012274295.1_USDA_OLig_1.0_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Pachypsylla venusta": [
+      {
+        "description": "Genome Assembly - Pven10162013.scaffolds_new_ids.fa",
+        "file_name": "Pven10162013.scaffolds_new_ids.fa"
+      },
+      {
+        "description": "Protein - PVEN_new_ids.faa",
+        "file_name": "PVEN_new_ids.faa"
+      },
+      {
+        "description": "Transcript - PVEN_new_ids.fna",
+        "file_name": "PVEN_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Parasteatoda tepidariorum": [
+      {
+        "description": "Genome Assembly - Ptep01282013.genome_new_ids.fa",
+        "file_name": "Ptep01282013.genome_new_ids.fa"
+      },
+      {
+        "description": "Protein - Augustus_set_v3.0_proteins",
+        "file_name": "aug3.1.aa_new_ids.fa"
+      },
+      {
+        "description": "Protein - PTEP_new_ids.faa",
+        "file_name": "PTEP_new_ids.faa"
+      },
+      {
+        "description": "Transcript - Augustus_set_v3.0_transcripts",
+        "file_name": "aug3.1.mrna_new_ids.fa"
+      },
+      {
+        "description": "Transcript - PTEP_new_ids.fna",
+        "file_name": "PTEP_new_ids.fna"
+      }
+    ]
+  },
+  {
+    "Pectinophora gossypiella": [
+      {
+        "description": "Genome Assembly - Pectinophora gossypiella genome assembly, ilPecGoss1.1",
+        "file_name": "GCF_024362695.1_ilPecGoss1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Pectinophora gossypiella NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_024362695.1_ilPecGoss1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Pectinophora gossypiella NCBI Annotation release 100, CDS",
+        "file_name": "GCF_024362695.1_ilPecGoss1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Pectinophora gossypiella NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_024362695.1_ilPecGoss1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Peregrinus maidis": [
+      {
+        "description": "Genome Assembly - Peregrinus maidis genome assembly, planthopper_HiC",
+        "file_name": "Planthopper-HiC-final_nocontam.fasta"
+      },
+      {
+        "description": "Protein - Peregrinus maidis annotations v2023, translated CDS",
+        "file_name": "permai_annotations_v2023_pep.fa"
+      },
+      {
+        "description": "Transcript - Peregrinus maidis annotations v2023, CDS",
+        "file_name": "permai_annotations_v2023_cds.fa"
+      },
+      {
+        "description": "Transcript - Peregrinus maidis annotations v2023, transcripts",
+        "file_name": "permai_annotations_v2023_trans.fa"
+      }
+    ]
+  },
+  {
+    "Photinus pyralis": [
+      {
+        "description": "Genome Assembly - Photinus pyralis genome assembly, Ppyr1.3",
+        "file_name": "GCF_008802855.1_Ppyr1.3_genomic.fna"
+      },
+      {
+        "description": "Protein - Photinus pyralis NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_008802855.1_Ppyr1.3_translated_cds-idupdate.faa"
+      },
+      {
+        "description": "Transcript - Photinus pyralis NCBI Annotation release 100, CDS",
+        "file_name": "GCF_008802855.1_Ppyr1.3_cds_from_genomic-idupdate.fna"
+      },
+      {
+        "description": "Transcript - Photinus pyralis NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_008802855.1_Ppyr1.3_rna_from_genomic-idupdate.fna"
+      }
+    ]
+  },
+  {
+    "Plodia interpunctella": [
+      {
+        "description": "Genome Assembly - Plodia interpunctella genome assembly, ilPloInte3.2",
+        "file_name": "GCF_027563975.2_ilPloInte3.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Plodia interpunctella NCBI Annotation release GCF_027563975.2-RS_2024_04, translated CDS",
+        "file_name": "GCF_027563975.2_ilPloInte3.2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Plodia interpunctella NCBI Annotation release GCF_027563975.2-RS_2024_04, CDS",
+        "file_name": "GCF_027563975.2_ilPloInte3.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Plodia interpunctella NCBI Annotation release GCF_027563975.2-RS_2024_04, transcripts",
+        "file_name": "GCF_027563975.2_ilPloInte3.2_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Rhagoletis zephyria": [
+      {
+        "description": "Genome Assembly - Rhagoletis zephyria genome assembly Rhagoletis_zephyria_1.0 (GCF_001687245.1)",
+        "file_name": "GCF_001687245.1_Rhagoletis_zephyria_1.0_genomic_RefSeqIDs.fna"
+      },
+      {
+        "description": "Protein - Rhagoletis zephyria Annotation Release 100 (GCF_001687245.1), proteins",
+        "file_name": "GCF_001687245.1_Rhagoletis_zephyria_1.0_protein.faa"
+      },
+      {
+        "description": "Transcript - Rhagoletis zephyria Annotation Release 100 (GCF_001687245.1), CDS predicted from genomic sequence",
+        "file_name": "GCF_001687245.1_Rhagoletis_zephyria_1.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Rhagoletis zephyria Annotation Release 100 (GCF_001687245.1), RNA predicted from genomic sequence",
+        "file_name": "GCF_001687245.1_Rhagoletis_zephyria_1.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Rhipicephalus microplus": [
+      {
+        "description": "Genome Assembly - Rhipicephalus microplus genome assembly, ASM1333972v1",
+        "file_name": "GCF_013339725.1_ASM1333972v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Rhipicephalus microplus NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_013339725.1_ASM1333972v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Rhipicephalus microplus NCBI Annotation Release 100, CDS",
+        "file_name": "GCF_013339725.1_ASM1333972v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Rhipicephalus microplus NCBI Annotation Release 100, transcripts",
+        "file_name": "GCF_013339725.1_ASM1333972v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Rhyzopertha dominica": [
+      {
+        "description": "Genome Assembly - Rhyzopertha dominica genome assembly RdoDt3_Drdd8_decomES",
+        "file_name": "_____RdoDt3_Drdd8_decomES.fasta"
+      }
+    ]
+  },
+  {
+    "Schistocerca americana": [
+      {
+        "description": "Protein - Schistocerca americana NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021461395.2_iqSchAmer2.1_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca americana NCBI Annotation release 100, CDS",
+        "file_name": "GCF_021461395.2_iqSchAmer2.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca americana NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021461395.2_iqSchAmer2.1_rna.fna"
+      }
+    ]
+  },
+  {
+    "Schistocerca cancellata": [
+      {
+        "description": "Protein - Schistocerca cancellata NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023864275.1_iqSchCanc2.1_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca cancellata NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023864275.1_iqSchCanc2.1_rna.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca cancellata NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023864275.1_iqSchCanc2.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Schistocerca gregaria": [
+      {
+        "description": "Protein - Schistocerca gregaria NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023897955.1_iqSchGreg1.2_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca gregaria NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023897955.1_iqSchGreg1.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca gregaria NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023897955.1_iqSchGreg1.2_rna.fna"
+      }
+    ]
+  },
+  {
+    "Schistocerca nitens": [
+      {
+        "description": "Protein - Schistocerca nitens NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023898315.1_iqSchNite1.1_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca nitens NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023898315.1_iqSchNite1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca nitens NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023898315.1_iqSchNite1.1_rna.fna"
+      }
+    ]
+  },
+  {
+    "Schistocerca piceifrons": [
+      {
+        "description": "Protein - Schistocerca piceifrons NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_021461385.2_iqSchPice1.1_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca piceifrons NCBI Annotation release 100, CDS",
+        "file_name": "GCF_021461385.2_iqSchPice1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca piceifrons NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_021461385.2_iqSchPice1.1_rna.fna"
+      }
+    ]
+  },
+  {
+    "Schistocerca serialis": [
+      {
+        "description": "Protein - Schistocerca serialis cubense NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_023864345.2_iqSchSeri2.2_protein.faa"
+      },
+      {
+        "description": "Transcript - Schistocerca serialis cubense NCBI Annotation release 100, CDS",
+        "file_name": "GCF_023864345.2_iqSchSeri2.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Schistocerca serialis cubense NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_023864345.2_iqSchSeri2.2_rna.fna"
+      }
+    ]
+  },
+  {
+    "Tigriopus californicus": [
+      {
+        "description": "Genome Assembly - Tigriopus californicus genome assembly, Tcal_SD_v2.1",
+        "file_name": "GCF_007210705.1_Tcal_SD_v2.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Tigriopus californicus NCBI Annotation release GCF_007210705.1-RS_2023_08, translated CDS",
+        "file_name": "GCF_007210705.1_Tcal_SD_v2.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Tigriopus californicus OGSv1.1, translated CDS",
+        "file_name": "tigcal_OGSv1.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Tigriopus californicus NCBI Annotation release GCF_007210705.1-RS_2023_08, CDS",
+        "file_name": "GCF_007210705.1_Tcal_SD_v2.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Tigriopus californicus NCBI Annotation release GCF_007210705.1-RS_2023_08, transcripts",
+        "file_name": "GCF_007210705.1_Tcal_SD_v2.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Tigriopus californicus OGSv1.1, CDS",
+        "file_name": "tigcal_OGSv1.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Tigriopus californicus OGSv1.1, transcripts",
+        "file_name": "tigcal_OGSv1.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Tribolium castaneum": [
+      {
+        "description": "Genome Assembly - Tribolium castaneum genome assembly, icTriCast1.1",
+        "file_name": "GCF_031307605.1_icTriCast1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Tribolium castaneum NCBI Annotation release GCF_031307605.1-RS_2024_04, translated CDS",
+        "file_name": "GCF_031307605.1_icTriCast1.1_translated_cds.faa"
+      },
+      {
+        "description": "Protein - Tribolium castaneum OGSv3.1, translated CDS",
+        "file_name": "tricas_OGSv3.1_pep.fa"
+      },
+      {
+        "description": "Transcript - Tribolium castaneum NCBI Annotation release GCF_031307605.1-RS_2024_04, CDS",
+        "file_name": "GCF_031307605.1_icTriCast1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Tribolium castaneum NCBI Annotation release GCF_031307605.1-RS_2024_04, transcripts",
+        "file_name": "GCF_031307605.1_icTriCast1.1_rna_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Tribolium castaneum OGSv3.1, CDS",
+        "file_name": "tricas_OGSv3.1_cds.fa"
+      },
+      {
+        "description": "Transcript - Tribolium castaneum OGSv3.1, transcripts",
+        "file_name": "tricas_OGSv3.1_trans.fa"
+      }
+    ]
+  },
+  {
+    "Tribolium madens": [
+      {
+        "description": "Genome Assembly - Tribolium madens genome assembly, Tmad_KSU_1.1",
+        "file_name": "GCF_015345945.1_Tmad_KSU_1.1_genomic.fna"
+      },
+      {
+        "description": "Protein - Tribolium madens NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_015345945.1_Tmad_KSU_1.1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Tribolium madens NCBI Annotation release 100, CDS",
+        "file_name": "GCF_015345945.1_Tmad_KSU_1.1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Tribolium madens NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_015345945.1_Tmad_KSU_1.1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Trichogramma pretiosum": [
+      {
+        "description": "Genome Assembly - Trichogramma pretiosum genome assembly, Tpre_2.0",
+        "file_name": "GCF_000599845.2_Tpre_2.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Trichogramma pretiosum NCBI Annotation release 101, translated CDS",
+        "file_name": "GCF_000599845.2_Tpre_2.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Trichogramma pretiosum NCBI Annotation release 101, CDS",
+        "file_name": "GCF_000599845.2_Tpre_2.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Trichogramma pretiosum NCBI Annotation release 101, transcripts",
+        "file_name": "GCF_000599845.2_Tpre_2.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Vanessa tameamea": [
+      {
+        "description": "Genome Assembly - Vanessa tameamea genome assembly, ilVanTame1_primary_haplotype",
+        "file_name": "GCF_037043105.1_ilVanTame1_primary_haplotype_genomic.fna"
+      },
+      {
+        "description": "Protein - Vanessa tameamea NCBI Annotation release GCF_037043105.1-RS_2024_03, translated CDS",
+        "file_name": "GCF_037043105.1_ilVanTame1_primary_haplotype_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Vanessa tameamea NCBI Annotation release GCF_037043105.1-RS_2024_03, CDS",
+        "file_name": "GCF_037043105.1_ilVanTame1_primary_haplotype_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Vanessa tameamea NCBI Annotation release GCF_037043105.1-RS_2024_03, transcripts",
+        "file_name": "GCF_037043105.1_ilVanTame1_primary_haplotype_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Varroa destructor": [
+      {
+        "description": "Genome Assembly - Varroa destructor genome assembly, Vdes_3.0",
+        "file_name": "GCF_002443255.2_Vdes_3.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Varroa destructor NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_002443255.2_Vdes_3.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Varroa destructor NCBI Annotation release 100, CDS",
+        "file_name": "GCF_002443255.2_Vdes_3.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Varroa destructor NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_002443255.2_Vdes_3.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Varroa jacobsoni": [
+      {
+        "description": "Genome Assembly - Varroa jacobsoni genome assembly, vjacob_1.0",
+        "file_name": "GCF_002532875.2_vjacob_1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Varroa jacobsoni NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_002532875.2_vjacob_1.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Varroa jacobsoni NCBI Annotation release 100, CDS",
+        "file_name": "GCF_002532875.2_vjacob_1.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Varroa jacobsoni NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_002532875.2_vjacob_1.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Venturia canescens": [
+      {
+        "description": "Genome Assembly - Venturia canescens genome assembly, ASM1945775v1",
+        "file_name": "GCF_019457755.1_ASM1945775v1_genomic.fna"
+      },
+      {
+        "description": "Protein - Venturia canescens NCBI Annotation Release 100, translated CDS",
+        "file_name": "GCF_019457755.1_ASM1945775v1_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Venturia canescens NCBI Annotation Release 100, CDS",
+        "file_name": "GCF_019457755.1_ASM1945775v1_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Venturia canescens NCBI Annotation Release 100, transcripts",
+        "file_name": "GCF_019457755.1_ASM1945775v1_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Vespa mandarinia": [
+      {
+        "description": "Genome Assembly - Vespa mandarinia genome assembly, V.mandarinia_Nanaimo_p1.0",
+        "file_name": "GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_genomic.fna"
+      },
+      {
+        "description": "Protein - Vespa mandarinia NCBI Annotation release 100, translated CDS",
+        "file_name": "GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Vespa mandarinia NCBI Annotation release 100, CDS",
+        "file_name": "GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Vespa mandarinia NCBI Annotation release 100, transcripts",
+        "file_name": "GCF_014083535.2_V.mandarinia_Nanaimo_p1.0_rna_from_genomic.fna"
+      }
+    ]
+  },
+  {
+    "Zeugodacus cucurbitae": [
+      {
+        "description": "Genome Assembly - Zeugodacus cucurbitae genome assembly, idZeuCucr1.2",
+        "file_name": "GCF_028554725.1_idZeuCucr1.2_genomic.fna"
+      },
+      {
+        "description": "Protein - Zeugodacus cucurbitae NCBI Annotation release GCF_028554725.1-RS_2023_03, translated CDS",
+        "file_name": "GCF_028554725.1_idZeuCucr1.2_translated_cds.faa"
+      },
+      {
+        "description": "Transcript - Zeugodacus cucurbitae NCBI Annotation release GCF_028554725.1-RS_2023_03, CDS",
+        "file_name": "GCF_028554725.1_idZeuCucr1.2_cds_from_genomic.fna"
+      },
+      {
+        "description": "Transcript - Zeugodacus cucurbitae NCBI Annotation release GCF_028554725.1-RS_2023_03, transcripts",
+        "file_name": "GCF_028554725.1_idZeuCucr1.2_rna_from_genomic.fna"
+      }
+    ]
+  }
+]
