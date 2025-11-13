@@ -1,14 +1,16 @@
 services:
 
-  django-db:
+  django-psql:
     image: "docker.io/library/postgres:17-alpine3.22"
-    container_name: "django-db"
+    container_name: "django-psql"
     hostname: "django-db"
     environment:
       POSTGRES_USER: "${DB_USER}"
       POSTGRES_PASSWORD: "${DB_PASS}"
       POSTGRES_HOST_AUTH_METHOD: md5
       DB_NAME: "${DB_NAME}"
+    ports:
+      - 5432:5432
     volumes:
       - ./files/scripts/shell:/shell
       - ./files/scripts/sql:/sql
@@ -20,6 +22,34 @@ services:
       - ./files/scripts/shell/export.sh:/export.sh
       - ./files/scripts/shell/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
       - ./files/scripts/shell/init-env.sh:/init-env.sh
+
+  django-duckdb:
+    image: docker.io/duckdb/duckdb:latest
+    container_name: django-duckdb
+    host_name: django-duckdb
+    tty: true
+    environment:      
+      PGPASSWORD: "${DB_PASS}"
+      PGHOST: "django-db"
+      PGUSER: "${DB_USER}"
+      PGDATABASE: "${DB_NAME}"
+    ports:
+      - 8888:4213
+
+  i5k-rust:
+    image: docker.io/library/rust:1.90-bullseye
+    container_name: i5k-rust
+    hostname: i5k-rust
+    environment:
+      PGPASSWORD: "${DB_PASS}"
+      PGHOST: "django-db"
+      PGUSER: "${DB_USER}"
+      PGDATABASE: "${DB_NAME}"
+    volumes:
+      - ./rust:/app
+    working_dir: /app
+    tty: true
+
 networks:
   default:
     name: django
