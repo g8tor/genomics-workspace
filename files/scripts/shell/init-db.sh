@@ -15,3 +15,6 @@ pg_restore -O -U ${POSTGRES_USER}  -C -d postgres /${DB_NAME}_training.pgc
 
 echo "Training Content Count"
 psql -U ${POSTGRES_USER} -c "${PUBLIC_COUNT_QUERY}" ${DB_NAME}_training
+
+# echo "Generating API Data"
+# psql -q -U ${POSTGRES_USER} -d ${DB_NAME}  < /sql/generate-api-data.sql

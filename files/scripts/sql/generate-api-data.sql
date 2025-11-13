@@ -166,6 +166,7 @@ WHEN MATCHED THEN
     UPDATE SET organism_id = dt.id, src = 'django_training.app_organism';
 
 ALTER TABLE organisms DROP COLUMN display_name;
+ALTER TABLE organisms ALTER COLUMN short_name TYPE VARCHAR(12);
 DROP FOREIGN TABLE django.app_organism;
 DROP FOREIGN TABLE django_training.app_organism;
 
@@ -257,7 +258,7 @@ ADD PRIMARY KEY (id),
 ADD CONSTRAINT fk_organism FOREIGN KEY (organism_id) REFERENCES organisms,
 ADD CONSTRAINT fk_fastafile FOREIGN KEY (fastafile_id) REFERENCES fastafiles,
 ADD CONSTRAINT fk_sequencetype FOREIGN KEY (sequencetype_id) REFERENCES sequencetypes,
-ALTER COLUMN title SET NOT NULL,
+-- ALTER COLUMN title SET NOT NULL,
 ALTER COLUMN organism_id SET NOT NULL,
 ALTER COLUMN sequencetype_id SET NOT NULL,
 ALTER COLUMN fastafile_id SET NOT NULL,
@@ -265,7 +266,7 @@ ALTER COLUMN description SET NOT NULL,
 ALTER COLUMN is_shown SET NOT NULL,
 ALTER COLUMN is_shown SET DEFAULT True,
 ALTER COLUMN id SET DEFAULT nextval('databases_id_seq');
-
+ALTER TABLE databases DROP COLUMN title CASCADE;
 ----------------------------------------------------------
 -- End Create and populate the databases table
 ----------------------------------------------------------
@@ -298,6 +299,7 @@ UPDATE production.blastdbs SET id = nextval('production.blast_id_seq');
 
 ALTER TABLE production.blastdbs 
 ADD PRIMARY KEY (id),
+ADD UNIQUE(organism_id,database_id),
 ADD UNIQUE(jbrowse_url),
 ADD CONSTRAINT fk_organism FOREIGN KEY (organism_id) REFERENCES organisms,
 ADD CONSTRAINT fk_sequencetype FOREIGN KEY (sequencetype_id) REFERENCES sequencetypes,
@@ -359,6 +361,7 @@ UPDATE production.hmmerdbs SET id = nextval('production.hmmer_id_seq');
 
 ALTER TABLE production.hmmerdbs
 ADD PRIMARY KEY (id),
+ADD UNIQUE(organism_id,database_id),
 ADD CONSTRAINT fk_organism FOREIGN KEY (organism_id) REFERENCES organisms,
 ADD CONSTRAINT fk_database FOREIGN KEY (database_id) REFERENCES databases,
 ALTER COLUMN id SET DEFAULT nextval('production.hmmer_id_seq');
@@ -393,6 +396,7 @@ UPDATE training.blastdbs SET id = nextval('training.blast_id_seq');
 
 ALTER TABLE training.blastdbs 
 ADD PRIMARY KEY (id),
+ADD UNIQUE(organism_id,database_id),
 ADD UNIQUE(jbrowse_url),
 ADD CONSTRAINT fk_organism FOREIGN KEY (organism_id) REFERENCES organisms,
 ADD CONSTRAINT fk_sequencetype FOREIGN KEY (sequencetype_id) REFERENCES sequencetypes,
@@ -451,6 +455,7 @@ UPDATE training.hmmerdbs SET id = nextval('training.hmmer_id_seq');
 
 ALTER TABLE training.hmmerdbs
 ADD PRIMARY KEY (id),
+ADD UNIQUE(organism_id,database_id),
 ADD CONSTRAINT fk_organism FOREIGN KEY (organism_id) REFERENCES organisms,
 ADD CONSTRAINT fk_database FOREIGN KEY (database_id) REFERENCES databases,
 ALTER COLUMN id SET DEFAULT nextval('training.hmmer_id_seq');
@@ -506,8 +511,31 @@ $$ LANGUAGE plpgsql;
 SELECT * FROM get_all_table_row_counts();
 
 
+--##########################################################################
+--#
+--##########################################################################
+CREATE VIEW production.blast AS
+SELECT b.organism_id, trim(concat(o.genus,' ',o.species,' ',o.infraspecies)) as organism, 
+       CASE 
+            WHEN s.molecule_type = 'nucl' THEN 'Nucleotide'
+            ELSE 'Peptide'
+       END as molecule_type,
+       s.dataset_type,
+       b.database_id,
+       concat(s.dataset_type,' - ',d.description) as description
+FROM production.blastdbs b
+LEFT JOIN organisms o ON b.organism_id = o.id
+LEFT JOIN databases d  ON b.database_id = d.id
+JOIN sequencetypes s ON d.sequencetype_id = s.id
+WHERE o.is_shown = True AND b.is_shown = True AND d.is_shown = True
+ORDER BY organism,molecule_type, description ASC;
+--##########################################################################
+
+
 \! rm /opt/api.pgc &> /dev/null
 \! pg_dump  -U i5k -d api  -C -c --if-exists -Fc -f /opt/api.pgc 
+
+
 
 -- 2>/dev/null
 
